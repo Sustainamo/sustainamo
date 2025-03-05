@@ -1,4 +1,11 @@
-title: "My Blog"
+title: Ashterism2
+author: Ash
 description: "A simple blog on GitHub Pages"
+# email: ""
+# url: https://ashterism.com
+
 theme: minima
 markdown: kramdown
+
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
