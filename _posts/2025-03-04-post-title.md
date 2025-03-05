@@ -8,8 +8,9 @@ Ipsum lorem etc etc
 
 # Heading of some sort
 
-[!Tip] Whatever
-> Whatever
+<div class="tip">
+  <strong>Tip:</strong> This is a helpful tip!
+</div>
 
 Normal text
 
