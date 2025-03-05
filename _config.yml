@@ -14,3 +14,7 @@ future: false # GitHub Pages will publish future posts if this isn't set to fals
 # Minima variables
 github_username:   ashterism
 instagram_username: asherture
+rss: rss
+
+show_excerpts: false
+
