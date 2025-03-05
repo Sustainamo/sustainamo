@@ -1,9 +1,9 @@
 # Content for footer...
-title: Ashterism2
-author: Ash
-description: "A simple blog on GitHub Pages"
+title: Ashterism
+author: Musings by Ash
+description: A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like
 # email: ""
-# url: https://ashterism.com
+url: https://ashterism.com
 
 theme: minima
 markdown: kramdown
