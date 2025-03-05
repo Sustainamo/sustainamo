@@ -10,3 +10,7 @@ markdown: kramdown
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
+
+# Minima variables
+github_username:   ashterism
+instagram_username: asherture
