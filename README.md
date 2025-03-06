@@ -1,4 +1,4 @@
-## README file for ashterism 👋
+## README file for ashterism
 
 https://ashterism.github.io/ashterism/
 
