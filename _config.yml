@@ -19,6 +19,7 @@ github_username:   ashterism
 instagram_username: asherture
 rss: rss
 
+home_post_limit: 5   # Change to show more posts
 show_excerpts: false
 
 plugins:
