@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some blog post"
-date: 2025-03-05
+date: 2025-03-04
 tag: astro
 ---
 
