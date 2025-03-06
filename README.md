@@ -1,4 +1,6 @@
-## Hi there 👋
+## README file for ashterism 👋
+
+https://ashterism.github.io/ashterism/
 
 <!--
 **Ashterism/ashterism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
