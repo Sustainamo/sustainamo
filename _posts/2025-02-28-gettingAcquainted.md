@@ -13,8 +13,10 @@ My mind is a bit blown by Orion nebula.  Just sat there in the middle of Orion l
 
 Anyway, I took a few photos of Venus - with my Camera (Canon R7 with 100-400mm) and also through the Skywatcher 200p.  On review, I needed a much shorter shutter speed - I used 1/30th and above, but will try 1/250 and 1/1000 next time, sticking with a low iso.   
 
->>> ADD PHOTO <<<
-0.5 sec - way too over exposed
+<figure>
+  <img src="/assets/images/25_03/25_02_27_01.png" alt="Very over exposured image of Venus">
+  <figcaption>0.5 sec - way too over exposed.</figcaption>
+</figure>
 
 <figure>
   <img src="/assets/images/25_03/25_02_27_02.png" alt="Over exposured image of Venus">
