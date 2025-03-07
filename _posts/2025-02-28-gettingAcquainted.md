@@ -16,9 +16,14 @@ Anyway, I took a few photos of Venus - with my Camera (Canon R7 with 100-400mm) 
 <<<ADD PHOTO>>>
 0.5 sec - way too over exposed
 
-![Over exposed image of Venus](/assets/images/25_03/your-image.jpg)1/30th - still over exposed
+![Over exposed image of Venus](/assets/images/25_03/25_02_27_02.png)1/30th - still over exposed
 
 Normal text
+
+<figure>
+  <img src="/assets/images/25_03/25_02_27_02.png" alt="Description">
+  <figcaption>1/30th - still over exposed.</figcaption>
+</figure>
 
 > [!Warning] Add a space
 > Whatever
