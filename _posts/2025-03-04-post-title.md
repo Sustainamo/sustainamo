@@ -7,7 +7,7 @@ tag: astro
 
 Last night, I set up a more stable platform using some spare flooring plywood sheets for the telescope in the garden.   It seemed better, but I eventually realised it was still causing wobble so ended up moving the telescope onto the grass.  More successfully, I added a shortcut to my iphone to toggle on/off a red colour filter and turn white point off (make it less bright and red) - just in case I need to look anything up without impacting my night vision too much.  
 
-I took some better images of Venus, this time at 1/4000, 1/2000, 1/1000 at iso100.  I think best balance of clarity/brightness at 1/2000 I think, but will have to retry on solid ground
+I took some better images of Venus, this time at 1/4000, 1/2000, 1/1000 at iso100.  I think best balance of clarity/brightness at 1/2000 I think, but will have to retry on solid ground.
 
 <div class="image-grid">
   <figure>
