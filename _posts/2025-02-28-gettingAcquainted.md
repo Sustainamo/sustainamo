@@ -42,3 +42,4 @@ However, getting better at actually getting the focus right (just back from actu
 
 Next time I’m out going to try some of the planets again, and also the same Orion/Big Dipper asterims to try and lock in the settings, and help me with remembering their utility as signposts.  
 
+
