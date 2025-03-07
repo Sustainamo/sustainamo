@@ -11,15 +11,15 @@ I took some better images of Venus, this time at 1/4000, 1/2000, 1/1000 at iso10
 
 <div class="image-grid">
   <figure>
-    <img src="/assets/images/25_03_01_1.jpg" alt="Underexposed not very clear image of Venus">
+    <img src="/assets/images/25_03_01_01.png" alt="Underexposed not very clear image of Venus">
     <figcaption>1/4000s, iso100</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/25_03_01_2.jpg" alt="Less underexposed slightly clearer image of Venus">
+    <img src="/assets/images/25_03_01_02.png" alt="Less underexposed slightly clearer image of Venus">
     <figcaption>1/2000s, iso100</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/25_03_01_3.jpg" alt="Bit overexposed not very clear image of Venus">
+    <img src="/assets/images/25_03_01_03.png" alt="Bit overexposed not very clear image of Venus">
     <figcaption>1/1000s, iso100</figcaption>
   </figure>
 </div>
