@@ -16,14 +16,29 @@ Anyway, I took a few photos of Venus - with my Camera (Canon R7 with 100-400mm) 
 <<<ADD PHOTO>>>
 0.5 sec - way too over exposed
 
-![Over exposed image of Venus](/assets/images/25_03/25_02_27_02.png)1/30th - still over exposed
-
-Normal text
-
 <figure>
-  <img src="/assets/images/25_03/25_02_27_02.png" alt="Description">
+  <img src="/assets/images/25_03/25_02_27_02.png" alt="Over exposured image of Venus">
   <figcaption>1/30th - still over exposed.</figcaption>
 </figure>
 
-> [!Warning] Add a space
-> Whatever
+Also took some pictures of Mars, Orion, and the Big Dipper / Ursa Major with the R7/ 16mm.  They came out better, but still some blurring as using longer exposures (15-30 secs).  Without a tracker you get the trails, so I will try 5,10,15 secs and some higher ISOs next time.  
+
+<figure>
+  <img src="/assets/images/25_03/25_02_27_03.png" alt="Picture of Orion constellation in night sky">
+  <figcaption>Orion - 1*30sec.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/25_03/25_02_27_04.png" alt="Faint photo of Big Dipper (asterism)">
+  <figcaption>Big Dipper - 1*30sec  - not as bad, but still gives an “out of focus” appearance.</figcaption>
+</figure>
+
+However, getting better at actually getting the focus right (just back from actual infinite it seems), and did get a nice (slightly tweaked in lightroom) pic of the Big Dipper with trees in the foreground (perhaps more by accident than design!).  I think I need to worry less about the pictures looking too dark ‘in the field’ and lean into post-processing to balance lighting etc.  Even when images look great on my high-res laptop screen, they need brightening for posting online or sharing with friends etc anyway.  
+
+<figure>
+  <img src="/assets/images/25_03/25_02_27_05.png" alt="Big Dipper asterism above silhouetted trees">
+  <figcaption>Canon 16mm, f/2.8, 30s, iso125.</figcaption>
+</figure>
+
+Next time I’m out going to try some of the planets again, and also the same Orion/Big Dipper asterims to try and lock in the settings, and help me with remembering their utility as signposts.  
+
