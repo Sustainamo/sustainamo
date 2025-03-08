@@ -104,6 +104,11 @@ hr {
   max-width: 200px;
 }
 
+/* Typography */
+.site-title {
+  color: #006400; /* Dark green */
+}
+
 @media print {
   .no-print {
     display: none !important;
