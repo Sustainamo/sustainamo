@@ -104,6 +104,11 @@ hr {
   max-width: 200px;
 }
 
+/* Typography */
+h1 {
+  font-size: 1.8em;
+}
+
 @media print {
   .no-print {
     display: none !important;
