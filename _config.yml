@@ -1,10 +1,10 @@
 ###### Content for header / footer
-title: Ashterism
-author: Musings by Ash
-description: A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like  # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
-
+title: Sustainamo
+author: Ash Bladon
+description: A free, comprehensive guide to creating and implementing a meaningful sustainability strategy # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+ 
 # email: ""
-url: https://ashterism.com
+url: https://www.sustainamo.com
 
 ##### Site config stuff
 
@@ -15,8 +15,8 @@ timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 # Minima variables
-github_username:   ashterism
-instagram_username: asherture
+github_username: sustainamo
+# instagram_username: 
 rss: rss
 
 home_post_limit: 5   # Change to show more posts
