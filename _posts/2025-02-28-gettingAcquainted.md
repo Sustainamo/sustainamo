@@ -1,47 +1,16 @@
 ---
 layout: post
 title: "Getting acquainted"
-date: 2025-02-28
-tag: astro
+date: 2025-01-01
+tag: Introduction
 ---
 
-In anticipation of the much talked about planetary alignment on the 28th (tonight!) I got out a few times this week to familiarise myself with the stars and the telescope.  I’ve started reading “Nightwatch”, which is excellently written for the newbie, and really feeding my sense of awe and wonder at the universe - and giving some helpful pointers to actually get started.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis semper venenatis. In quis tempus magna. Donec metus erat, efficitur eget felis id, sagittis lacinia lacus. Mauris a ullamcorper ligula. Fusce sed posuere nulla. Nam sodales vulputate purus ut semper. Vestibulum commodo quam in leo sollicitudin, a vestibulum purus finibus. Vestibulum efficitur sapien eu est dapibus, eget ultrices nunc pulvinar. In et massa elit. Phasellus ut magna vitae felis ornare mattis dictum a quam. Nullam eu arcu vel turpis laoreet feugiat quis tincidunt mauris. Curabitur quis enim non urna convallis semper. Nunc mi arcu, semper vitae tincidunt eu, tempus vel ex. Nam eget felis porttitor, pretium turpis quis, tristique neque.
 
-Key amongst these, is that you can start to learn to navigate the stars by just learning the Big Dipper and Orion - as these point to various other stars and constellations.
+Ut tempus, magna id tempus tempus, nulla enim porttitor ipsum, at ullamcorper justo ex eget magna. Vivamus et gravida lacus. Vestibulum at sem eu mi aliquet fringilla. In quis feugiat purus. Morbi in vestibulum felis. Donec non arcu nec magna porta dignissim auctor non velit. In tempus egestas scelerisque. Fusce ornare facilisis nisl condimentum ultricies. Integer dignissim sapien quam, ac rutrum leo rutrum eget. Fusce luctus venenatis quam sit amet sagittis.
 
-My mind is a bit blown by Orion nebula.  Just sat there in the middle of Orion literally generating stars… 
+Integer vel leo non nunc porttitor rhoncus. Etiam quis purus vel justo vestibulum tempor. Nullam metus erat, feugiat quis est vel, consectetur tempor velit. Nullam arcu turpis, tincidunt finibus nibh varius, suscipit blandit nisi. Etiam volutpat fermentum egestas. Phasellus sit amet diam et odio aliquet tempor vitae eu nisl. Donec porttitor est vel mi varius, non fermentum massa condimentum.
 
-Anyway, I took a few photos of Venus - with my Camera (Canon R7 with 100-400mm) and also through the Skywatcher 200p.  On review, I needed a much shorter shutter speed - I used 1/30th and above, but will try 1/250 and 1/1000 next time, sticking with a low iso.   
-
-<figure>
-  <img src="/assets/images/25_03/25_02_27_01.png" alt="Very over exposured image of Venus">
-  <figcaption>0.5 sec - way too over exposed.</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/25_03/25_02_27_02.png" alt="Over exposured image of Venus">
-  <figcaption>1/30th - still over exposed.</figcaption>
-</figure>
-
-Also took some pictures of Mars, Orion, and the Big Dipper / Ursa Major with the R7/ 16mm.  They came out better, but still some blurring as using longer exposures (15-30 secs).  Without a tracker you get the trails, so I will try 5,10,15 secs and some higher ISOs next time.  
-
-<figure>
-  <img src="/assets/images/25_03/25_02_27_3.png" alt="Picture of Orion constellation in night sky">
-  <figcaption>Orion - 1*30sec.</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/25_03/25_02_27_4.png" alt="Faint photo of Big Dipper (asterism)">
-  <figcaption>Big Dipper - 1*30sec  - not as bad, but still gives an “out of focus” appearance.</figcaption>
-</figure>
-
-However, getting better at actually getting the focus right (just back from actual infinite it seems), and did get a nice (slightly tweaked in lightroom) pic of the Big Dipper with trees in the foreground (perhaps more by accident than design!).  I think I need to worry less about the pictures looking too dark ‘in the field’ and lean into post-processing to balance lighting etc.  Even when images look great on my high-res laptop screen, they need brightening for posting online or sharing with friends etc anyway.  
-
-<figure>
-  <img src="/assets/images/25_03/25_02_27_5.png" alt="Big Dipper asterism above silhouetted trees">
-  <figcaption>Canon 16mm, f/2.8, 30s, iso125.</figcaption>
-</figure>
-
-Next time I’m out going to try some of the planets again, and also the same Orion/Big Dipper asterims to try and lock in the settings, and help me with remembering their utility as signposts.  
+Curabitur tortor turpis, malesuada at porta imperdiet, pulvinar venenatis risus. Duis at mi id sapien condimentum tempor. Suspendisse nec eros urna. Nullam vitae nulla lectus. Etiam ex lacus, consectetur nec hendrerit in, faucibus in sem. Quisque cursus tempus odio eu commodo. Mauris laoreet lacus sit amet sapien sagittis consequat. Sed efficitur neque nec fringilla scelerisque. Donec aliquet porttitor finibus. Nullam quis sem eget est faucibus ultricies eget eget velit. Quisque vel varius mi. Morbi tortor sapien, pretium et ultrices ac, vestibulum a neque.
 
 
