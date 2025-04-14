@@ -57,7 +57,7 @@ Otherwise, I took some shots of Ursa Major and Minor together, then mostly playe
 
 <figure>
     <img src="/assets/images/25_03/25_02_28_08.png" alt="Image of Big Dipper with less background stars">
-    <figcaption>15s, iso200 - have to zoom in to see the detail
+    <figcaption>15s, iso200 - less light, less detail
 </figcaption>
   </figure>
 
