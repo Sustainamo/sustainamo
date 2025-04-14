@@ -48,3 +48,16 @@ It was Jupiter that made me realise I had a serious wobble issue when I couldnâ€
   </figure>
 </div>
 
+Otherwise, I took some shots of Ursa Major and Minor together, then mostly played around with some light painting ideas - though one for another time.
+
+<figure>
+    <img src="/assets/images/25_03/25_02_28_07.png" alt="Starscape showing the Big Dipper (Ursa Major), silhouette of tree on rightside of image">
+    <figcaption>15s, iso3200</figcaption>
+  </figure>
+
+<figure>
+    <img src="/assets/images/25_03/25_02_28_08.png" alt="Image of Big Dipper with less background stars">
+    <figcaption>15s, iso200 - have to zoom in to see the detail
+</figcaption>
+  </figure>
+
