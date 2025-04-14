@@ -24,6 +24,13 @@ I took some better images of Venus, this time at 1/4000, 1/2000, 1/1000 at iso10
   </figure>
 </div>
 
+Although I was out for sunset, Mercury and Saturn were just too low in the west for me to be able to see due to some trees in that direction.  Keen to look at Saturn when it’s higher in April though.  I tried to find Uranus, but without success.  I did some across the Pleiades though, which caught my attention for much of the evening.  
 
-> [!Warning] Add a space
-> Whatever
+I’m finding myself happily looking through the scope or just my binos more and more, with photography taking a bit of a back seat.  I can definitely see myself doing more of both - certainly in the warmer months when I’ve worked out how to sit and observe rather than stand (or contort myself around) the scope for long periods in the cold.  
+
+Pleiades shots weren’t great, and didn’t match up to what I could see in the scope.  I will try this again with the telescope on firmer ground though. I did particularly like this string of stars you can see in the image below, nestled into the Pleiades cluster
+
+ <img src="/assets/images/25_03/25_02_28_04.png" alt="String of stars in Pleiades cluster">
+
+
+
