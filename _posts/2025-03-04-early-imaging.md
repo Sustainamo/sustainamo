@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some blog post"
+title: "Early imaging of planets and ursa major"
 date: 2025-03-01
 tag: astro
 ---
