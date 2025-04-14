@@ -30,7 +30,11 @@ I’m finding myself happily looking through the scope or just my binos more and
 
 Pleiades shots weren’t great, and didn’t match up to what I could see in the scope.  I will try this again with the telescope on firmer ground though. I did particularly like this string of stars you can see in the image below, nestled into the Pleiades cluster
 
- <img src="/assets/images/25_03/25_02_28_04.png" alt="String of stars in Pleiades cluster">
+<figure>
+  <img src="/assets/images/25_03/25_02_28_04.png" alt="String of stars in Pleiades cluster">
+  <figcaption>0.5 sec at iso6400 (any slower exposure had trails due to wobble)</figcaption>
+</figure>
+
 
 
 
