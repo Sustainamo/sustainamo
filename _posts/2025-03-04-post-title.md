@@ -35,6 +35,16 @@ Pleiades shots weren’t great, and didn’t match up to what I could see in the
   <figcaption>0.5 sec at iso6400 (any slower exposure had trails due to wobble)</figcaption>
 </figure>
 
+It was Jupiter that made me realise I had a serious wobble issue when I couldn’t get a clearer image than below left.  After moving the telescope onto the grass I got a better image, with the bands just starting to be visible.  This isn’t far off what I could see in the scope, though I suspect I can capture a lot better detail I learn and practice more.   
 
-
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/25_03/25_02_28_05.png" alt="Blurred light trail">
+    <figcaption>Blurred image of Jupiter</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/25_03/25_02_28_06.png" alt="Image of Jupiter">
+    <figcaption>Clearer image of Jupiter, though still low on detail</figcaption>
+  </figure>
+</div>
 
