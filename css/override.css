@@ -109,6 +109,10 @@ hr {
   text-align: left;
 }
 
+.image-grid {
+  justify-content: center;
+}
+
 /* Typography */
 h1 {
   font-size: 1.8em;
