@@ -104,6 +104,11 @@ hr {
   max-width: 200px;
 }
 
+.image-grid figure {
+  margin: 0;
+  text-align: left;
+}
+
 /* Typography */
 h1 {
   font-size: 1.8em;
