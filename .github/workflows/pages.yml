@@ -1,0 +1,21 @@
+name: Build and Deploy Jekyll with Admonitions
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: helveg/jekyll-action@v2
+        with:
+          enable_cache: true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
