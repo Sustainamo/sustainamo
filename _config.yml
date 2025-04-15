@@ -9,7 +9,9 @@ url: https://ashterism.com
 ##### Site config stuff
 
 theme: minima
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
