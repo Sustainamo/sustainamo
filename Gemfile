@@ -5,5 +5,5 @@ gem "minima", "~> 2.5"
 
 group :jekyll_plugins do
   gem "jekyll-gfm-admonitions"
-  gem "github-pages"
+#  gem "github-pages"
 end
