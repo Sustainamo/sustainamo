@@ -97,7 +97,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
-  justify-items: center;
+/*  justify-items: center;
 }
 .image-grid img {
   width: 100%;
@@ -107,10 +107,6 @@ hr {
 .image-grid figure {
   margin: 0;
   text-align: left;
-}
-
-.image-grid {
-  justify-content: center;
 }
 
 /* Typography */
