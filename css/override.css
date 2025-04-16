@@ -130,29 +130,32 @@ hr {
 }
 
 /* RESPONSIVE TABLE */
-<style>
 .responsive-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 1em;
   font-size: 0.95em;
 }
+
 .responsive-table th,
 .responsive-table td {
   border: 1px solid #ddd;
   padding: 0.6em 0.8em;
   text-align: left;
 }
+
 @media screen and (max-width: 600px) {
   .responsive-table thead {
     display: none;
   }
+
   .responsive-table tr {
     display: block;
     margin-bottom: 1em;
     border: 1px solid #ddd;
     padding: 0.5em;
   }
+
   .responsive-table td {
     display: block;
     padding-left: 50%;
@@ -161,6 +164,7 @@ hr {
     border: none;
     border-bottom: 1px solid #eee;
   }
+
   .responsive-table td::before {
     content: attr(data-label);
     position: absolute;
@@ -170,7 +174,6 @@ hr {
     text-align: left;
   }
 }
-</style>
 
 /* END OF RESPONSIVE TABLE */
 
