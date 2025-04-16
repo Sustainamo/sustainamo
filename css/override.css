@@ -126,6 +126,51 @@ hr {
   display: block;
 }
 
+/* RESPONSIVE TABLE */
+<style>
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+}
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .responsive-table thead {
+    display: none;
+  }
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+  .responsive-table td {
+    display: block;
+    padding-left: 50%;
+    position: relative;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0.8em;
+    top: 0.6em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+</style>
+
+/* END OF RESPONSIVE TABLE */
+
 /* Typography */
 h1 {
   font-size: 1.8em;
