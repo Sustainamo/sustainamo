@@ -116,6 +116,7 @@ hr {
   height: 0;
   overflow: hidden;
   margin: 1rem 0;
+  width: 100%;
 }
 
 .video-wrapper iframe {
