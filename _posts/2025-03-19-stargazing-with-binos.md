@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stargazing w"
+title: "Simple stargazing"
 date: 2025-03-01
 tag: astro
 ---
