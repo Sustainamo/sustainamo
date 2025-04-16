@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-04-16T05:55:54+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Some blog post about hiking</title><link href="https://ashterism.com/2025/03/05/test3.html" rel="alternate" type="text/html" title="Some blog post about hiking" /><published>2025-03-05T00:00:00+00:00</published><updated>2025-03-05T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/05/test3</id><content type="html" xml:base="https://ashterism.com/2025/03/05/test3.html"><![CDATA[<p>Ipsum lorem etc etc
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-04-16T06:04:04+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Some blog post about hiking</title><link href="https://ashterism.com/2025/03/05/test3.html" rel="alternate" type="text/html" title="Some blog post about hiking" /><published>2025-03-05T00:00:00+00:00</published><updated>2025-03-05T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/05/test3</id><content type="html" xml:base="https://ashterism.com/2025/03/05/test3.html"><![CDATA[<p>Ipsum lorem etc etc
 Etc yarda yarda</p>
 
 <p>ab
@@ -39,31 +39,42 @@ user attention due to potential risks.</p>
 Opportunity to provide more context.</p>
 </div>]]></content><author><name>Musings by Ash</name></author><category term="hiking" /><summary type="html"><![CDATA[Ipsum lorem etc etc Etc yarda yarda]]></summary></entry><entry><title type="html">Applying the 500 rule</title><link href="https://ashterism.com/2025/03/04/the-500-rule.html" rel="alternate" type="text/html" title="Applying the 500 rule" /><published>2025-03-04T00:00:00+00:00</published><updated>2025-03-04T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/04/the-500-rule</id><content type="html" xml:base="https://ashterism.com/2025/03/04/the-500-rule.html"><![CDATA[<p>Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing.  I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software.  Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!</p>
 
-<p>The 500 rule is: max shutter speed = effective focal length / 500.</p>
+<blockquote>
+  <p>The 500 rule is: max shutter speed = effective focal length / 500.</p>
 
-<p>I have a Canon R7 with a 1.6x crop factor, so my effective focal length (using a Skywatcher 200P/1000) is 1.6*1000 = 1600.</p>
+  <p>I have a Canon R7 with a 1.6x crop factor, so my effective focal length (using a Skywatcher 200P/1000) is &gt; 1.6*1000 = 1600.</p>
 
-<p>500 / 1600 = 0.3125 seconds.</p>
+  <p>500 / 1600 = 0.3125 seconds.</p>
+</blockquote>
 
 <p>Equipped with this knowledge, I lined up the scope on the nebula, and swapped in the camera.  It was a little misty, so the stars were not quite as clear as last week, especially through the optics, but I was able to focus using a high exposure and ISO setting.  I then reduced the settings back down to 0.3 and ISO 6400 and took 160+ shots.  I did this using HDR+ mode (for faster shooting) and holding down the shoot button on the Canon Connect app so I could avoid touching the camera and introducing wobble.</p>
 
-<p>Tip if using Canon Connect - before going out, increase the delay on your phones lock screen to 3 or 5 mins (or turn it off) as otherwise you have to reconnect each time the screen locks, which means realigning the scope again once it’s reconnected.</p>
+<p>My phone screen kept locking and in so doing, causing Canon Connect to disconnect, and by the time I got it all back connected everything needed realigning.  Increasing the delay on the lock screen to 5 mins was probably my biggest learning tonight!</p>
 
 <p>The single images at ⅓ sec exposure were underwhelming, but with some basic processing came out looking pretty great (for a beginner!). When I was first out, I also took another batch of 150+ shots using ¼ sec exposures incase there was wobble in the first set, but didn’t end up processing them.</p>
 
-<p>There are a lot of YouTube videos on how to stack and/or process your images, and I found most to either skip some steps or simply not work for me.  My goal was to figure out how to “simply” stack the images into one, and then how to balance the contrast/ brightness / colours to bring out the nebula.</p>
+<p>There are a lot of YouTube videos on how to stack and/or process your images, and I found most to either skip some steps or following them returned errors for me.  My goal was to figure out how to “simply” stack the images into one, and then how to balance the contrast/ brightness / colours to bring out the nebula.  In the end I found this video which made using Siril simple and effective: https://youtu.be/aruMYnfhrjw?si=cEkNyEi9WV5TV7C6</p>
 
 <p>I initially used Siril to do the stacking, and then tried processing the stacked image separately in Siril and Photoshop.  I got more depth of colour in Photoshop, but I personally preferred the cleaner, more ethereal feel of the Siril edit.  I definitely have a huge way to go,  I feel I’m starting to understand the process now, and it’s really encouraging to have achieved these pictures, especially without use of a tracker.</p>
 
-<p>I’ll put the steps I followed to stack and process my images into a separate post for reference.</p>
+<figure>
+  <img src="/assets/images/25_03/25_03_04_01.png" alt="Orion nebula as a few dots in the sky" />
+  <figcaption>1* ⅓ sec exposure, at 6400 ISO.</figcaption>
+</figure>
 
-<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
-</div>
+<figure>
+  <img src="/assets/images/25_03/25_03_04_02.png" alt="VOrion nebula with dust cloud visible in an ethereal shades of blue" />
+  <figcaption>155* ⅓ sec exposure / 6400iso, stacked in Siril, and processed in Siril.  
+</figcaption>
+</figure>
 
-<p>!!! note
-    This is a <strong>note</strong>. If it works, your plugin is installed!</p>
+<figure>
+  <img src="/assets/images/25_03/25_03_04_03.png" alt="Similar image to above, but with reds and greens instead of blues" />
+  <figcaption>As above, but post processed in Photoshop
+</figcaption>
+</figure>
 
-<p>testing… 1,2</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing. I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software. Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!]]></summary></entry><entry><title type="html">First attempt at M42 Orion Nebula</title><link href="https://ashterism.com/2025/03/02/trying-orion.html" rel="alternate" type="text/html" title="First attempt at M42 Orion Nebula" /><published>2025-03-02T00:00:00+00:00</published><updated>2025-03-02T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/02/trying-orion</id><content type="html" xml:base="https://ashterism.com/2025/03/02/trying-orion.html"><![CDATA[<p>Short session last night, only tried a few shoots of M42 - Orion Nebula.  Decided to focus on this nebula for a while and try and use it to learn how to shoot nebulas and understand the processes involved before getting distracted by the idea of upgrading kit etc, so took some initial shoots to learn from.</p>
+<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing. I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software. Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!]]></summary></entry><entry><title type="html">First attempt at M42 Orion Nebula</title><link href="https://ashterism.com/2025/03/02/trying-orion.html" rel="alternate" type="text/html" title="First attempt at M42 Orion Nebula" /><published>2025-03-02T00:00:00+00:00</published><updated>2025-03-02T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/02/trying-orion</id><content type="html" xml:base="https://ashterism.com/2025/03/02/trying-orion.html"><![CDATA[<p>Short session last night, only tried a few shoots of M42 - Orion Nebula.  Decided to focus on this nebula for a while and try and use it to learn how to shoot nebulas and understand the processes involved before getting distracted by the idea of upgrading kit etc, so took some initial shoots to learn from.</p>
 
 <p>Exposure time vs trailing going to be an issue.  Tried 3.2sec, 2.5secs, and 1 sec, and various ISOs.  Even 1 sec showed trailing, which isn’t ideal!  Even with trailing though, the images are awe-inspiring - you can actually see the clouds.</p>
 
