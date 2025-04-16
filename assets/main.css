@@ -646,13 +646,4 @@ table td {
   color: #099;
 }
 
-/* Custom CSS for tip boxes */
-.tip {
-  background-color: #e6f7ff;
-  border-left: 4px solid #1890ff;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-}
-
 /*# sourceMappingURL=main.css.map */
