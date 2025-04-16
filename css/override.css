@@ -98,7 +98,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
-/*  justify-items: center;
+/*  justify-items: center; commented out as stopping images stretching and messing up alignment where difference sized images in the same post
 }
 .image-grid img {
   width: 100%;
