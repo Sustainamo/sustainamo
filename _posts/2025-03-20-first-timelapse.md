@@ -64,32 +64,32 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
   </thead>
   <tbody>
     <tr>
-      <td>Sunset</td>
-      <td colspan="2">✔️</td>
+      <td data-label="Event">Sunset</td>
+      <td colspan="2" data-label="Starts / Ends">✔️</td>
     </tr>
     <tr>
-      <td>Civil Twilight</td>
-      <td>✔️</td>
-      <td>✔️</td>
+      <td data-label="Event">Civil Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
     </tr>
     <tr>
-      <td>Nautical Twilight</td>
-      <td>✔️</td>
-      <td>✔️</td>
+      <td data-label="Event">Nautical Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
     </tr>
     <tr>
-      <td>Astronomical Twilight</td>
-      <td>✔️</td>
-      <td>✔️</td>
+      <td data-label="Event">Astronomical Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
     </tr>
     <tr>
-      <td>Start of Night</td>
-      <td>✔️</td>
-      <td></td>
+      <td data-label="Event">Start of Night</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends"></td>
     </tr>
     <tr>
-      <td>End Shooting</td>
-      <td colspan="2">✔️</td>
+      <td data-label="Event">End Shooting</td>
+      <td colspan="2" data-label="Starts / Ends">✔️</td>
     </tr>
   </tbody>
 </table>
