@@ -67,6 +67,8 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
   padding: 0.6em 0.8em;
 }
 
+.responsive-table th:nth-child(2),
+.responsive-table th:nth-child(3),
 .responsive-table td:nth-child(2),
 .responsive-table td:nth-child(3) {
   text-align: center;
@@ -101,6 +103,12 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
     text-align: left;
   }
 
+  .responsive-table td[colspan]::before {
+    content: "Starts / Ends";
+  }
+
+  .responsive-table th:nth-child(2),
+  .responsive-table th:nth-child(3),
   .responsive-table td:nth-child(2),
   .responsive-table td:nth-child(3) {
     text-align: right;
@@ -143,12 +151,12 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
     </tr>
     <tr>
       <td>End Shooting</td>
-      <td></td>
-      <td>✔️</td>
+      <td colspan="2">✔️</td>
     </tr>
   </tbody>
 </table>
 
-Also need the lens and the rule of 400/500 so you know how to avoid trailing. 
+
+Also need to work out the rule of 400/500 for the lens you'll be using so you know how to avoid trailing (max shutter speed). 
 
 -END-
