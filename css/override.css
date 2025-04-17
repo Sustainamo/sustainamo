@@ -173,6 +173,11 @@ hr {
     font-weight: bold;
     text-align: left;
   }
+
+  .responsive-table td[colspan]::before {
+  content: attr(data-label);
+  }
+  
 }
 
 /* END OF RESPONSIVE TABLE */
