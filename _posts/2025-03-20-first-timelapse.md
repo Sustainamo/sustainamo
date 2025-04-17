@@ -53,68 +53,6 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
 
 
 *Table for recording start/end times*
-<style>
-.responsive-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1em;
-  font-size: 0.95em;
-}
-
-.responsive-table th,
-.responsive-table td {
-  border: 1px solid #ddd;
-  padding: 0.6em 0.8em;
-}
-
-.responsive-table th:nth-child(2),
-.responsive-table th:nth-child(3),
-.responsive-table td:nth-child(2),
-.responsive-table td:nth-child(3) {
-  text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  .responsive-table thead {
-    display: none;
-  }
-
-  .responsive-table tr {
-    display: block;
-    margin-bottom: 1em;
-    border: 1px solid #ddd;
-  }
-
-  .responsive-table td {
-    display: block;
-    text-align: right;
-    position: relative;
-    padding-left: 50%;
-    border: none;
-    border-bottom: 1px solid #eee;
-  }
-
-  .responsive-table td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 0.8em;
-    top: 0.6em;
-    font-weight: bold;
-    text-align: left;
-  }
-
-  .responsive-table td[colspan]::before {
-    content: "Starts / Ends";
-  }
-
-  .responsive-table th:nth-child(2),
-  .responsive-table th:nth-child(3),
-  .responsive-table td:nth-child(2),
-  .responsive-table td:nth-child(3) {
-    text-align: right;
-  }
-}
-</style>
 
 <table class="responsive-table">
   <thead>
