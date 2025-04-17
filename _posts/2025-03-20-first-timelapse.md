@@ -6,7 +6,7 @@ tag: astro
 ---
 
 
-There's been a week or two of cloudy nights coinciding with my available evenings, during which I've been reading through _Nightwatch_ (Terence Dickensons amazing book not the Pratchett novel...) and looking at potential future upgrades to my gear.  This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it's something I'd love to do with a clear milyway sky one night.
+There's been a week or two of cloudy nights coinciding with my available evenings, during which I've been reading through _Nightwatch_ (Terence Dickensons amazing book not the also great Pratchett novel...) and looking at potential future upgrades to my gear.  This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it's something I'd love to do with a clear milyway sky one night.
 
 The setting was my Dad's house in France, which, although only one room deep, looks like a classic French chateaux complete with the amazing roof line they have - so I thought a great foreground item.  I definitely have a lot to learn but it was an interesting process and I'm keen to try again soon now I've read up on how to do it better.  
 
