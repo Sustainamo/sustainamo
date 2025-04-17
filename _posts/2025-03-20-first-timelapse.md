@@ -37,6 +37,58 @@ And my first attempt was:
 
 *Tips for next time*
 
+* Be prepared - note down what time the different phases of the transition from day to night are expected (see table below)
+* Set up tripod, set shot in focus (for stars - around infinite)
+* Be ready to start shooting around 40 mins before sunset
+* Start at ISO100
+* Aim to keep exposure at 0ev until sunset
+* Do this by adjusting shutter speed before starting to adjust ISO
+* Then allow it to come up
+* Inteval somewhere between 20-40 second intervals
 
+
+https://www.youtube.com/watch?v=fgPLOOVvM9k&t=7s
+
+*Table for recording start/end times*
+<table class="responsive-table">
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Starts</th>
+      <th>Ends</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sunset</td>
+      <td colspan="2">✔️</td>
+    </tr>
+    <tr>
+      <td>Civil Twilight</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Nautical Twilight</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Astronomical Twilight</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Start of Night</td>
+      <td>✔️</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>End Shooting</td>
+      <td></td>
+      <td>✔️</td>
+    </tr>
+  </tbody>
+</table>
 
 -END-
