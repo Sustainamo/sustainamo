@@ -27,7 +27,7 @@ Anyway, I had a go at stitching the stills together in DaVinci Resolve (excellen
 
 As DR has some quite powerful frame editing capabilities, I was able to adjust out some of my exposure mistakes, though I didn't spend too long on it as keen to just take the learnings and try again.
 
-This <a href="https://www.youtube.com/watch?v=pFdRO0RsdMM" target="_blank" rel=noopener">video</a> was the most useful I found for understanding how to do the timelapse in DR - with some additional information on how to adjust / enhance your timelapse too.
+This <a href="https://www.youtube.com/watch?v=pFdRO0RsdMM" target="_blank" rel="noopener">video</a> was the most useful I found for understanding how to do the timelapse in DR - with some additional information on how to adjust / enhance your timelapse too.
 
 And my first attempt was:
 
@@ -36,20 +36,78 @@ And my first attempt was:
 </div>
 
 *Tips for next time*
+Most complete video I found on timelapses was <a href="https://www.youtube.com/watch?v=fgPLOOVvM9k&t=7s" target="_blank">this one</a>
 
 * Be prepared - note down what time the different phases of the transition from day to night are expected (see table below)
 * Set up tripod, set shot in focus (for stars - around infinite)
-* Be ready to start shooting around 40 mins before sunset
+* Intervals set to between 20-40 secs 
+* Be ready to start shooting around 30-40 mins before sunset
 * Start at ISO100
 * Aim to keep exposure at 0ev until sunset
 * Do this by adjusting shutter speed before starting to adjust ISO
 * Then allow it to come up
-* Inteval somewhere between 20-40 second intervals
+* Will need most changes during twilight phases, lessen off, and then none once fully night
+* As you get to the end of civil twiling and into nautical twilight (when its dark in one part of the sky but light in another...) ev can drift down to around -0.3 to -0.7
+* Once you hit nautical twilight, will need to be adjusting every 2-3mins
+* Once the Shutter speed hits (rule of 500/400) max for avoiding trailing, then start adjusting ISO
 
-
-https://www.youtube.com/watch?v=fgPLOOVvM9k&t=7s
 
 *Table for recording start/end times*
+<style>
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 0.6em 0.8em;
+}
+
+.responsive-table td:nth-child(2),
+.responsive-table td:nth-child(3) {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+  }
+
+  .responsive-table td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0.8em;
+    top: 0.6em;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .responsive-table td:nth-child(2),
+  .responsive-table td:nth-child(3) {
+    text-align: right;
+  }
+}
+</style>
+
 <table class="responsive-table">
   <thead>
     <tr>
@@ -90,5 +148,7 @@ https://www.youtube.com/watch?v=fgPLOOVvM9k&t=7s
     </tr>
   </tbody>
 </table>
+
+Also need the lens and the rule of 400/500 so you know how to avoid trailing. 
 
 -END-
