@@ -17,7 +17,7 @@ When I checked back in an hour later (around half nine), the shots were again un
 I retrieved the camera and looked at the images in the morning - and then went down a rabbit hole of videos on how to actually make a timelapse on my laptop - and videos about how to get the perfect outcomes from "Holy Grail" timelapses.  This is the name for timelapses which transition day-to-night I've learnt.
 
 > [!NOTE]
-> > Key learning is next time either just leave in Av mode and let the camera manage the transition and should be okay overall, OR... manually tweak throughout the three stages of twilight, an involved process but will get the best results
+> Key learning is next time either just leave in Av mode and let the camera manage the transition and should be okay overall, OR... manually tweak throughout the three stages of twilight, an involved process but will get the best results
 
 Anyway, I had a go at stitching the stills together in DaVinci Resolve (excellent free video editing software).  I'd used it before for some basic video editing to assumed it could do this, and found a few videos that explained how to do it, though it's a fairly simple process:
 * convert .raw files into .dng files (DaVinci's preferred input) using the free Adobe DNG converter
