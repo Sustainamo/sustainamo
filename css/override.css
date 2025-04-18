@@ -180,7 +180,19 @@ hr {
   
 }
 
+/* Centering 2nd and 3rd columns */
+.centre-ticks th:nth-child(2),
+.centre-ticks th:nth-child(3),
+.centre-ticks td:nth-child(2),
+.centre-ticks td:nth-child(3),
+.centre-ticks td[colspan="2"] {
+  text-align: center;
+}
+
+
 /* END OF RESPONSIVE TABLE */
+
+
 
 /* Typography */
 h1 {
