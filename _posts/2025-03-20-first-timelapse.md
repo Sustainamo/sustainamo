@@ -53,8 +53,7 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
 
 
 *Table for recording start/end times*
-
-<table class="responsive-table">
+<table class="responsive-table centre-ticks">
   <thead>
     <tr>
       <th>Event</th>
