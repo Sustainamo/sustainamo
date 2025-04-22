@@ -1,10 +1,12 @@
 ###### Content for header / footer
-title: Ashterism
-author: Musings by Ash
-description: A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like  # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: Sustainamo
+author: Content by Ash Bladon
+description: 
 
 # email: ""
-url: https://ashterism.com
+url: https://sustainamo.com
+baseurl: "/sustainamo"
+
 
 ##### Site config stuff
 
