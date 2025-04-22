@@ -2,8 +2,8 @@ name: Build and Deploy Jekyll with Admonitions
 
 on:
   push:
-    branches: [main]
-
+    branches: [main] 
+    
 jobs:
   jekyll:
     runs-on: ubuntu-latest
