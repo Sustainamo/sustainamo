@@ -8,5 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-gfm-admonitions"
   gem "jekyll-sitemap"
    
-#  gem "github-pages"
+ gem "github-pages"
 end
