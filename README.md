@@ -1,6 +1,6 @@
 ## README file for ashterism
 
-https://ashterism.github.io/ashterism/
+[https://ashterism.github.io/ashterism/](https://sustainamo.github.io/sustainamo/)
 
 <!--
 **Ashterism/ashterism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
