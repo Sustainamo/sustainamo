@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll with Admonitions
+name: Build and Deploy Jekyll with Admonitions (kickstart)
 
 on:
   push:
