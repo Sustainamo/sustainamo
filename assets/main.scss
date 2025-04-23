@@ -197,7 +197,34 @@ hr {
 
 /* END OF RESPONSIVE TABLE */
 
+/* COMPONENTS */
+.phase-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
 
+.phase-block {
+  flex: 1 1 30%;
+  background: #e6f2ed;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.phase-block:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+  .phase-block {
+    flex: 1 1 100%;
+  }
+}
+
+/* END OF COMPONENTS */
 
 /* Typography */
 h1 {
