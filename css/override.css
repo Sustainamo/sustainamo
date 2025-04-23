@@ -1,6 +1,3 @@
----
----
-
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -49,7 +46,7 @@ hr {
 
 /* HighlightJS overrides */
 .hljs {
-  max-height: {{site.code_block_max_height | default: "500px"}};
+  max-height: 500px;
 }
 
 /* Copy code button */
@@ -92,16 +89,111 @@ hr {
   margin: 0;
 }
 
-/* Image Grid for Blog Posts */
+/* IMAGE AND VIDEO */
+/* Image Grid for blog posts */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
-  justify-items: center;
+/*  justify-items: center; commented out as stopping images stretching and messing up alignment...
+  ... where difference sized images in the same post */
 }
 .image-grid img {
   width: 100%;
   max-width: 200px;
+}
+
+.image-grid figure {
+  margin: 0;
+  text-align: left;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+  display: block;
+}
+
+/* RESPONSIVE TABLE */
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+
+  .responsive-table td {
+    display: block;
+    padding-left: 50%;
+    position: relative;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0.8em;
+    top: 0.6em;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .responsive-table td[colspan]::before {
+  content: attr(data-label);
+  }
+  
+}
+
+/* Centering 2nd and 3rd columns */
+.centre-ticks th:nth-child(2),
+.centre-ticks th:nth-child(3),
+.centre-ticks td:nth-child(2),
+.centre-ticks td:nth-child(3),
+.centre-ticks td[colspan="2"] {
+  text-align: center;
+}
+
+
+/* END OF RESPONSIVE TABLE */
+
+
+
+/* Typography */
+h1 {
+  font-size: 1.8em;
 }
 
 @media print {
