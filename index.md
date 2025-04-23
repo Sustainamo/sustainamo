@@ -1,5 +1,8 @@
-This blog is mostly for me.  If anyone stumbles on it, and finds my musings helpful or interesting, that would be a bonus!
+---
+layout: home
+title: Sustainamo
+---
 
-I have an on-off relationship with journalling, and for some topics it doesn't feel the best medium, especially when you want to include pictures (though I've always enjoyed drawing my own maps and diagrams etc).  But writing things down is a great process both for exploring and documenting your own thinking, but also to help with accountability.  In our 'always-on' world, it can be easy to neglect your hobbies, this is primarily a tool to help mitigate that!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis semper venenatis. In quis tempus magna. Donec metus erat, efficitur eget felis id, sagittis lacinia lacus. Mauris a ullamcorper ligula. Fusce sed posuere nulla. Nam sodales vulputate purus ut semper. Vestibulum commodo quam in leo sollicitudin, a vestibulum purus finibus...
 
-All views are my own, unless otherwise stated.
+Vestibulum efficitur sapien eu est dapibus, eget ultrices nunc pulvinar. In et massa elit. Phasellus ut magna vitae felis ornare mattis dictum a quam. Nullam eu arcu vel turpis laoreet feugiat quis tincidunt mauris. Curabitur quis enim non urna convallis semper. Nunc mi arcu, semper vitae tincidunt eu, tempus vel ex. Nam eget felis porttitor, pretium turpis quis, tristique neque.
