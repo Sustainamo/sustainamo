@@ -1,16 +1,26 @@
-<header class="site-header">
+<header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
 
     <nav class="site-nav">
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/phase_one/intro/">Foundations</a></li>
-        <li><a href="/phase_two/intro/">Strategy</a></li>
-        <li><a href="/phase_three/intro/">Implementation</a></li>
-      </ul>
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path fill="#333" d="M0 0h18v3H0zM0 6h18v3H0zM0 12h18v3H0z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <ul>
+          {% for page in site.pages %}
+            {% if page.inMenu %}
+              <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
