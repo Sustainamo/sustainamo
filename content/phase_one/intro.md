@@ -3,7 +3,6 @@ title: Foundations: Intro
 layout: default
 permalink: /phase_one/intro/
 order: 2
-section: Foundations
 ---
 
 
