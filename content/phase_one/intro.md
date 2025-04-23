@@ -11,7 +11,7 @@ To be successful, a sustainability strategy must be grounded in a clear understa
 -	Who is impacted by, and impacts, the sustainability of the organisation / event
 -	What are the highest priority considerations
 
-<section class="phase-blocks outlined teal">
+<section class="phase-blocks outlined green">
   <a href="/phase_one/discovery/" class="phase-block">
     <div class="block-header">Discovery</div>
     <div class="block-body">Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</div>
