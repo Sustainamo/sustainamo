@@ -4,10 +4,10 @@ author: Content by Ash Bladon
 description: A free, comprehensive guide to creating and implementing a meaningful sustainability strategy # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 
+baseurl: ""  # Required for Cloudflare Pages
+
 # email: ""
 # url: https://sustainamo.com
-baseurl: "/sustainamo"
-
 
 ##### Site config stuff
 
@@ -16,7 +16,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+timezone: Etc/UTC 
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 # Minima variables
@@ -24,12 +24,14 @@ github_username: sustainamo
 # instagram_username: 
 rss: rss
 
-home_post_limit: 5   # Change to show more posts
-show_excerpts: false
+# removing blog related stuff for sustainamo
+# home_post_limit: 5   # Change to show more posts
+# show_excerpts: false
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 
   # titles_from_headings:
