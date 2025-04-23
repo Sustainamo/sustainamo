@@ -1,97 +1,95 @@
-
 /* COMPONENTS: PHASE BLOCKS */
 .phase-blocks {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2rem 0;
+  max-width: 100%;
   justify-content: space-between;
 }
 
-/* Each block */
+/* Block Base */
 .phase-blocks a.phase-block {
-  flex: 1 1 28%;
-  padding: 1.5rem;
   text-decoration: none;
-  border-radius: 8px;
-  background: #e6f2ed;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
   color: inherit;
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
+  flex: 1 1 28%;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
 }
 
+/* Solid default style */
+.phase-blocks.solid a.phase-block {
+  background: #e6f2ed;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
 .phase-blocks a.phase-block:hover {
   transform: translateY(-5px);
 }
 
+/* Typography inside block */
 .phase-blocks a.phase-block h2,
 .phase-blocks a.phase-block p {
   color: #333;
-  margin: 0 0 0.5rem;
 }
 
-/* Responsive stacking */
+/* Colour variants – SOLID */
+.phase-blocks.green.solid a.phase-block:nth-child(1) {
+  background-color: #e6f2ed;
+}
+.phase-blocks.green.solid a.phase-block:nth-child(2) {
+  background-color: #d0ebdf;
+}
+.phase-blocks.green.solid a.phase-block:nth-child(3) {
+  background-color: #bae1d1;
+}
+
+.phase-blocks.blue.solid a.phase-block:nth-child(1) {
+  background-color: #e2effa;
+}
+.phase-blocks.blue.solid a.phase-block:nth-child(2) {
+  background-color: #cce4f5;
+}
+.phase-blocks.blue.solid a.phase-block:nth-child(3) {
+  background-color: #b3d8f0;
+}
+
+/* OUTLINED STYLE */
+.phase-blocks.outlined a.phase-block {
+  background-color: #fff;
+  border: 2px solid;
+  box-shadow: none;
+}
+
+/* Colour outlines */
+.phase-blocks.outlined.green a.phase-block {
+  border-color: #b0e0cc;
+}
+.phase-blocks.outlined.blue a.phase-block {
+  border-color: #97c7e6;
+}
+
+/* Header box for outlined blocks */
+.phase-blocks.outlined.green a.phase-block h2 {
+  background-color: #b0e0cc;
+  padding: 0.5rem;
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  border-radius: 6px 6px 0 0;
+}
+.phase-blocks.outlined.blue a.phase-block h2 {
+  background-color: #97c7e6;
+  padding: 0.5rem;
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Responsive - stack */
 @media screen and (max-width: 768px) {
   .phase-blocks a.phase-block {
     flex: 1 1 100%;
   }
-
-/* VARIATIONS */
-  
-/* Block colour variations for homepage */
-.phase-blocks.green a.phase-block:nth-child(1) {
-  background-color: #e6f2ed;
-}
-.phase-blocks.green a.phase-block:nth-child(2) {
-  background-color: #d0ebdf;
-}
-.phase-blocks.green a.phase-block:nth-child(3) {
-  background-color: #bae1d1;
-}
-
-/* Outline colour (with header block) for subpages */
-.phase-blocks.outlined a.phase-block {
-  background: white;
-  border: 2px solid currentColor;
-  overflow: hidden;
-}
-
-.phase-blocks.outlined a.phase-block .block-header {
-  padding: 1rem;
-  font-weight: bold;
-  color: white;
-}
-
-.phase-blocks.outlined a.phase-block .block-body {
-  padding: 1.2rem 1.5rem;
-  color: #333;
-}
-
-/* Colour themes */
-.phase-blocks.teal a.phase-block {
-  border-color: #9dd3c6;
-}
-
-.phase-blocks.teal .block-header {
-  background-color: #9dd3c6;
-}
-
-.phase-blocks.mint a.phase-block {
-  border-color: #c6e2d9;
-}
-
-.phase-blocks.mint .block-header {
-  background-color: #c6e2d9;
-}
-
-.phase-blocks.grass a.phase-block {
-  border-color: #b4dac9;
-}
-
-.phase-blocks.grass .block-header {
-  background-color: #b4dac9;
-}
-
 }
