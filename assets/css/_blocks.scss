@@ -1,28 +1,24 @@
----
----
-
 /* COMPONENTS: PHASE BLOCKS */
 .phase-blocks {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2rem 0;
-  max-width: 100%;
   justify-content: space-between;
 }
 
-/* Make entire block clickable */
+/* Each block */
 .phase-blocks a.phase-block {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
+  flex: 1 1 30%;
   padding: 1.5rem;
-  flex: 1 1 28%;
+  text-decoration: none;
   border-radius: 8px;
   background: #e6f2ed;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
 .phase-blocks a.phase-block:hover {
@@ -32,9 +28,10 @@
 .phase-blocks a.phase-block h2,
 .phase-blocks a.phase-block p {
   color: #333;
+  margin: 0 0 0.5rem;
 }
 
-/* Individual background shades */
+/* Colour variations for homepage */
 .phase-blocks.green a.phase-block:nth-child(1) {
   background-color: #e6f2ed;
 }
@@ -45,9 +42,9 @@
   background-color: #bae1d1;
 }
 
+/* Responsive stacking */
 @media screen and (max-width: 768px) {
   .phase-blocks a.phase-block {
     flex: 1 1 100%;
   }
 }
-/* END OF COMPONENTS */
