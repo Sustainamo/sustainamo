@@ -2,7 +2,7 @@
 title: "Foundations: Intro"
 layout: default
 permalink: /phase_one/intro/
-order: 2
+order: 1
 ---
 
 
