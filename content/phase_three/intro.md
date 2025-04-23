@@ -1,6 +1,6 @@
 ---
 title: "Implementation & Improvement: Intro"
 layout: default
-permalink: /phase_two/intro/
+permalink: /phase_three/intro/
 order: 1
 ---
