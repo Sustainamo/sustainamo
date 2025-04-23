@@ -3,6 +3,8 @@
 
 @import "minima";
 
+@import "blocks";
+
 // customisations below
 
 hr {
@@ -184,56 +186,6 @@ hr {
   text-align: center;
 }
 
-/* COMPONENTS: PHASE BLOCKS */
-.phase-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 2rem 0;
-  max-width: 100%;
-  justify-content: space-between;
-}
-
-/* Make entire block clickable */
-.phase-blocks a.phase-block {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  flex: 1 1 28%;
-  border-radius: 8px;
-  background: #e6f2ed;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.phase-blocks a.phase-block:hover {
-  transform: translateY(-5px);
-}
-
-.phase-blocks a.phase-block h2,
-.phase-blocks a.phase-block p {
-  color: #333;
-}
-
-/* Individual background shades */
-.phase-blocks.green a.phase-block:nth-child(1) {
-  background-color: #e6f2ed;
-}
-.phase-blocks.green a.phase-block:nth-child(2) {
-  background-color: #d0ebdf;
-}
-.phase-blocks.green a.phase-block:nth-child(3) {
-  background-color: #bae1d1;
-}
-
-@media screen and (max-width: 768px) {
-  .phase-blocks a.phase-block {
-    flex: 1 1 100%;
-  }
-}
-/* END OF COMPONENTS */
 
 /* Typography */
 h1 {
