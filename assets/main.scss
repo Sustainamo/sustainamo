@@ -198,15 +198,21 @@ hr {
 /* END OF RESPONSIVE TABLE */
 
 /* COMPONENTS */
+.phase-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
 .phase-block {
   flex: 1 1 28%;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid currentColor; /* uses text color as border unless overridden */
+  padding: 1.5rem;
   border-radius: 8px;
-  background: #fff;
-  overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background: #e6f2ed;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
 
@@ -214,42 +220,15 @@ hr {
   transform: translateY(-5px);
 }
 
-.phase-block-header {
-  padding: 1rem 1.25rem;
-  font-weight: bold;
-  font-size: 1.2rem;
-  background: currentColor;
-  color: #fff;
+/* Individual background shades */
+.phase-blocks.green .phase-block:nth-child(1) {
+  background-color: #e6f2ed;
 }
-
-.phase-block-content {
-  padding: 1.25rem;
-  color: #333;
+.phase-blocks.green .phase-block:nth-child(2) {
+  background-color: #d0ebdf;
 }
-
-/* Theme colours */
-.phase-blocks.green .phase-block {
-  border-color: #85bfa1;
-}
-
-.phase-blocks.green .phase-block-header {
-  background-color: #85bfa1;
-}
-
-.phase-blocks.blue .phase-block {
-  border-color: #66a3d2;
-}
-
-.phase-blocks.blue .phase-block-header {
-  background-color: #66a3d2;
-}
-
-.phase-blocks.beige .phase-block {
-  border-color: #c8bca7;
-}
-
-.phase-blocks.beige .phase-block-header {
-  background-color: #c8bca7;
+.phase-blocks.green .phase-block:nth-child(3) {
+  background-color: #bae1d1;
 }
 
 @media screen and (max-width: 768px) {
@@ -257,6 +236,8 @@ hr {
     flex: 1 1 100%;
   }
 }
+
+
 
 /* END OF COMPONENTS */
 
