@@ -30,7 +30,6 @@ show_excerpts: false
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-gfm-admonitions
 
 
   # titles_from_headings:
