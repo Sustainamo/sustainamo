@@ -5,7 +5,7 @@ title: Sustainamo
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis semper venenatis. In quis tempus magna. Donec metus erat, efficitur eget felis id, sagittis lacinia lacus. Mauris a ullamcorper ligula. Fusce sed posuere nulla. Nam sodales vulputate purus ut semper. Vestibulum commodo quam in leo sollicitudin, a vestibulum purus finibus...
 
-<section class="phase-blocks green">
+<section class="phase-blocks solid green">
   <a href="/phase_one/intro" class="phase-block">
     <h2>Foundations</h2>
     <p>Research internal ops, engage stakeholders, analyse materiality.</p>
