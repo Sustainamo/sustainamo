@@ -20,7 +20,10 @@ layout: default
   <section class="post-content">
     {{ content }}
      <div class="no-print">
-      {% include navlinks.html %}
+          {%- comment -%}
+            {% include navlinks.html %}
+          {%- endcomment -%}
+
     </div>
   </section>
 
