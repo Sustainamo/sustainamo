@@ -203,10 +203,12 @@ hr {
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2rem 0;
+  max-width: 100%;
+  justify-content: space-between;
 }
 
 .phase-block {
-  flex: 1 1 30%;
+  flex: 1 1 28%;
   background: #e6f2ed;
   padding: 1.5rem;
   border-radius: 8px;
@@ -216,6 +218,16 @@ hr {
 
 .phase-block:hover {
   transform: translateY(-5px);
+}
+
+.phase-block:nth-child(1) {
+  background-color: #e6f2ed;
+}
+.phase-block:nth-child(2) {
+  background-color: #d0ebdf;
+}
+.phase-block:nth-child(3) {
+  background-color: #bae1d1;
 }
 
 @media screen and (max-width: 768px) {
