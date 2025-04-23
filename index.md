@@ -7,6 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis semper v
 
 <section class="phase-blocks">
   <div class="phase-block">
+    <a href="/phases_one/intro/">
     <h2>Foundations</h2>
     <p>Research internal ops, engage stakeholders, analyse materiality.</p>
   </div>
