@@ -13,16 +13,16 @@ To be successful, a sustainability strategy must be grounded in a clear understa
 
 <section class="phase-blocks outlined green">
   <a href="/phase_one/discovery/" class="phase-block">
-    <div class="block-header">Discovery</div>
-    <div class="block-body">Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</div>
+    <h2>Discovery<h2>
+    <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
   </a>
    <a href="/phase_one/stakeholderEngagement/" class="phase-block">
-    <div class="block-header">Stakeholder engagement</div>
-    <div class="block-body">Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</div>
+    <h2>Stakeholder engagement<h2>
+    <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
   </a>
-   <a href="phase_one/materialityAssessment/" class="phase-block">
-    <div class="block-header">Materiality assessment</div>
-    <div class="block-body">Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</div>
+   <a href="/phase_one/materialityAssessment/" class="phase-block">
+    <h2>Materiality assessment<h2>
+    <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
   </a>
 </section>
 
