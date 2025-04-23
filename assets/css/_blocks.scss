@@ -32,7 +32,15 @@
   margin: 0 0 0.5rem;
 }
 
-/* Colour variations for homepage */
+/* Responsive stacking */
+@media screen and (max-width: 768px) {
+  .phase-blocks a.phase-block {
+    flex: 1 1 100%;
+  }
+
+/* VARIATIONS */
+  
+/* Block colour variations for homepage */
 .phase-blocks.green a.phase-block:nth-child(1) {
   background-color: #e6f2ed;
 }
@@ -43,9 +51,47 @@
   background-color: #bae1d1;
 }
 
-/* Responsive stacking */
-@media screen and (max-width: 768px) {
-  .phase-blocks a.phase-block {
-    flex: 1 1 100%;
-  }
+/* Outline colour (with header block) for subpages */
+.phase-blocks.outlined a.phase-block {
+  background: white;
+  border: 2px solid currentColor;
+  overflow: hidden;
+}
+
+.phase-blocks.outlined a.phase-block .block-header {
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.phase-blocks.outlined a.phase-block .block-body {
+  padding: 1.2rem 1.5rem;
+  color: #333;
+}
+
+/* Colour themes */
+.phase-blocks.teal a.phase-block {
+  border-color: #9dd3c6;
+}
+
+.phase-blocks.teal .block-header {
+  background-color: #9dd3c6;
+}
+
+.phase-blocks.mint a.phase-block {
+  border-color: #c6e2d9;
+}
+
+.phase-blocks.mint .block-header {
+  background-color: #c6e2d9;
+}
+
+.phase-blocks.grass a.phase-block {
+  border-color: #b4dac9;
+}
+
+.phase-blocks.grass .block-header {
+  background-color: #b4dac9;
+}
+
 }
