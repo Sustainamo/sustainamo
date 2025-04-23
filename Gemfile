@@ -5,8 +5,6 @@ gem "minima", "~> 2.5"
 gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
-  gem "jekyll-gfm-admonitions"
   gem "jekyll-sitemap"
-   
-# gem "github-pages"
+  
 end
