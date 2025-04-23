@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  flex: 1 1 calc(32% - 1rem);
+  flex: 1 1 27%;
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
@@ -61,7 +61,6 @@
 /* OUTLINED STYLE */
 .phase-blocks.outlined a.phase-block {
   background-color: #fff;
-  font-size: 1.3rem;
   border: 2px solid;
   box-shadow: none;
 }
