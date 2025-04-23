@@ -13,4 +13,3 @@ To be successful, a sustainability strategy must be grounded in a clear understa
 -	What are the highest priority considerations
  
 In this section we will look at how to do this in three sections.  Initially a ‘discovery’ phase, where the sustainability team (the people responsible for delivering the strategy) will outline the internal and external environment the strategy will exist within.  This will be followed by a process of ‘stakeholder engagement’, where the considerations of the people who affect, and are affected by the organisation/ event will be collected.  Lastly, these findings will be evaluated to create a prioritised list of issues with materially impact the organisation / event from a sustainability perspective.  This entire process is often referred to as a ‘materiality assessment’.  
-![image](https://github.com/user-attachments/assets/93da0c83-7e90-4448-a310-ea0897fe1eda)
