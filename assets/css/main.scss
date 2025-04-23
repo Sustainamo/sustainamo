@@ -204,3 +204,37 @@ h1 {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
+/* Nav menu stuff */
+
+/* Force burger menu to always show */
+.site-nav .trigger {
+  display: none;
+}
+
+.nav-trigger:checked + label + .trigger {
+  display: block;
+}
+
+.site-nav label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Optional: hide full menu links on large screens */
+@media screen and (min-width: 601px) {
+  .site-nav .trigger {
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+  }
+
+  .site-nav .trigger a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
