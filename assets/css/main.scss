@@ -179,8 +179,17 @@ h1 {
   gap: 1rem;
 }
 
-/* Hide burger checkbox and icon by default */
-.site-nav .nav-trigger,
+/* Always hide the checkbox input */
+.site-nav .nav-trigger {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+/* Hide burger icon by default */
 .site-nav label {
   display: none;
 }
@@ -202,7 +211,6 @@ h1 {
     display: flex;
   }
 
-  .site-nav .nav-trigger,
   .site-nav label {
     display: inline-block;
   }
@@ -212,4 +220,3 @@ h1 {
     margin: 0.5rem 0;
   }
 }
-
