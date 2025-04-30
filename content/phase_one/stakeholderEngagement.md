@@ -1,6 +1,7 @@
 ---
 title: "Stakeholder engagement"
-layout: default
+layout: content
+
 permalink: /phase_one/stakeholderEngagement/
 order: 3
 last-updated: 25-04-23
