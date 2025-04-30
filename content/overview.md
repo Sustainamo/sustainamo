@@ -13,6 +13,8 @@ The strategy should, first and foremost, be rooted in your organisation; in what
 
 A high-level view of the process is shown below:
 
-<img src="/assets/images/homeAndOverview/overviewDiagram.png" alt="diagram showing overview of process described in text" class="responsive-img">
+<div style="max-width: 700px; margin: 2rem auto;">
+  <img src="/assets/images/phases-diagram.png" alt="Diagram showing the three sustainability phases" style="width: 100%; height: auto;">
+</div>
  
 In addition, it is helpful to develop a governance framework to support managing the strategy.  Throughout the process, engagement and collaboration will be essential to achieving buy-in and securing positive long-term outcomes.  It is also incredibly beneficial to approach the process with pragmatic mindsight, remembering that ‘perfection can be the enemy of good’.  Sustainability is an iterative process, and it is better to start than to delay whilst seeking perfection.  
