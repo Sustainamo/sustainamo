@@ -5,5 +5,34 @@ layout: default
 {{ content }}
 
 {% if page.order %}
+  <!-- Debug output -->
+  <hr>
+  <div style="font-size: 0.9em; color: #888;">
+    <p>Current page: {{ page.url }}</p>
+    <p>Section: {{ page.path | split: '/' | first }}</p>
+    <p>Siblings found:</p>
+    <ul>
+      {%- assign section = page.path | split: '/' | first -%}
+      {%- assign siblings = site.pages 
+        | where_exp: "p", "p.path contains section and p.order"
+        | sort: "order" -%}
+      {%- assign index = 0 -%}
+      {%- assign current_index = nil -%}
+      {%- for p in siblings -%}
+        <li>{{ p.url }} — order: {{ p.order }}</li>
+        {%- if p.url == page.url -%}
+          {%- assign current_index = index -%}
+        {%- endif -%}
+        {%- assign index = index | plus: 1 -%}
+      {%- endfor -%}
+      {%- assign prev = siblings[current_index | minus: 1] -%}
+      {%- assign next = siblings[current_index | plus: 1] -%}
+    </ul>
+    <p>Current index: {{ current_index }}</p>
+    <p>Prev: {{ prev.url }} — {{ prev.title }}</p>
+    <p>Next: {{ next.url }} — {{ next.title }}</p>
+  </div>
+  <hr>
+
   {% include section-nav.html %}
 {% endif %}
