@@ -4,5 +4,5 @@ layout: default
 permalink: /phase_two/intro/
 order: 1
 nav: yes
-nav-title: "Strategy"
+nav_title: "Strategy"
 ---
