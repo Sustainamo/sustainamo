@@ -177,6 +177,7 @@ h1 {
 .site-nav .trigger {
   display: flex;
   gap: 1rem;
+  justify-content: flex-end;
 }
 
 /* Always hide the checkbox input */
