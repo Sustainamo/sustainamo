@@ -1,5 +1,5 @@
 {%- assign section = page.path | split: '/' | first -%}
-{%- assign siblings = site.pages | where: "order" | where_exp: "p", "p.path contains section" | sort: "order" -%}
+{%- assign siblings = site.pages | where_exp: "p", "p.order and p.path contains section" | sort: "order" -%}
 {%- assign index = siblings | index_of: page -%}
 {%- assign prev = siblings[index | minus: 1] -%}
 {%- assign next = siblings[index | plus: 1] -%}
