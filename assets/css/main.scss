@@ -18,45 +18,79 @@ hr {
   margin-bottom: 20px;
 }
 
-/* Post navigation links */
-.post_navi {
+/* Typography */
+h1 {
+  font-size: 1.8em;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Overall column width */
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ** NAVIGATION MENU ** */
+
+.site-nav {
+  flex: 1;
   display: flex;
+  justify-content: flex-end;
 }
 
-.post_navi-label {
-  font-size: 0.8em;
-  opacity: 0.5;
+/* By default, show nav links (desktop) */
+.site-nav .trigger {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
 }
 
-.post_navi .post_navi-item {
-  padding: 0 2.2em;
-  width: 50%;
-  position: relative;
-  color: inherit !important;
-}
-
-.post_navi .nav_prev {
-  text-align: left;
-}
-
-.post_navi .nav_next {
-  text-align: right;
-}
-
-.post_navi .nav_prev .post_navi-arrow {
-  left: 0;
-}
-
-.post_navi .nav_next .post_navi-arrow {
-  right: 0;
-}
-
-.post_navi .post_navi-arrow {
+/* Always hide the checkbox input */
+.site-nav .nav-trigger {
+  display: none;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
-  opacity: 0.3;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+/* Hide burger icon by default */
+.site-nav label {
+  display: none;
+}
+
+/* Mobile behaviour */
+@media screen and (max-width: 600px) {
+  .site-nav .trigger {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-trigger:checked + label + .trigger {
+    display: flex;
+  }
+
+  .site-nav label {
+    display: inline-block;
+  }
+
+  .site-nav .trigger a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
 
 /* IMAGE AND VIDEO */
@@ -153,71 +187,45 @@ hr {
 }
 
 
-/* Typography */
-h1 {
-  font-size: 1.8em;
-}
 
-@media print {
-  .no-print {
-    display: none !important;
-  }
-}
 
-/* Overall column width */
-.wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* ** NAVIGATION MENU ** */
-
-/* By default, show nav links (desktop) */
-.site-nav .trigger {
+/* Post navigation links - may be redundant now? */
+.post_navi {
   display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
 }
 
-/* Always hide the checkbox input */
-.site-nav .nav-trigger {
-  display: none;
+.post_navi-label {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.post_navi .post_navi-item {
+  padding: 0 2.2em;
+  width: 50%;
+  position: relative;
+  color: inherit !important;
+}
+
+.post_navi .nav_prev {
+  text-align: left;
+}
+
+.post_navi .nav_next {
+  text-align: right;
+}
+
+.post_navi .nav_prev .post_navi-arrow {
+  left: 0;
+}
+
+.post_navi .nav_next .post_navi-arrow {
+  right: 0;
+}
+
+.post_navi .post_navi-arrow {
   position: absolute;
-  opacity: 0;
-  pointer-events: none;
-  width: 0;
-  height: 0;
-}
-
-/* Hide burger icon by default */
-.site-nav label {
-  display: none;
-}
-
-/* Mobile behaviour */
-@media screen and (max-width: 600px) {
-  .site-nav .trigger {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    background: #fff;
-    right: 0;
-    top: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 0.5rem 1rem;
-  }
-
-  .nav-trigger:checked + label + .trigger {
-    display: flex;
-  }
-
-  .site-nav label {
-    display: inline-block;
-  }
-
-  .site-nav .trigger a {
-    display: block;
-    margin: 0.5rem 0;
-  }
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  opacity: 0.3;
 }
