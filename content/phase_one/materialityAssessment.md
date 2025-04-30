@@ -1,6 +1,6 @@
 ---
 title: "Materiality assessment"
-layout: default
+layout: content
 permalink: /phase_one/materialityAssessment/
 order: 4
 last-updated: 25-04-23
