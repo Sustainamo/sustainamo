@@ -4,29 +4,30 @@
   | sort: "order" -%}
 
 {%- assign index = 0 -%}
+{%- assign current_index = nil -%}
 {%- for p in siblings -%}
   {%- if p.url == page.url -%}
-    {%- assign current_index = index -%}
+    {%- assign current_index = forloop.index0 -%}
+  {%- break -%}
   {%- endif -%}
-  {%- assign index = index | plus: 1 -%}
 {%- endfor -%}
 
 {%- assign prev = siblings[current_index | minus: 1] -%}
 {%- assign next = siblings[current_index | plus: 1] -%}
 
 <div class="post_navi">
-  {% if prev %}
+  {%- if prev -%}
     <a class="post_navi-item nav_prev" href="{{ prev.url | relative_url }}">
       <span class="post_navi-arrow">←</span>
       <div class="post_navi-label">Previous</div>
       {{ prev.title }}
     </a>
-  {% endif %}
-  {% if next %}
+  {%- endif -%}
+  {%- if next -%}
     <a class="post_navi-item nav_next" href="{{ next.url | relative_url }}">
       <span class="post_navi-arrow">→</span>
       <div class="post_navi-label">Next</div>
       {{ next.title }}
     </a>
-  {% endif %}
+  {%- endif -%}
 </div>
