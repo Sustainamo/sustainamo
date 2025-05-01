@@ -5,7 +5,11 @@ layout: default
 {{ content }}
 
 {% if page.order %}
-  <!-- Debug output -->
+  {% include content-nav.html %}
+{% endif %}
+
+{%- comment -%}
+{% if page.order %}
   <hr>
   <div style="font-size: 0.9em; color: #888;">
     <p>Current page: {{ page.url }}</p>
@@ -33,6 +37,6 @@ layout: default
     <p>Next: {{ next.url }} — {{ next.title }}</p>
   </div>
   <hr>
-
-  {% include content-nav.html %}
 {% endif %}
+{%- endcomment -%}
+
