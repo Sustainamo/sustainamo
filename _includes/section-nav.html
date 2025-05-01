@@ -28,19 +28,18 @@
   {%- endif -%}
 {%- endif -%}
 
-<div class="post_navi">
+<div class="content_navi">
   {%- if prev -%}
-    <a class="post_navi-item nav_prev" href="{{ prev.url | relative_url }}">
-      <span class="post_navi-arrow">←</span>
-      <div class="post_navi-label">Previous</div>
+    <a class="content_navi-item nav_prev" href="{{ prev.url | relative_url }}">
+      <span class="content_navi-arrow">←</span>
+      <div class="content_navi-label">Previous</div>
       {{ prev.title }}
     </a>
   {%- endif -%}
-
   {%- if next -%}
-    <a class="post_navi-item nav_next" href="{{ next.url | relative_url }}">
-      <span class="post_navi-arrow">→</span>
-      <div class="post_navi-label">Next</div>
+    <a class="content_navi-item nav_next" href="{{ next.url | relative_url }}">
+      <span class="content_navi-arrow">→</span>
+      <div class="content_navi-label">Next</div>
       {{ next.title }}
     </a>
   {%- endif -%}
