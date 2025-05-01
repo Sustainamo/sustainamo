@@ -1,6 +1,7 @@
 {%- assign section = page.path | split: '/' | slice: 0, 2 | join: '/' -%}
+
 {%- assign siblings = site.pages 
-  | where_exp: "p", "p.path startswith section and p.order" 
+  | where_exp: "p", "p.path contains section and p.order" 
   | sort: "order" -%}
 
 {%- assign current_index = nil -%}
@@ -13,13 +14,18 @@
 
 {%- assign prev = nil -%}
 {%- assign next = nil -%}
-{%- if current_index != nil and current_index > 0 -%}
+
+{%- if current_index != nil -%}
   {%- assign prev_index = current_index | minus: 1 -%}
-  {%- assign prev = siblings[prev_index] -%}
-{%- endif -%}
-{%- if current_index != nil and current_index < siblings.size | minus: 1 -%}
   {%- assign next_index = current_index | plus: 1 -%}
-  {%- assign next = siblings[next_index] -%}
+
+  {%- if prev_index >= 0 -%}
+    {%- assign prev = siblings[prev_index] -%}
+  {%- endif -%}
+
+  {%- if next_index < siblings.size -%}
+    {%- assign next = siblings[next_index] -%}
+  {%- endif -%}
 {%- endif -%}
 
 <div class="post_navi">
@@ -30,6 +36,7 @@
       {{ prev.title }}
     </a>
   {%- endif -%}
+
   {%- if next -%}
     <a class="post_navi-item nav_next" href="{{ next.url | relative_url }}">
       <span class="post_navi-arrow">→</span>
@@ -38,3 +45,12 @@
     </a>
   {%- endif -%}
 </div>
+
+{%- comment -%}
+Debug output — comment in to help troubleshoot
+{%- for p in site.pages -%}
+  {%- if p.path contains section and p.order == nil -%}
+    ⚠ Missing order: {{ p.path }}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcomment -%}
