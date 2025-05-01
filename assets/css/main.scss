@@ -110,13 +110,24 @@ h1 {
 }
 
 .content_navi-item {
-  width: 45%;
+  padding: 0 2.2em;
+  width: 50%;
+  position: relative;
+  color: inherit !important;
   text-decoration: none;
 }
 
 .content_navi-label {
   font-size: 0.8em;
   opacity: 0.5;
+}
+
+.content_navi-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  opacity: 0.3;
 }
 
 .nav_prev {
@@ -127,6 +138,13 @@ h1 {
   text-align: right;
 }
 
+.nav_prev .content_navi-arrow {
+  left: 0;
+}
+
+.nav_next .content_navi-arrow {
+  right: 0;
+}
 
 /* IMAGE AND VIDEO */
 .image-grid {
