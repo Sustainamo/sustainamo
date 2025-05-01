@@ -1,20 +1,21 @@
-{%- assign path_parts = page.path | split: '/' -%}
 {%- assign section = page.path | split: '/' | slice: 0, 2 | join: '/' -%}
+
 {%- assign siblings = site.pages 
-  | where_exp: "p", "p.path startswith section and p.order" 
+  | where_exp: "p", "p.path contains section and p.order" 
   | sort: "order" -%}
 
-{%- assign index = 0 -%}
 {%- assign current_index = nil -%}
 {%- for p in siblings -%}
   {%- if p.url == page.url -%}
     {%- assign current_index = forloop.index0 -%}
-  {%- break -%}
+    {%- break -%}
   {%- endif -%}
 {%- endfor -%}
 
-{%- assign prev = siblings[current_index | minus: 1] -%}
-{%- assign next = siblings[current_index | plus: 1] -%}
+{%- assign prev_index = current_index | minus: 1 -%}
+{%- assign next_index = current_index | plus: 1 -%}
+{%- assign prev = siblings[prev_index] -%}
+{%- assign next = siblings[next_index] -%}
 
 <div class="post_navi">
   {%- if prev -%}
