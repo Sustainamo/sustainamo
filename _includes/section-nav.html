@@ -1,7 +1,7 @@
 {%- assign path_parts = page.path | split: '/' -%}
-{%- assign section = path_parts[1] -%}
+{%- assign section = page.path | split: '/' | slice: 0, 2 | join: '/' -%}
 {%- assign siblings = site.pages 
-  | where_exp: "p", "p.path contains '/#{section}/' and p.order"
+  | where_exp: "p", "p.path startswith section and p.order" 
   | sort: "order" -%}
 
 {%- assign index = 0 -%}
