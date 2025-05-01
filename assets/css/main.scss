@@ -107,6 +107,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
 }
 
 .content_navi-item {
@@ -144,6 +146,14 @@ h1 {
 
 .nav_next .content_navi-arrow {
   right: 0;
+}
+
+.content_navi:has(.nav_prev):not(:has(.nav_next)) {
+  justify-content: flex-start;
+}
+
+.content_navi:has(.nav_next):not(:has(.nav_prev)) {
+  justify-content: flex-end;
 }
 
 /* IMAGE AND VIDEO */
