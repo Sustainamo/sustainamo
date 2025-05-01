@@ -37,15 +37,15 @@ h1 {
 /* Logo */
 .logo-link img {
   height: 40px;
+  vertical-align: middle;
 }
 
 .visually-hidden {
-  position: absolute;
-  left: -9999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
+  position: absolute !important;
+  height: 1px; width: 1px;
   overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 
 
