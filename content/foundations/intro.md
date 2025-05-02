@@ -1,7 +1,7 @@
 ---
 title: "Foundations: Intro"
 layout: content
-permalink: /phase_one/intro/
+permalink: /foundations/intro/
 order: 1
 nav: true
 nav_title: "Foundations"
