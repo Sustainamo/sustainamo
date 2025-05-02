@@ -1,7 +1,7 @@
 {% if page.url != "/" %}
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <a href="{{ '/' | relative_url }}">Home</a>
-    {% assign parts = page.url | split: '/' | reject: '' | reject: 'content' %}
+    {% assign parts = page.url | split: '/' | where_exp: "part", "part != '' and part != 'content'" %}
     {% assign path = '' %}
     {% for part in parts %}
       {% if part != 'content' %}
