@@ -18,7 +18,7 @@ hr {
   margin-bottom: 20px;
 }
 
-/* Typography */
+/* TYPOGRAPHY */
 h1 {
   font-size: 1.8rem;
   margin-top: 1.5rem;
@@ -34,6 +34,7 @@ h1 {
   font-size: 1.1rem;
 }
 
+/* MISC */
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -215,6 +216,23 @@ h1 {
   border: 0;
   display: block;
 }
+
+/* CONTENT BREADCRUMBS STYLING */
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs a {
+  color: #204312;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
 
 /* RESPONSIVE TABLE */
 .responsive-table {
