@@ -1,6 +1,6 @@
 ---
 title: "Foundations: Overview"
-layout: default
+layout: content
 permalink: /overview/
 order: 1
 nav: true
