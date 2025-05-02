@@ -1,5 +1,5 @@
 ---
-title: "Foundations Introduction"
+title: "Introduction to Foundations"
 layout: content
 permalink: /foundations/introduction/
 order: 1
