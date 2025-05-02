@@ -4,15 +4,23 @@
     {% assign parts = page.url | split: '/' | where_exp: "part", "part != '' and part != 'content'" %}
     {% assign path = '' %}
     {% for part in parts %}
-      {% if part != 'content' %}
-        {% assign path = path | append: '/' | append: part %}
-        {% assign label = site.data.breadcrumbs[part] | default: part | replace:'-', ' ' | capitalize %}
-        {% if forloop.last %}
-          <span class="breadcrumb-current">› {{ label }}</span>
+      {% assign path = path | append: '/' | append: part %}
+      {% assign full_path = path | append: '/' %}
+      {% assign label = site.data.folder_titles[part] %}
+      {% if label == nil %}
+        {% assign match = site.pages | where: "url", full_path | first %}
+        {% if match %}
+          {% assign label = match.title %}
         {% else %}
-          <span class="breadcrumb-separator">›</span>
-          <a href="{{ path | append: '/' | relative_url }}">{{ label }}</a>
+          {% assign label = part | replace: '-', ' ' | capitalize %}
         {% endif %}
+      {% endif %}
+
+      {% if forloop.last %}
+        <span class="breadcrumb-current">› {{ label }}</span>
+      {% else %}
+        <span class="breadcrumb-separator">›</span>
+        <a href="{{ full_path | relative_url }}">{{ label }}</a>
       {% endif %}
     {% endfor %}
   </nav>
