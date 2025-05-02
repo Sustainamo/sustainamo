@@ -1,13 +1,12 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
-  <a href="{{ '/' | relative_url }}">Home</a>
-  {% assign parts = page.url | split: '/' | reject: '' %}
-  {% assign path = '' %}
-  {% for part in parts %}
-    {% assign path = path | append: '/' | append: part %}
-    {% if forloop.last %}
-      <span> / {{ part | replace:'-', ' ' | capitalize }}</span>
-    {% else %}
-      <a href="{{ path | append: '/' | relative_url }}"> / {{ part | replace:'-', ' ' | capitalize }}</a>
-    {% endif %}
-  {% endfor %}
+  {% if page.breadcrumbs %}
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      {%- for crumb in page.breadcrumbs -%}
+        › <a href="{{ crumb.url | relative_url }}">
+          {{ site.data.folder_titles[crumb.title] | default: crumb.title }}
+        </a>
+      {%- endfor -%}
+    </nav>
+  {% endif %}
 </nav>
