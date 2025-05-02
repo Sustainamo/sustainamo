@@ -1,7 +1,7 @@
 ---
 title: "Implementation & Improvement: Intro"
 layout: default
-permalink: /phase_three/intro/
+permalink: /implementation/intro/
 order: 1
 nav: true
 nav_title: "Implementation"
