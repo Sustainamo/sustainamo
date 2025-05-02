@@ -1,16 +1,18 @@
 {% if page.url != "/" %}
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    {% assign parts = page.url | split: '/' | reject: '' %}
-    {% assign path = '' %}
-    {% for part in parts %}
-      {% assign path = path | append: '/' | append: part %}
-      {% assign label = site.data.breadcrumbs[part] | default: part | replace:'-', ' ' | capitalize %}
-      {% if forloop.last %}
-        <span> {{ label }}</span>
-      {% else %}
-        <a href="{{ path | append: '/' | relative_url }}"> {{ label }}</a>
-      {% endif %}
-    {% endfor %}
+   <nav class="breadcrumbs" aria-label="Breadcrumb">
+    {% if page.url != "/" %}
+      <a href="{{ '/' | relative_url }}">Home</a>
+      {% assign parts = page.url | split: '/' | reject: '' %}
+      {% assign path = '' %}
+      {% for part in parts %}
+        {% assign path = path | append: '/' | append: part %}
+        {% assign label = site.data.breadcrumbs[part] | default: part | replace:'-', ' ' | capitalize %}
+        {% if forloop.last %}
+          <span> › {{ label }}</span>
+        {% else %}
+          <span> › <a href="{{ path | append: '/' | relative_url }}">{{ label }}</a></span>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </nav>
 {% endif %}
