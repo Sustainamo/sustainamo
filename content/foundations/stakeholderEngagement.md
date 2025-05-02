@@ -2,7 +2,7 @@
 title: "Stakeholder engagement"
 layout: content
 
-permalink: /phase_one/stakeholderEngagement/
+permalink: /foundations/stakeholderEngagement/
 order: 3
 last-updated: 25-04-23
 ---
