@@ -16,10 +16,7 @@
         {% endif %}
       {% endif %}
 
-      {% unless forloop.first %}
-        <span class="breadcrumb-separator">›</span>
-      {% endunless %}
-
+      <span class="breadcrumb-separator">›</span>
       {% if forloop.last %}
         <span class="breadcrumb-current">{{ label }}</span>
       {% else %}
