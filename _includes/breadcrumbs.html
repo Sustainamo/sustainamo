@@ -7,9 +7,9 @@
       {% assign path = path | append: '/' | append: part %}
       {% assign label = site.data.breadcrumbs[part] | default: part | replace:'-', ' ' | capitalize %}
       {% if forloop.last %}
-        <span> / {{ label }}</span>
+        <span> {{ label }}</span>
       {% else %}
-        <a href="{{ path | append: '/' | relative_url }}"> / {{ label }}</a>
+        <a href="{{ path | append: '/' | relative_url }}"> {{ label }}</a>
       {% endif %}
     {% endfor %}
   </nav>
