@@ -1,7 +1,7 @@
 ---
 title: "Strategy & Planning: Intro"
 layout: default
-permalink: /phase_two/intro/
+permalink: /strategy/intro/
 order: 1
 nav: yes
 nav_title: "Strategy"
