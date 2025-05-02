@@ -1,0 +1,8 @@
+{% if page.breadcrumbs %}
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    {%- for crumb in page.breadcrumbs -%}
+      › <a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a>
+    {%- endfor -%}
+  </nav>
+{% endif %}
