@@ -1,6 +1,6 @@
 ---
 title: "Implementation & Improvement: Intro"
-layout: default
+layout: content
 permalink: /implementation/intro/
 order: 1
 nav: true
