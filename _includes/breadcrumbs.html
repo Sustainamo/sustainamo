@@ -16,10 +16,13 @@
         {% endif %}
       {% endif %}
 
-      {% if forloop.last %}
-        <span class="breadcrumb-current">› {{ label }}</span>
-      {% else %}
+      {% unless forloop.first %}
         <span class="breadcrumb-separator">›</span>
+      {% endunless %}
+
+      {% if forloop.last %}
+        <span class="breadcrumb-current">{{ label }}</span>
+      {% else %}
         <a href="{{ full_path | relative_url }}">{{ label }}</a>
       {% endif %}
     {% endfor %}
