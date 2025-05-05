@@ -1,5 +1,5 @@
 ---
-title: "Foundations: Overview"
+title: "Overview"
 layout: content
 permalink: /overview/
 order: 1
