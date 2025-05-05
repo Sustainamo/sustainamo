@@ -1,5 +1,5 @@
 ---
-title: "Implementation & Improvement: Intro"
+title: "Introduction to Implementation & Improvement"
 layout: content
 permalink: /implementation/intro/
 order: 1
