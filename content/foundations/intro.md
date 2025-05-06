@@ -33,14 +33,12 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 
 ---testing----
-<!-- Sustainamo Phase Diagram with Sidebar -->
+
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
     <div class="phase-pair">
-      <div class="phase-vertical">
-        <div class="phase-label">PHASE ONE</div>
-        <div class="phase-step">Foundations</div>
-      </div>
+      <div class="phase-label">PHASE ONE</div>
+      <div class="phase-step">Foundations</div>
     </div>
   </div>
   <div class="phase-diagram">
@@ -75,8 +73,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-sidebar {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center the rotated text vertically in the sidebar */
+  align-items: center; /* Center the rotated text horizontally in the sidebar */
   font-family: sans-serif;
   margin-right: 1rem;
   flex: 0 0 auto;
@@ -84,17 +82,9 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-pair {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.phase-vertical {
-  transform: rotate(270deg);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column; /* Stack the rotated elements initially */
+  align-items: center; /* Center the rotated elements */
+  gap: 1rem; /* Space between the rotated elements */
 }
 
 .phase-label {
@@ -105,6 +95,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
+  transform: rotate(270deg); /* Rotate the text */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .phase-step {
@@ -112,6 +104,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
+  transform: rotate(270deg); /* Rotate the text */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .phase-diagram {
@@ -174,24 +168,29 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-   .phase-vertical {
-    transform: rotate(270deg);
-    display: flex; /* Add this line */
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
+  .phase-sidebar {
+    margin-right: 0; /* Adjust margin for smaller screens */
+    margin-bottom: 1rem; /* Add some space below the sidebar */
+    justify-content: flex-start; /* Align to the start on smaller screens */
+  }
+  .phase-pair {
+    flex-direction: row; /* Display label and step in a row on smaller screens */
+    align-items: center; /* Vertically align them */
+    gap: 0.5rem; /* Adjust gap for smaller screens */
   }
   .phase-label,
   .phase-step {
+    transform: none; /* Remove rotation on smaller screens */
+    white-space: normal; /* Allow text to wrap */
     padding: 0.5rem 1rem;
     text-align: center;
   }
   .phase-label {
     background: #e6f2ed;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px; /* Adjust border-radius for horizontal layout */
   }
   .phase-step {
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px; /* Adjust border-radius for horizontal layout */
   }
 }
 </style>
