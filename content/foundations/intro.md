@@ -34,41 +34,81 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 ---testing----
 
-<!-- Sustainamo Phase Diagram -->
-<div class="phase-diagram">
-  <div class="phase-box phase-foundations current">
-    <h3>Discovery</h3>
-    <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+<!-- Sustainamo Phase Diagram with Sidebar -->
+<div class="phase-diagram-wrapper">
+  <div class="phase-sidebar">
+    <div class="phase-label">Foundations</div>
+    <div class="phase-step">Phase One</div>
   </div>
-  <div class="arrow">&#8594;</div>
-  <div class="phase-box phase-foundations">
-    <h3>Stakeholder Engagement</h3>
-    <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
-  </div>
-  <div class="arrow">&#8594;</div>
-  <div class="phase-box phase-foundations">
-    <h3>Materiality Analysis</h3>
-    <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
+  <div class="phase-diagram">
+    <div class="phase-box current">
+      <h3>Discovery</h3>
+      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="phase-box">
+      <h3>Stakeholder Engagement</h3>
+      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="phase-box">
+      <h3>Materiality Analysis</h3>
+      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
+    </div>
   </div>
 </div>
 
 <style>
+.phase-diagram-wrapper {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.phase-sidebar {
+  flex: 0 0 auto;
+  background: #e0ece4;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+}
+
+.phase-label {
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.phase-step {
+  font-size: 1rem;
+}
+
 .phase-diagram {
   display: flex;
   align-items: stretch;
   gap: 1rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
+  flex: 1;
+  flex-wrap: nowrap;
 }
 
 .phase-box {
   background: #e7f4eb;
   padding: 1rem;
   border-radius: 8px;
-  flex: 1 1 30%;
-  min-width: 250px;
+  flex: 1;
   border: 2px solid transparent;
   transition: border 0.3s ease;
+  min-width: 200px;
 }
 
 .phase-box.current {
@@ -78,7 +118,7 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-box h3 {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .arrow {
@@ -91,11 +131,25 @@ In this section we will look at how to do this in three sections.  Initially a â
 }
 
 @media (max-width: 768px) {
+  .phase-diagram-wrapper {
+    flex-direction: column;
+  }
   .phase-diagram {
     flex-direction: column;
   }
   .arrow {
     transform: rotate(90deg);
+  }
+  .phase-sidebar {
+    flex-direction: row;
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+  .phase-label {
+    writing-mode: horizontal-tb;
+    transform: none;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
   }
 }
 </style>
