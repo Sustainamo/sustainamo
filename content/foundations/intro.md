@@ -36,8 +36,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 <div class="phase-diagram-container">
   <div class="phase-sidebar-vertical">
-    <div class="phase-label">PHASE ONE</div>
-    <div class="phase-step">Foundations</div>
+    <div class="phase-label rotated-text">PHASE ONE</div>
+    <div class="phase-step rotated-text">Foundations</div>
   </div>
   <div class="phase-diagram-horizontal">
     <div class="phase-block current">
@@ -59,23 +59,28 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 <style>
 .phase-diagram-container {
-  display: flex; /* Main container for sidebar and diagram */
-  align-items: stretch; /* Make sidebar and diagram the same height */
+  display: flex;
+  align-items: stretch;
   margin: 2rem 0;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
   padding: 1rem;
-  gap: 1rem; /* Space between sidebar and diagram */
+  gap: 1rem;
 }
 
 .phase-sidebar-vertical {
   display: flex;
-  flex-direction: column; /* Stack "PHASE ONE" and "Foundations" vertically */
-  justify-content: center; /* Center them vertically in the sidebar */
-  align-items: center; /* Center them horizontally in the sidebar */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: sans-serif;
-  margin-right: 1rem; /* Space between sidebar and diagram */
-  flex: 0 0 auto; /* Don't let it grow */
+  margin-right: 1rem;
+  flex: 0 0 auto;
+}
+
+.rotated-text {
+  transform: rotate(270deg);
+  white-space: nowrap; /* Prevent wrapping after rotation */
 }
 
 .phase-label {
@@ -86,7 +91,7 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  margin-bottom: 0.5rem; /* Space between "PHASE ONE" and "Foundations" */
+  margin-bottom: 1rem; /* Adjust spacing for rotated text */
 }
 
 .phase-step {
@@ -98,10 +103,10 @@ In this section we will look at how to do this in three sections.  Initially a â
 }
 
 .phase-diagram-horizontal {
-  display: flex; /* Layout the process blocks horizontally */
-  align-items: stretch; /* Make blocks the same height */
-  gap: 1rem; /* Space between the process blocks and arrows */
-  flex: 1; /* Allow it to take up remaining space */
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  flex: 1;
   flex-wrap: nowrap;
 }
 
@@ -110,7 +115,7 @@ In this section we will look at how to do this in three sections.  Initially a â
   padding: 1rem;
   border-radius: 12px;
   border: none;
-  flex: 1; /* Each block takes equal width */
+  flex: 1;
   font-family: sans-serif;
   transition: background 0.3s ease;
 }
@@ -140,32 +145,36 @@ In this section we will look at how to do this in three sections.  Initially a â
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  flex: 0 0 auto; /* Don't let it grow */
+  flex: 0 0 auto;
   color: #66a189;
   font-weight: bold;
 }
 
 @media (max-width: 768px) {
   .phase-diagram-container {
-    flex-direction: column; /* Stack sidebar and diagram vertically on smaller screens */
+    flex-direction: column;
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
   .phase-sidebar-vertical {
-    flex-direction: row; /* Layout "PHASE ONE" and "Foundations" horizontally on smaller screens */
+    flex-direction: row;
     justify-content: center;
     margin-right: 0;
     margin-bottom: 0.5rem;
+  }
+  .rotated-text {
+    transform: none; /* Remove rotation on smaller screens */
+    white-space: normal;
   }
   .phase-label {
     margin-bottom: 0;
     margin-right: 0.5rem;
   }
   .phase-diagram-horizontal {
-    flex-direction: column; /* Stack process blocks vertically on smaller screens */
+    flex-direction: column;
   }
   .arrow {
-    transform: rotate(90deg); /* Rotate arrow for vertical layout */
+    transform: rotate(90deg);
   }
 }
 </style>
