@@ -37,10 +37,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 <!-- Sustainamo Phase Diagram with Sidebar -->
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
-    <div class="phase-sidebar-inner">
-      <div class="phase-label">PHASE ONE</div>
-      <div class="phase-step">Foundations</div>
-    </div>
+    <div class="phase-label">PHASE ONE</div>
+    <div class="phase-step">Foundations</div>
   </div>
   <div class="phase-diagram">
     <div class="phase-block current">
@@ -73,22 +71,12 @@ In this section we will look at how to do this in three sections.  Initially a â
 }
 
 .phase-sidebar {
-  flex: 0 0 auto;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
-  font-family: sans-serif;
-}
-
-.phase-sidebar-inner {
-  display: flex;
-  flex-direction: column;
-  border-radius: 12px;
-  overflow: hidden;
-  height: 100%;
   align-items: center;
+  font-family: sans-serif;
+  margin-right: 1rem;
 }
 
 .phase-label {
@@ -101,14 +89,14 @@ In this section we will look at how to do this in three sections.  Initially a â
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   text-align: center;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
 }
 
 .phase-step {
-  background: none;
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.5rem;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   text-align: center;
@@ -170,9 +158,11 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-  .phase-sidebar-inner {
+  .phase-sidebar {
     flex-direction: row;
-    border-radius: 12px 12px 0 0;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
   }
   .phase-label,
   .phase-step {
@@ -180,13 +170,10 @@ In this section we will look at how to do this in three sections.  Initially a â
     transform: none;
     padding: 0.5rem 1rem;
     text-align: center;
-    width: 50%;
+    border-radius: 10px;
   }
   .phase-label {
     background: #e6f2ed;
-  }
-  .phase-step {
-    background: #fff;
   }
 }
 </style>
