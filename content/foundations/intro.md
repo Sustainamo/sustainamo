@@ -174,10 +174,12 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-  .phase-vertical {
-    transform: none;
-    flex-direction: column;
-    gap: 0;
+   .phase-vertical {
+    transform: rotate(270deg);
+    display: flex; /* Add this line */
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
   }
   .phase-label,
   .phase-step {
