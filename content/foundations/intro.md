@@ -33,11 +33,14 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 
 ---testing----
+
 <!-- Sustainamo Phase Diagram with Sidebar -->
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
-    <div class="phase-label">PHASE ONE</div>
-    <div class="phase-step">Foundations</div>
+    <div class="phase-sidebar-inner">
+      <div class="phase-label">PHASE ONE</div>
+      <div class="phase-step">Foundations</div>
+    </div>
   </div>
   <div class="phase-diagram">
     <div class="phase-block current">
@@ -71,33 +74,44 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-sidebar {
   flex: 0 0 auto;
-  background: #e6f2ed;
-  border-radius: 20px 0 0 20px;
-  padding: 1rem 0.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   min-width: 90px;
   font-family: sans-serif;
 }
 
+.phase-sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+}
+
 .phase-label {
+  background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  margin-bottom: 0.25rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
+  padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 .phase-step {
+  background: none;
   font-size: 0.85rem;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   color: #2f7c4c;
   font-weight: 500;
+  padding: 0.5rem 0.5rem 1rem;
+  text-align: center;
 }
 
 .phase-diagram {
@@ -148,6 +162,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
   }
   .phase-diagram {
     flex-direction: column;
@@ -155,16 +171,24 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-  .phase-sidebar {
+  .phase-sidebar-inner {
     flex-direction: row;
-    padding: 0.5rem 1rem;
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
   }
   .phase-label,
   .phase-step {
     writing-mode: horizontal-tb;
     transform: none;
-    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    width: 50%;
+  }
+  .phase-label {
+    background: #e6f2ed;
+  }
+  .phase-step {
+    background: #fff;
   }
 }
 </style>
+
