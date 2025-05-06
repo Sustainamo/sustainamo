@@ -35,9 +35,9 @@ In this section we will look at how to do this in three sections.  Initially a â
 ---testing----
 
 <div class="phase-diagram-container">
-  <div class="phase-sidebar-vertical">
-    <div class="phase-label rotated-text">PHASE ONE</div>
-    <div class="phase-step rotated-text">Foundations</div>
+  <div class="rotated-sidebar">
+    <div class="rotated-label">PHASE ONE</div>
+    <div class="rotated-step">Foundations</div>
   </div>
   <div class="phase-diagram-horizontal">
     <div class="phase-block current">
@@ -60,7 +60,7 @@ In this section we will look at how to do this in three sections.  Initially a â
 <style>
 .phase-diagram-container {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start; /* Align items to the top */
   margin: 2rem 0;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
@@ -68,22 +68,15 @@ In this section we will look at how to do this in three sections.  Initially a â
   gap: 1rem;
 }
 
-.phase-sidebar-vertical {
+.rotated-sidebar {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
+  flex-direction: column; /* Stack the rotated elements */
+  align-items: center; /* Center the rotated elements horizontally */
+  justify-content: center; /* Center the rotated elements vertically */
   margin-right: 1rem;
-  flex: 0 0 auto;
 }
 
-.rotated-text {
-  transform: rotate(270deg);
-  white-space: nowrap; /* Prevent wrapping after rotation */
-}
-
-.phase-label {
+.rotated-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
@@ -91,15 +84,19 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  margin-bottom: 1rem; /* Adjust spacing for rotated text */
+  transform: rotate(270deg);
+  white-space: nowrap;
+  margin-bottom: 1rem; /* Space between rotated labels */
 }
 
-.phase-step {
+.rotated-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
+  transform: rotate(270deg);
+  white-space: nowrap;
 }
 
 .phase-diagram-horizontal {
@@ -153,20 +150,20 @@ In this section we will look at how to do this in three sections.  Initially a â
 @media (max-width: 768px) {
   .phase-diagram-container {
     flex-direction: column;
+    align-items: stretch; /* Allow items to take full width */
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
-  .phase-sidebar-vertical {
+  .rotated-sidebar {
     flex-direction: row;
     justify-content: center;
     margin-right: 0;
     margin-bottom: 0.5rem;
   }
-  .rotated-text {
-    transform: none; /* Remove rotation on smaller screens */
+  .rotated-label,
+  .rotated-step {
+    transform: none;
     white-space: normal;
-  }
-  .phase-label {
     margin-bottom: 0;
     margin-right: 0.5rem;
   }
