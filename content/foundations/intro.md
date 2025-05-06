@@ -76,7 +76,7 @@ In this section we will look at how to do this in three sections.  Initially a â
   flex: 0 0 auto;
   padding: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   font-family: sans-serif;
@@ -84,9 +84,11 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-sidebar-inner {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
+  height: 100%;
+  align-items: center;
 }
 
 .phase-label {
@@ -95,7 +97,9 @@ In this section we will look at how to do this in three sections.  Initially a â
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
   text-align: center;
 }
 
@@ -104,7 +108,9 @@ In this section we will look at how to do this in three sections.  Initially a â
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
   text-align: center;
 }
 
@@ -165,21 +171,22 @@ In this section we will look at how to do this in three sections.  Initially a â
     transform: rotate(90deg);
   }
   .phase-sidebar-inner {
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 12px 12px 0 0;
   }
   .phase-label,
   .phase-step {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    padding: 0.5rem;
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding: 0.5rem 1rem;
     text-align: center;
+    width: 50%;
   }
   .phase-label {
     background: #e6f2ed;
   }
   .phase-step {
-    background: none;
+    background: #fff;
   }
 }
 </style>
