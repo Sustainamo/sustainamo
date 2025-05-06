@@ -37,22 +37,22 @@ In this section we will look at how to do this in three sections.  Initially a â
 <!-- Sustainamo Phase Diagram with Sidebar -->
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
-    <div class="phase-label">Foundations</div>
     <div class="phase-step">Phase One</div>
+    <div class="phase-label">Foundations</div>
   </div>
   <div class="phase-diagram">
-    <div class="phase-box current">
+    <div class="phase-block current">
       <h3>Discovery</h3>
       <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
     </div>
     <div class="arrow">&#8594;</div>
-    <div class="phase-box">
+    <div class="phase-block">
       <h3>Stakeholder Engagement</h3>
       <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
     </div>
     <div class="arrow">&#8594;</div>
-    <div class="phase-box">
-      <h3>Materiality Analysis</h3>
+    <div class="phase-block">
+      <h3>Materiality Assessment</h3>
       <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
     </div>
   </div>
@@ -70,27 +70,29 @@ In this section we will look at how to do this in three sections.  Initially a â
 .phase-sidebar {
   flex: 0 0 auto;
   background: #e0ece4;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 100px;
+  min-width: 110px;
+  font-family: sans-serif;
 }
 
 .phase-label {
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 1px;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .phase-step {
-  font-size: 1rem;
+  font-size: 0.95rem;
+  transform: rotate(180deg);
 }
 
 .phase-diagram {
@@ -101,31 +103,33 @@ In this section we will look at how to do this in three sections.  Initially a â
   flex-wrap: nowrap;
 }
 
-.phase-box {
+.phase-block {
   background: #e7f4eb;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 12px;
+  border: 1px solid #aad4bd;
   flex: 1;
-  border: 2px solid transparent;
-  transition: border 0.3s ease;
-  min-width: 200px;
+  font-family: sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: border 0.3s ease, background 0.3s ease;
 }
 
-.phase-box.current {
+.phase-block.current {
   border: 2px solid #2f7c4c;
   background: #d0ebd8;
 }
 
-.phase-box h3 {
+.phase-block h3 {
   margin-top: 0;
   font-size: 1.1rem;
+  color: #2f4f2f;
 }
 
 .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   flex: 0 0 auto;
   color: #999;
 }
@@ -144,12 +148,13 @@ In this section we will look at how to do this in three sections.  Initially a â
     flex-direction: row;
     writing-mode: horizontal-tb;
     transform: none;
+    padding: 0.5rem 1rem;
   }
   .phase-label {
     writing-mode: horizontal-tb;
     transform: none;
-    margin-bottom: 0;
-    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-left: 0.5rem;
   }
 }
 </style>
