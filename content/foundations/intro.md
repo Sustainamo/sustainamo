@@ -37,8 +37,10 @@ In this section we will look at how to do this in three sections.  Initially a â
 <!-- Sustainamo Phase Diagram with Sidebar -->
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
-    <div class="phase-label">PHASE ONE</div>
-    <div class="phase-step">Foundations</div>
+    <div class="phase-pair">
+      <div class="phase-label">PHASE ONE</div>
+      <div class="phase-step">Foundations</div>
+    </div>
   </div>
   <div class="phase-diagram">
     <div class="phase-block current">
@@ -79,27 +81,37 @@ In this section we will look at how to do this in three sections.  Initially a â
   margin-right: 1rem;
 }
 
+.phase-pair {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #d4e3dc;
+}
+
 .phase-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.5rem;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  padding: 0.5rem 0.75rem;
   text-align: center;
-  border-radius: 10px;
-  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .phase-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  padding: 0.5rem 0.75rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .phase-diagram {
@@ -162,22 +174,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-  .phase-sidebar {
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin: 0;
-  }
-  .phase-label,
-  .phase-step {
-    writing-mode: horizontal-tb;
-    transform: none;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    border-radius: 10px;
-  }
-  .phase-label {
-    background: #e6f2ed;
+  .phase-pair {
+    flex-direction: column;
   }
 }
 </style>
