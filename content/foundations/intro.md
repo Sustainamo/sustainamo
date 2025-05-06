@@ -33,13 +33,14 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 
 ---testing----
-
 <!-- Sustainamo Phase Diagram with Sidebar -->
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
     <div class="phase-pair">
-      <div class="phase-label">PHASE ONE</div>
-      <div class="phase-step">Foundations</div>
+      <div class="phase-vertical">
+        <div class="phase-label">PHASE ONE</div>
+        <div class="phase-step">Foundations</div>
+      </div>
     </div>
   </div>
   <div class="phase-diagram">
@@ -74,20 +75,26 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-sidebar {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
   margin-right: 1rem;
+  flex: 0 0 auto;
 }
 
 .phase-pair {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.phase-vertical {
+  transform: rotate(270deg);
+  display: flex;
   flex-direction: row;
-  align-items: stretch;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 0 1px #d4e3dc;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .phase-label {
@@ -97,10 +104,7 @@ In this section we will look at how to do this in three sections.  Initially a â
   letter-spacing: 0.05em;
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 10px;
 }
 
 .phase-step {
@@ -108,10 +112,6 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .phase-diagram {
@@ -174,8 +174,22 @@ In this section we will look at how to do this in three sections.  Initially a â
   .arrow {
     transform: rotate(90deg);
   }
-  .phase-pair {
+  .phase-vertical {
+    transform: none;
     flex-direction: column;
+    gap: 0;
+  }
+  .phase-label,
+  .phase-step {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  .phase-label {
+    background: #e6f2ed;
+    border-radius: 10px 10px 0 0;
+  }
+  .phase-step {
+    border-radius: 0 0 10px 10px;
   }
 }
 </style>
