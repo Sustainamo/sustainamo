@@ -34,12 +34,12 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 ---testing----
 
-<div class="phase-diagram-container">
-  <div class="rotated-sidebar">
+<div class="phase-diagram-wrapper">
+  <div class="phase-sidebar">
     <div class="rotated-label">PHASE ONE</div>
     <div class="rotated-step">Foundations</div>
   </div>
-  <div class="phase-diagram-horizontal">
+  <div class="phase-diagram">
     <div class="phase-block current">
       <div class="phase-header">Discovery</div>
       <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
@@ -58,9 +58,9 @@ In this section we will look at how to do this in three sections.  Initially a â
 </div>
 
 <style>
-.phase-diagram-container {
+.phase-diagram-wrapper {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: flex-start; /* Align top edges */
   margin: 2rem 0;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
@@ -68,12 +68,13 @@ In this section we will look at how to do this in three sections.  Initially a â
   gap: 1rem;
 }
 
-.rotated-sidebar {
+.phase-sidebar {
   display: flex;
-  flex-direction: column; /* Stack the rotated elements */
-  align-items: center; /* Center the rotated elements horizontally */
-  justify-content: center; /* Center the rotated elements vertically */
+  flex-direction: column; /* Stack the rotated labels */
+  align-items: center; /* Center them horizontally */
+  justify-content: center; /* Center them vertically within the sidebar space */
   margin-right: 1rem;
+  flex: 0 0 auto; /* Don't grow, maintain intrinsic width */
 }
 
 .rotated-label {
@@ -99,11 +100,11 @@ In this section we will look at how to do this in three sections.  Initially a â
   white-space: nowrap;
 }
 
-.phase-diagram-horizontal {
+.phase-diagram {
   display: flex;
-  align-items: stretch;
+  align-items: stretch; /* Make blocks the same height */
   gap: 1rem;
-  flex: 1;
+  flex: 1; /* Take remaining width */
   flex-wrap: nowrap;
 }
 
@@ -148,13 +149,13 @@ In this section we will look at how to do this in three sections.  Initially a â
 }
 
 @media (max-width: 768px) {
-  .phase-diagram-container {
+  .phase-diagram-wrapper {
     flex-direction: column;
-    align-items: stretch; /* Allow items to take full width */
+    align-items: stretch;
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
-  .rotated-sidebar {
+  .phase-sidebar {
     flex-direction: row;
     justify-content: center;
     margin-right: 0;
@@ -167,7 +168,7 @@ In this section we will look at how to do this in three sections.  Initially a â
     margin-bottom: 0;
     margin-right: 0.5rem;
   }
-  .phase-diagram-horizontal {
+  .phase-diagram {
     flex-direction: column;
   }
   .arrow {
