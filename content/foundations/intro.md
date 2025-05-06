@@ -70,8 +70,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 .sidebar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically in available space */
   margin-right: 1rem;
 }
 
@@ -84,6 +84,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
   margin-bottom: 0.5rem;
+  transform: rotate(270deg); /* Rotate the text */
+  white-space: nowrap; /* Prevent wrapping after rotation */
 }
 
 .phase-step {
@@ -92,6 +94,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   font-weight: 500;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
+  transform: rotate(270deg); /* Rotate the text */
+  white-space: nowrap; /* Prevent wrapping after rotation */
 }
 
 .main-flow {
