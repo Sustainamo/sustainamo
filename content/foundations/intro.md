@@ -76,18 +76,16 @@ In this section we will look at how to do this in three sections.  Initially a â
   flex: 0 0 auto;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: stretch;
-  min-width: 90px;
   font-family: sans-serif;
 }
 
 .phase-sidebar-inner {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  border-radius: 20px 0 0 20px;
+  flex-direction: row;
+  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -95,22 +93,18 @@ In this section we will look at how to do this in three sections.  Initially a â
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
 .phase-step {
   background: none;
   font-size: 0.85rem;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
@@ -126,15 +120,14 @@ In this section we will look at how to do this in three sections.  Initially a â
   background: #f3f9f6;
   padding: 1rem;
   border-radius: 12px;
-  border: 1px solid #b0e0cc;
+  border: none;
   flex: 1;
   font-family: sans-serif;
-  transition: border 0.3s ease, background 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .phase-block.current {
   background: #d0ebd8;
-  border: 2px solid #2f7c4c;
 }
 
 .phase-block h3 {
@@ -172,23 +165,21 @@ In this section we will look at how to do this in three sections.  Initially a â
     transform: rotate(90deg);
   }
   .phase-sidebar-inner {
-    flex-direction: row;
-    border-radius: 12px;
+    flex-direction: column;
+    border-radius: 12px 12px 0 0;
   }
   .phase-label,
   .phase-step {
-    writing-mode: horizontal-tb;
-    transform: none;
-    padding: 0.5rem 1rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 0.5rem;
     text-align: center;
-    width: 50%;
   }
   .phase-label {
     background: #e6f2ed;
   }
   .phase-step {
-    background: #fff;
+    background: none;
   }
 }
 </style>
-
