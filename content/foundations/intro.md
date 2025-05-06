@@ -35,7 +35,7 @@ In this section we will look at how to do this in three sections.  Initially a â
 ---testing----
 
 <div class="phase-diagram-wrapper">
-  <div class="phase-sidebar">
+  <div class="rotated-sidebar-container">
     <div class="rotated-label">PHASE ONE</div>
     <div class="rotated-step">Foundations</div>
   </div>
@@ -68,13 +68,14 @@ In this section we will look at how to do this in three sections.  Initially a â
   gap: 1rem;
 }
 
-.phase-sidebar {
+.rotated-sidebar-container {
   display: flex;
   flex-direction: column; /* Stack the rotated labels */
   align-items: center; /* Center them horizontally */
-  justify-content: center; /* Center them vertically within the sidebar space */
+  justify-content: center; /* Center them vertically in the sidebar space */
   margin-right: 1rem;
-  flex: 0 0 auto; /* Don't grow, maintain intrinsic width */
+  width: 50px; /* Adjust this width as needed to accommodate the rotated text */
+  flex-shrink: 0; /* Prevent it from shrinking */
 }
 
 .rotated-label {
@@ -87,7 +88,7 @@ In this section we will look at how to do this in three sections.  Initially a â
   border-radius: 10px;
   transform: rotate(270deg);
   white-space: nowrap;
-  margin-bottom: 1rem; /* Space between rotated labels */
+  margin-bottom: 1rem;
 }
 
 .rotated-step {
@@ -102,51 +103,13 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-diagram {
   display: flex;
-  align-items: stretch; /* Make blocks the same height */
+  align-items: stretch;
   gap: 1rem;
-  flex: 1; /* Take remaining width */
+  flex: 1;
   flex-wrap: nowrap;
 }
 
-.phase-block {
-  background: none;
-  padding: 1rem;
-  border-radius: 12px;
-  border: none;
-  flex: 1;
-  font-family: sans-serif;
-  transition: background 0.3s ease;
-}
-
-.phase-block.current .phase-header {
-  background: #d0ebd8;
-}
-
-.phase-header {
-  background: #d0ebd8;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  font-weight: 600;
-  color: #2f4f2f;
-  font-size: 1.05rem;
-  margin-bottom: 0.5rem;
-}
-
-.phase-block p {
-  margin: 0;
-  font-size: 0.95rem;
-  color: #333;
-}
-
-.arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  flex: 0 0 auto;
-  color: #66a189;
-  font-weight: bold;
-}
+/* ... (rest of your existing CSS for .phase-block, .arrow, etc.) ... */
 
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
@@ -155,11 +118,12 @@ In this section we will look at how to do this in three sections.  Initially a â
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
-  .phase-sidebar {
+  .rotated-sidebar-container {
     flex-direction: row;
     justify-content: center;
     margin-right: 0;
     margin-bottom: 0.5rem;
+    width: auto; /* Reset width for horizontal layout */
   }
   .rotated-label,
   .rotated-step {
