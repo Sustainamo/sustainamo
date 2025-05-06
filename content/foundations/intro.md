@@ -42,17 +42,17 @@ In this section we will look at how to do this in three sections.  Initially a â
   </div>
   <div class="phase-diagram">
     <div class="phase-block current">
-      <h3>Discovery</h3>
+      <div class="phase-header">Discovery</div>
       <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
     </div>
     <div class="arrow">&#8594;</div>
     <div class="phase-block">
-      <h3>Stakeholder Engagement</h3>
+      <div class="phase-header">Stakeholder Engagement</div>
       <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
     </div>
     <div class="arrow">&#8594;</div>
     <div class="phase-block">
-      <h3>Materiality Analysis</h3>
+      <div class="phase-header">Materiality Analysis</div>
       <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
     </div>
   </div>
@@ -111,7 +111,7 @@ In this section we will look at how to do this in three sections.  Initially a â
 }
 
 .phase-block {
-  background: #f3f9f6;
+  background: none;
   padding: 1rem;
   border-radius: 12px;
   border: none;
@@ -120,18 +120,22 @@ In this section we will look at how to do this in three sections.  Initially a â
   transition: background 0.3s ease;
 }
 
-.phase-block.current {
+.phase-block.current .phase-header {
   background: #d0ebd8;
 }
 
-.phase-block h3 {
-  margin-top: 0;
-  font-size: 1.05rem;
+.phase-header {
+  background: #d0ebd8;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
   color: #2f4f2f;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
 }
 
 .phase-block p {
-  margin: 0.5rem 0 0;
+  margin: 0;
   font-size: 0.95rem;
   color: #333;
 }
