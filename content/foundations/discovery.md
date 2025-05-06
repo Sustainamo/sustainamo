@@ -8,18 +8,19 @@ last-updated: 25-04-23
 
 <<<<Draft content>>>>
 
-3.1	Getting started: discovery
-3.1.1	Understand the context in which you are operating
+<h3>Understand the context in which you are operating</h3>
 The first step is to understand the internal and external environments in which the strategy will be operating, and to identify what the most important elements are to your organisation from a sustainability perspective.  We explain how to do this below.   There is no set way in which this information should be gathered, but it is recommended the findings are recorded for two main reasons.  
 Firstly, in order to be able to share the understanding with others to help them understand (or sign off on) the logic and rationale, and/or provide a sense-check for you in areas of their expertise.  This will also help if you decide to follow a standard such as ISO14001 or ISO20121 which require organisations to be able to demonstrate how they arrived at their identified issues (and that they are aware of things such as relevant legal/ regulatory obligations).  Secondly, in order to review the considerations underpinning the strategy when you periodically review it, and to have a place in which to add additional learnings that inevitably happen throughout the process of creating and implementing your strategy.  
-3.1.2	Who is creating the strategy
+
+<h3>Who is creating the strategy</h3>
 A sustainability strategy is the means by which an organisation identifies and approaches the social, economic, and environmental issues which are important to it.  It is therefore essential to review your organisation's purpose, its values, mission statement, and strategic objectives to understand what the sustainability strategy should be helping to achieve.
-3.1.3	Why are you creating a strategy?
+
+<h3>Why are you creating a strategy?</h3>
 Organisations and events often pursue sustainability for various reasons, including:
-•	Meeting regulatory requirements or standards,
-•	Enhancing brand reputation or aligning with core values,
-•	Addressing stakeholder expectations or market demands, and/ or
-•	Contributing to broader societal or environmental targets.
+* Meeting regulatory requirements or standards,
+* Enhancing brand reputation or aligning with core values,
+* Addressing stakeholder expectations or market demands, and/ or
+* Contributing to broader societal or environmental targets.
 Understanding this will help to frame the broader objective of the strategy, the likely levels of internal support and ambition, and provide context to weighting stakeholders and identified issues in the analysis stage of this phase.
 3.1.4	What is the external context?
 This is the environment in which your organisation / event operates.  Key considerations are (globally and for the region(s) in which you operate):
