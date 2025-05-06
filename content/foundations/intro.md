@@ -34,51 +34,48 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 ---testing----
 
-<div class="phase-diagram-wrapper">
-  <div class="rotated-sidebar-container">
-    <div class="rotated-label">PHASE ONE</div>
-    <div class="rotated-step">Foundations</div>
+<div class="diagram-container">
+  <div class="sidebar">
+    <div class="phase-label">PHASE ONE</div>
+    <div class="phase-step">Foundations</div>
   </div>
-  <div class="phase-diagram">
-    <div class="phase-block current">
+  <div class="main-flow">
+    <div class="phase-block">
       <div class="phase-header">Discovery</div>
-      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+      <p>Some description here.</p>
     </div>
     <div class="arrow">&#8594;</div>
     <div class="phase-block">
       <div class="phase-header">Stakeholder Engagement</div>
-      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
+      <p>Some description here.</p>
     </div>
     <div class="arrow">&#8594;</div>
     <div class="phase-block">
       <div class="phase-header">Materiality Analysis</div>
-      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
+      <p>Some description here.</p>
     </div>
   </div>
 </div>
 
 <style>
-.phase-diagram-wrapper {
+.diagram-container {
   display: flex;
-  align-items: flex-start; /* Align top edges */
-  margin: 2rem 0;
-  border: 1px solid #d4e3dc;
-  border-radius: 20px;
+  align-items: flex-start;
+  margin: 2rem;
+  border: 1px solid #ccc; /* For visualization */
   padding: 1rem;
   gap: 1rem;
 }
 
-.rotated-sidebar-container {
+.sidebar {
   display: flex;
-  flex-direction: column; /* Stack the rotated labels */
-  align-items: center; /* Center them horizontally */
-  justify-content: center; /* Center them vertically in the sidebar space */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-right: 1rem;
-  width: 50px; /* Adjust this width as needed to accommodate the rotated text */
-  flex-shrink: 0; /* Prevent it from shrinking */
 }
 
-.rotated-label {
+.phase-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
@@ -86,57 +83,40 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  transform: rotate(270deg);
-  white-space: nowrap;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.rotated-step {
+.phase-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  transform: rotate(270deg);
-  white-space: nowrap;
 }
 
-.phase-diagram {
+.main-flow {
   display: flex;
   align-items: stretch;
   gap: 1rem;
-  flex: 1;
-  flex-wrap: nowrap;
 }
 
-/* ... (rest of your existing CSS for .phase-block, .arrow, etc.) ... */
+.phase-block {
+  background: #d0ebd8;
+  padding: 1rem;
+  border-radius: 12px;
+  flex: 1;
+  text-align: center;
+}
 
-@media (max-width: 768px) {
-  .phase-diagram-wrapper {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5rem;
-    padding: 1rem 0.5rem;
-  }
-  .rotated-sidebar-container {
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 0;
-    margin-bottom: 0.5rem;
-    width: auto; /* Reset width for horizontal layout */
-  }
-  .rotated-label,
-  .rotated-step {
-    transform: none;
-    white-space: normal;
-    margin-bottom: 0;
-    margin-right: 0.5rem;
-  }
-  .phase-diagram {
-    flex-direction: column;
-  }
-  .arrow {
-    transform: rotate(90deg);
-  }
+.phase-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 </style>
