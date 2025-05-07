@@ -36,11 +36,9 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
-    <div class="phase-pair">
-      <div class="phase-vertical">
-        <div class="phase-label">PHASE ONE</div>
-        <div class="phase-step">Foundations</div>
-      </div>
+    <div class="rotated-text-container">
+      <div class="rotated-label">PHASE ONE</div>
+      <div class="rotated-step">Foundations</div>
     </div>
   </div>
   <div class="phase-diagram">
@@ -60,6 +58,7 @@ In this section we will look at how to do this in three sections.  Initially a â
     </div>
   </div>
 </div>
+
 <style>
 .phase-diagram-wrapper {
   display: flex;
@@ -74,51 +73,41 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 .phase-sidebar {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
   font-family: sans-serif;
   margin-right: 1rem;
   flex: 0 0 auto;
-  width: 70px; /* Adjust this value as needed */
+  width: 60px; /* Fixed width for the sidebar */
 }
 
-.phase-pair {
+.rotated-text-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: auto; /* Adjust height */
+  flex-direction: column; /* Stack rotated items */
+  align-items: center; /* Center rotated items */
+  justify-content: center; /* Center rotated items */
+  gap: 1.5rem; /* Space between rotated labels */
 }
 
-.phase-vertical {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem; /* Increase gap for rotated text */
-}
-
-.phase-label {
+.rotated-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.25rem; /* Adjust horizontal padding */
+  padding: 0.5rem 0.2rem; /* Adjust padding for rotated text */
   border-radius: 10px;
   transform: rotate(270deg);
   white-space: nowrap;
-  margin-bottom: 0;
 }
 
-.phase-step {
+.rotated-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.25rem; /* Adjust horizontal padding */
+  padding: 0.5rem 0.2rem; /* Adjust padding for rotated text */
   transform: rotate(270deg);
   white-space: nowrap;
-  margin-top: 0;
 }
 
 .phase-diagram {
@@ -175,42 +164,26 @@ In this section we will look at how to do this in three sections.  Initially a â
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
+  .phase-sidebar {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .rotated-text-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .rotated-label,
+  .rotated-step {
+    transform: none;
+    white-space: normal;
+    padding: 0.5rem 1rem;
+  }
   .phase-diagram {
     flex-direction: column;
   }
   .arrow {
     transform: rotate(90deg);
-  }
-  .phase-sidebar {
-    width: auto; /* Reset width */
-    margin-right: 0;
-    margin-bottom: 1rem;
-  }
-  .phase-pair {
-    flex-direction: row;
-    align-items: center;
-    height: auto;
-  }
-  .phase-vertical {
-    transform: none;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .phase-label,
-  .phase-step {
-    transform: none;
-    white-space: normal;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    margin: 0;
-  }
-  .phase-label {
-    background: #e6f2ed;
-    border-radius: 10px;
-  }
-  .phase-step {
-    border-radius: 10px;
   }
 }
 </style>
