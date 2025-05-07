@@ -34,45 +34,40 @@ In this section we will look at how to do this in three sections.  Initially a â
 
 ---testing----
 
-<div class="diagram-container">
-  <div class="sidebar">
-    <div class="phase-label">PHASE ONE</div>
-    <div class="phase-step">Foundations</div>
-  </div>
-  <div class="main-flow">
-    <div class="phase-block">
-      <div class="phase-header">Discovery</div>
-      <p>Some description here.</p>
-    </div>
-    <div class="arrow">&#8594;</div>
-    <div class="phase-block">
-      <div class="phase-header">Stakeholder Engagement</div>
-      <p>Some description here.</p>
-    </div>
-    <div class="arrow">&#8594;</div>
-    <div class="phase-block">
-      <div class="phase-header">Materiality Analysis</div>
-      <p>Some description here.</p>
-    </div>
-  </div>
-</div>
-
 <style>
-.diagram-container {
+.phase-diagram-wrapper {
   display: flex;
-  align-items: flex-start;
-  margin: 2rem;
-  border: 1px solid #ccc; /* For visualization */
-  padding: 1rem;
+  align-items: stretch;
   gap: 1rem;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+  border: 1px solid #d4e3dc;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
-.sidebar {
+.phase-sidebar {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically in available space */
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
   margin-right: 1rem;
+  flex: 0 0 auto;
+}
+
+.phase-pair {
+  display: flex;
+  flex-direction: column; /* Stack label and step vertically */
+  align-items: center; /* Center them horizontally */
+  justify-content: center;
+  height: 100%;
+}
+
+.phase-vertical {
+  display: flex;
+  flex-direction: column; /* Stack label and step */
+  align-items: center; /* Center horizontally */
+  gap: 0.5rem; /* Space between rotated text */
 }
 
 .phase-label {
@@ -83,9 +78,8 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #1f3f2e;
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  margin-bottom: 0.5rem;
   transform: rotate(270deg); /* Rotate the text */
-  white-space: nowrap; /* Prevent wrapping after rotation */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .phase-step {
@@ -93,28 +87,46 @@ In this section we will look at how to do this in three sections.  Initially a â
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
-  border-radius: 10px;
   transform: rotate(270deg); /* Rotate the text */
-  white-space: nowrap; /* Prevent wrapping after rotation */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
-.main-flow {
+.phase-diagram {
   display: flex;
   align-items: stretch;
   gap: 1rem;
+  flex: 1;
+  flex-wrap: nowrap;
 }
 
 .phase-block {
-  background: #d0ebd8;
+  background: none;
   padding: 1rem;
   border-radius: 12px;
+  border: none;
   flex: 1;
-  text-align: center;
+  font-family: sans-serif;
+  transition: background 0.3s ease;
+}
+
+.phase-block.current .phase-header {
+  background: #d0ebd8;
 }
 
 .phase-header {
-  font-weight: bold;
+  background: #d0ebd8;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #2f4f2f;
+  font-size: 1.05rem;
   margin-bottom: 0.5rem;
+}
+
+.phase-block p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .arrow {
@@ -122,5 +134,42 @@ In this section we will look at how to do this in three sections.  Initially a â
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
+  flex: 0 0 auto;
+  color: #66a189;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .phase-diagram-wrapper {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .phase-diagram {
+    flex-direction: column;
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+  .phase-vertical {
+    transform: none; /* Remove container rotation */
+    flex-direction: row; /* Lay out horizontally on small screens */
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .phase-label,
+  .phase-step {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transform: none; /* Remove text rotation on small screens */
+    white-space: normal; /* Allow text to wrap */
+  }
+  .phase-label {
+    background: #e6f2ed;
+    border-radius: 10px;
+  }
+  .phase-step {
+    border-radius: 10px;
+  }
 }
 </style>
