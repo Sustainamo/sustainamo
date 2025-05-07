@@ -34,63 +34,36 @@ In this section we will look at how to do this in three sections.  Initially a �
 
 ---testing----
 
-<!-- Sustainamo Phase Diagram with Sidebar -->
-
 <div class="phase-diagram-wrapper">
-
-  <div class="phase-sidebar">
-
-    <div class="phase-pair">
-
-      <div class="phase-vertical">
-
-        <div class="phase-label">PHASE ONE</div>
-
-        <div class="phase-step">Foundations</div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="phase-diagram">
-
-    <div class="phase-block current">
-
-      <div class="phase-header">Discovery</div>
-
-      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
-
-    </div>
-
-    <div class="arrow">&#8594;</div>
-
-    <div class="phase-block">
-
-      <div class="phase-header">Stakeholder Engagement</div>
-
-      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
-
-    </div>
-
-    <div class="arrow">&#8594;</div>
-
-    <div class="phase-block">
-
-      <div class="phase-header">Materiality Analysis</div>
-
-      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
-
-    </div>
-
-  </div>
-
+  <div class="phase-sidebar">
+    <div class="phase-pair">
+      <div class="phase-vertical">
+        <div class="phase-label">PHASE ONE</div>
+        <div class="phase-step">Foundations</div>
+      </div>
+    </div>
+  </div>
+  <div class="phase-diagram">
+    <div class="phase-block current">
+      <div class="phase-header">Discovery</div>
+      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="phase-block">
+      <div class="phase-header">Stakeholder Engagement</div>
+      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="phase-block">
+      <div class="phase-header">Materiality Analysis</div>
+      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
+    </div>
+  </div>
 </div>
 <style>
 .phase-diagram-wrapper {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start; /* Align top edges */
   gap: 1rem;
   flex-wrap: nowrap;
   margin: 2rem 0;
@@ -101,26 +74,28 @@ In this section we will look at how to do this in three sections.  Initially a �
 
 .phase-sidebar {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
   font-family: sans-serif;
   margin-right: 1rem;
   flex: 0 0 auto;
+  width: 70px; /* Adjust this value as needed */
 }
 
 .phase-pair {
   display: flex;
-  flex-direction: column; /* Stack label and step vertically */
-  align-items: center; /* Center them horizontally */
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto; /* Adjust height */
 }
 
 .phase-vertical {
   display: flex;
-  flex-direction: column; /* Stack label and step */
-  align-items: center; /* Center horizontally */
-  gap: 0.5rem; /* Space between rotated text */
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* Increase gap for rotated text */
 }
 
 .phase-label {
@@ -129,19 +104,21 @@ In this section we will look at how to do this in three sections.  Initially a �
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.25rem; /* Adjust horizontal padding */
   border-radius: 10px;
-  transform: rotate(270deg); /* Rotate the text */
-  white-space: nowrap; /* Prevent text wrapping */
+  transform: rotate(270deg);
+  white-space: nowrap;
+  margin-bottom: 0;
 }
 
 .phase-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.75rem;
-  transform: rotate(270deg); /* Rotate the text */
-  white-space: nowrap; /* Prevent text wrapping */
+  padding: 0.5rem 0.25rem; /* Adjust horizontal padding */
+  transform: rotate(270deg);
+  white-space: nowrap;
+  margin-top: 0;
 }
 
 .phase-diagram {
@@ -204,18 +181,29 @@ In this section we will look at how to do this in three sections.  Initially a �
   .arrow {
     transform: rotate(90deg);
   }
+  .phase-sidebar {
+    width: auto; /* Reset width */
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .phase-pair {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
   .phase-vertical {
-    transform: none; /* Remove container rotation */
-    flex-direction: row; /* Lay out horizontally on small screens */
+    transform: none;
+    flex-direction: row;
     align-items: center;
     gap: 0.5rem;
   }
   .phase-label,
   .phase-step {
+    transform: none;
+    white-space: normal;
     padding: 0.5rem 1rem;
     text-align: center;
-    transform: none; /* Remove text rotation on small screens */
-    white-space: normal; /* Allow text to wrap */
+    margin: 0;
   }
   .phase-label {
     background: #e6f2ed;
