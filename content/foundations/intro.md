@@ -34,6 +34,59 @@ In this section we will look at how to do this in three sections.  Initially a �
 
 ---testing----
 
+<!-- Sustainamo Phase Diagram with Sidebar -->
+
+<div class="phase-diagram-wrapper">
+
+  <div class="phase-sidebar">
+
+    <div class="phase-pair">
+
+      <div class="phase-vertical">
+
+        <div class="phase-label">PHASE ONE</div>
+
+        <div class="phase-step">Foundations</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="phase-diagram">
+
+    <div class="phase-block current">
+
+      <div class="phase-header">Discovery</div>
+
+      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+
+    </div>
+
+    <div class="arrow">&#8594;</div>
+
+    <div class="phase-block">
+
+      <div class="phase-header">Stakeholder Engagement</div>
+
+      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
+
+    </div>
+
+    <div class="arrow">&#8594;</div>
+
+    <div class="phase-block">
+
+      <div class="phase-header">Materiality Analysis</div>
+
+      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
+
+    </div>
+
+  </div>
+
+</div>
 <style>
 .phase-diagram-wrapper {
   display: flex;
