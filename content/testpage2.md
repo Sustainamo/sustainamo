@@ -43,7 +43,7 @@ nav_order: 91
 </div>
 
 <style>
-/* 1) Wrapper */
+/* 1) container */
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start;
@@ -54,25 +54,24 @@ nav_order: 91
   margin: 1rem 0;
 }
 
-/* 2) Sidebar: 15% of total, labels side-by-side */
+/* 2) sidebar: 15% width, pills side-by-side */
 .phase-sidebar {
   flex: 0 0 15%;
   display: flex;
-  flex-direction: row;    /* side by side */
+  flex-direction: row;
   gap: 0.25rem;
   min-width: 3rem;
 }
 
-/* both pills share equal width */
+/* pills share equal space */
 .phase-sidebar .rotated-label {
   flex: 1;
 }
 
-/* 3) Vertical text via writing-mode */
+/* 3) vertical text, bottom→top */
 .rotated-label {
-  writing-mode: vertical-rl;
+  writing-mode: sideways-lr;
   text-orientation: upright;
-  transform: rotate(180deg);
   background: #e6f2ed;
   padding: 0.25rem 0.5rem;
   border-radius: 8px;
@@ -83,7 +82,7 @@ nav_order: 91
   white-space: nowrap;
 }
 
-/* slightly smaller / lighter Foundations */
+/* slightly smaller “Foundations” */
 .rotated-label.small {
   font-size: 0.75rem;
   font-weight: 500;
@@ -91,7 +90,7 @@ nav_order: 91
   opacity: 0.8;
 }
 
-/* 4) Main flow grid */
+/* 4) grid for content + arrows */
 .phase-flow {
   flex: 1;
   display: grid;
@@ -134,7 +133,7 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* 5) Mobile: sidebar moves above, still side-by-side */
+/* 5) mobile: sidebar above, pills still side-by-side */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
