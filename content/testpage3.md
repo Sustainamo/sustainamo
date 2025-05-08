@@ -11,6 +11,8 @@ nav_order: 91
 <div class="phase-diagram-wrapper">
   <aside class="phase-sidebar">
     <div class="rotated-label">PHASE ONE</div>
+  </aside>
+    <aside class="phase-sidebar">
     <div class="rotated-label small">Foundations</div>
   </aside>
 
