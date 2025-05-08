@@ -43,7 +43,7 @@ nav_order: 91
 </div>
 
 <style>
-/* 1) container */
+/* 1) wrapper */
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start;
@@ -54,7 +54,7 @@ nav_order: 91
   margin: 1rem 0;
 }
 
-/* 2) sidebar: 15% width, pills side-by-side */
+/* 2) sidebar */
 .phase-sidebar {
   flex: 0 0 15%;
   display: flex;
@@ -63,12 +63,7 @@ nav_order: 91
   min-width: 3rem;
 }
 
-/* pills share equal space */
-.phase-sidebar .rotated-label {
-  flex: 1;
-}
-
-/* 3) vertical text, bottom→top */
+/* 3) pills no longer flex:1, fixed slim width */
 .rotated-label {
   writing-mode: sideways-lr;
   text-orientation: upright;
@@ -80,17 +75,19 @@ nav_order: 91
   letter-spacing: 0.05em;
   color: #1f3f2e;
   white-space: nowrap;
+  width: 6ch;            /* slim equal width */
 }
 
-/* slightly smaller “Foundations” */
+/* smaller Foundations, same width */
 .rotated-label.small {
   font-size: 0.75rem;
   font-weight: 500;
   color: #2f7c4c;
   opacity: 0.8;
+  width: 6ch;            /* match the other pill */
 }
 
-/* 4) grid for content + arrows */
+/* 4) main flow grid */
 .phase-flow {
   flex: 1;
   display: grid;
@@ -133,19 +130,31 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* 5) mobile: sidebar above, pills still side-by-side */
+/* 5) mobile: pills horizontal, width auto, sidebar above */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
   }
+
   .phase-sidebar {
+    flex-direction: row;
     margin-bottom: 0.5rem;
+    justify-content: flex-start;
   }
+
+  .rotated-label {
+    writing-mode: horizontal-tb;
+    text-orientation: sideways; /* normal horizontal */
+    transform: none;
+    width: auto;               /* size to content */
+  }
+
   .phase-flow {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .arrow {
     transform: rotate(90deg);
   }
