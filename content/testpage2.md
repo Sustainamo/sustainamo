@@ -49,41 +49,47 @@ nav_order: 91
   width: 100%;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 1rem 0;
   align-items: flex-start;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .phase-sidebar {
   flex: 0 0 15%;
-  position: relative; /* for absolute children */
+  position: relative;      /* positioning context for labels */
   min-width: 3rem;
 }
 
-/* both labels absolutely positioned */
+/* common rotated styles */
 .rotated-label {
   position: absolute;
   left: 0;
-  top: .5rem;
   transform-origin: top left;
-  transform: rotate(-90deg);
   background: #e6f2ed;
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 8px;
-  font-weight: 600;
-  font-size: .85rem;
-  letter-spacing: .05em;
-  color: #1f3f2e;
   white-space: nowrap;
 }
 
+/* “PHASE ONE” centred vertically */
+.rotated-label {
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #1f3f2e;
+}
+
+/* “Foundations” offset just below */
 .rotated-label.small {
-  top: 3rem;            /* push below the first */
-  font-size: .75rem;
+  top: calc(50% + 2rem);
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 0.75rem;
   font-weight: 500;
   color: #2f7c4c;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /* main flow grid */
@@ -92,8 +98,8 @@ nav_order: 91
   display: grid;
   grid-template-columns: 1fr auto 1fr auto 1fr;
   grid-template-rows: auto 1fr;
-  column-gap: .5rem;
-  row-gap: .5rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 
 .phase-step {
@@ -105,7 +111,7 @@ nav_order: 91
 .phase-header {
   grid-row: 1;
   background: #d0ebd8;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
@@ -114,8 +120,8 @@ nav_order: 91
 
 .phase-content {
   grid-row: 2;
-  padding: .5rem .75rem;
-  font-size: .9rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   color: #333;
 }
@@ -135,12 +141,12 @@ nav_order: 91
     flex-direction: column;
   }
   .phase-sidebar {
-    display: none;  /* or reposition if you prefer */
+    display: none;  /* hide sidebar on narrow screens */
   }
   .phase-flow {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
   }
   .arrow {
     transform: rotate(90deg);
