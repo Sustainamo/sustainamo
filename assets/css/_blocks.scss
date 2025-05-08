@@ -109,35 +109,39 @@
 
 .phase-sidebar {
   display: flex;
-  flex-direction: row; /* Lay out horizontally */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
+  align-items: center;
   font-family: sans-serif;
-  margin-right: 1rem;
   flex: 0 0 auto;
-  transform: rotate(270deg); /* Rotate the entire sidebar */
-  transform-origin: top left; /* Set the origin for rotation */
-  width: auto; /* Adjust as needed based on text height */
-  height: auto; /* Adjust as needed based on text width */
+  width: auto; /* Let width be determined by content */
 }
 
-.phase-label {
+.rotated-label-container {
+  margin-right: 1rem; /* Space between "PHASE ONE" and "Foundations" */
+}
+
+.rotated-step-container {
+  margin-right: 1rem; /* Space before the main diagram */
+}
+
+.rotated-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.2rem;
   border-radius: 10px;
+  transform: rotate(270deg);
   white-space: nowrap;
-  margin-right: 0.5rem; /* Space between labels */
 }
 
-.phase-step {
+.rotated-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.2rem;
+  transform: rotate(270deg);
   white-space: nowrap;
 }
 
@@ -196,19 +200,15 @@
     padding: 1rem 0.5rem;
   }
   .phase-sidebar {
-    transform: none; /* Remove rotation on small screens */
-    flex-direction: row; /* Lay out horizontally */
-    margin-right: 0;
-    margin-bottom: 1rem;
-    width: auto;
-    height: auto;
+    transform: none;
+    flex-direction: row;
+    margin-right: 0.5rem;
   }
-  .phase-label,
-  .phase-step {
+  .rotated-label,
+  .rotated-step {
     transform: none;
     white-space: normal;
     padding: 0.5rem 1rem;
-    margin-right: 0.5rem;
   }
   .phase-diagram {
     flex-direction: column;
