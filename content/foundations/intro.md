@@ -30,31 +30,3 @@ To be successful, a sustainability strategy must be grounded in a clear understa
 </section>
 
 In this section we will look at how to do this in three sections.  Initially a ‘discovery’ phase, where the sustainability team (the people responsible for delivering the strategy) will outline the internal and external environment the strategy will exist within.  This will be followed by a process of ‘stakeholder engagement’, where the considerations of the people who affect, and are affected by the organisation/ event will be collected.  Lastly, these findings will be evaluated to create a prioritised list of issues with materially impact the organisation / event from a sustainability perspective.  This entire process is often referred to as a ‘materiality assessment’.  
-
-
----testing----
-
-<div class="phase-diagram-wrapper">
-  <div class="phase-sidebar rotated-label-container">
-    <div class="rotated-label">PHASE ONE</div>
-  </div>
-  <div class="phase-sidebar rotated-step-container">
-    <div class="rotated-step">Foundations</div>
-  </div>
-  <div class="phase-diagram">
-    <div class="phase-block current">
-      <div class="phase-header">Discovery</div>
-      <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
-    </div>
-    <div class="arrow">&#8594;</div>
-    <div class="phase-block">
-      <div class="phase-header">Stakeholder Engagement</div>
-      <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
-    </div>
-    <div class="arrow">&#8594;</div>
-    <div class="phase-block">
-      <div class="phase-header">Materiality Analysis</div>
-      <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
-    </div>
-  </div>
-</div>
