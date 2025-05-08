@@ -47,7 +47,7 @@ nav_order: 91
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 1.5rem;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
   padding: 0.5rem;
