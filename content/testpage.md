@@ -9,7 +9,7 @@ nav_order: 9
 ---
 
 ---testing----
-<style>
+
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar rotated-label-container">
     <div class="rotated-label">PHASE ONE</div>
@@ -35,6 +35,9 @@ nav_order: 9
   </div>
 </div>
 
+
+/* CSS BELOW */
+<style>
 /* Overview diagram blocks */
 .phase-diagram-wrapper {
   display: flex;
