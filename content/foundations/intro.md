@@ -35,9 +35,11 @@ In this section we will look at how to do this in three sections.  Initially a â
 ---testing----
 
 <div class="phase-diagram-wrapper">
-  <div class="phase-sidebar">
-    <div class="phase-label">PHASE ONE</div>
-    <div class="phase-step">Foundations</div>
+  <div class="phase-sidebar rotated-label-container">
+    <div class="rotated-label">PHASE ONE</div>
+  </div>
+  <div class="phase-sidebar rotated-step-container">
+    <div class="rotated-step">Foundations</div>
   </div>
   <div class="phase-diagram">
     <div class="phase-block current">
