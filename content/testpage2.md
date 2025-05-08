@@ -43,58 +43,59 @@ nav_order: 91
 </div>
 
 <style>
-/* wrapper: 15% sidebar, 85% flow */
+/* 1. wrapper + grid flow */
 .phase-diagram-wrapper {
   display: flex;
   width: 100%;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
-  padding: 0.5rem;
+  padding: .5rem;
   margin: 1rem 0;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: .25rem;
 }
 
+/* 2. slimmer sidebar with flex-column */
 .phase-sidebar {
-  flex: 0 0 15%;
-  position: relative;   /* containing block */
-  min-width: 3rem;
+  flex: 0 0 8%;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  align-items: flex-start;
+  min-width: 2.5rem;
 }
 
-/* both labels rotate around top-left, then shift back by half their width */
+/* 3. rotate via writing-mode + flip */
 .rotated-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-origin: 0 0;
-  transform: rotate(-90deg) translate(0, -50%);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  transform: rotate(180deg);
   background: #e6f2ed;
-  padding: 0.25rem 0.5rem;
+  padding: .2rem .5rem;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
+  font-size: .85rem;
+  letter-spacing: .05em;
   color: #1f3f2e;
   white-space: nowrap;
 }
 
-/* push the second label down slightly by adjusting its translateY offset */
+/* smaller, tinted Foundations */
 .rotated-label.small {
-  transform: rotate(-90deg) translate(0, -75%);
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 500;
   color: #2f7c4c;
-  opacity: 0.8;
+  opacity: .8;
 }
 
-/* main flow: grid for 3 blocks + 2 arrows */
+/* 4. main flow grid: 3 blocks + 2 arrows */
 .phase-flow {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr auto 1fr auto 1fr;
   grid-template-rows: auto 1fr;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  column-gap: .5rem;
+  row-gap: .5rem;
 }
 
 .phase-step {
@@ -106,7 +107,7 @@ nav_order: 91
 .phase-header {
   grid-row: 1;
   background: #d0ebd8;
-  padding: 0.5rem 0.75rem;
+  padding: .5rem .75rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
@@ -115,8 +116,8 @@ nav_order: 91
 
 .phase-content {
   grid-row: 2;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
+  padding: .5rem .75rem;
+  font-size: .9rem;
   line-height: 1.4;
   color: #333;
 }
@@ -130,7 +131,7 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* mobile: stack and hide sidebar */
+/* 5. mobile stack */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
@@ -141,7 +142,7 @@ nav_order: 91
   .phase-flow {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: .5rem;
   }
   .arrow {
     transform: rotate(90deg);
