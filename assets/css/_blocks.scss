@@ -109,34 +109,35 @@
 
 .phase-sidebar {
   display: flex;
-  flex-direction: column; /* Stack the rotated elements */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
+  flex-direction: row; /* Lay out horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
   font-family: sans-serif;
   margin-right: 1rem;
   flex: 0 0 auto;
-  width: 50px; /* Adjust as needed */
+  transform: rotate(270deg); /* Rotate the entire sidebar */
+  transform-origin: top left; /* Set the origin for rotation */
+  width: auto; /* Adjust as needed based on text height */
+  height: auto; /* Adjust as needed based on text width */
 }
 
-.rotated-label {
+.phase-label {
   background: #e6f2ed;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.2rem; /* Adjust horizontal padding */
+  padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  transform: rotate(270deg);
   white-space: nowrap;
-  margin-bottom: 1rem; /* Space between rotated elements */
+  margin-right: 0.5rem; /* Space between labels */
 }
 
-.rotated-step {
+.phase-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.2rem; /* Adjust horizontal padding */
-  transform: rotate(270deg);
+  padding: 0.5rem 0.75rem;
   white-space: nowrap;
 }
 
@@ -195,17 +196,19 @@
     padding: 1rem 0.5rem;
   }
   .phase-sidebar {
-    width: auto;
+    transform: none; /* Remove rotation on small screens */
+    flex-direction: row; /* Lay out horizontally */
     margin-right: 0;
     margin-bottom: 1rem;
-    flex-direction: row; /* Display horizontally on small screens */
+    width: auto;
+    height: auto;
   }
-  .rotated-label,
-  .rotated-step {
+  .phase-label,
+  .phase-step {
     transform: none;
     white-space: normal;
     padding: 0.5rem 1rem;
-    margin: 0 0.5rem 0 0; /* Space them horizontally */
+    margin-right: 0.5rem;
   }
   .phase-diagram {
     flex-direction: column;
