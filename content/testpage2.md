@@ -43,70 +43,70 @@ nav_order: 91
 </div>
 
 <style>
-/* Entire diagram wrapper */
+/* wrapper: 15% sidebar, 85% flow */
 .phase-diagram-wrapper {
   display: flex;
-  align-items: flex-start;
-  gap: .5rem;
+  width: 100%;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 1rem 0;
-}
-
-/* Sidebar: 15% width, flex-column labels */
-.phase-sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  width: 15%;
-  min-width: 3rem;
   align-items: flex-start;
+  gap: 0.5rem;
 }
 
-/* Vertical (bottom-to-top) text via writing-mode */
+.phase-sidebar {
+  flex: 0 0 15%;
+  position: relative;   /* containing block */
+  min-width: 3rem;
+}
+
+/* both labels rotate around top-left, then shift back by half their width */
 .rotated-label {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) translate(0, -50%);
   background: #e6f2ed;
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 8px;
   font-weight: 600;
-  font-size: .85rem;
-  letter-spacing: .05em;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
   color: #1f3f2e;
   white-space: nowrap;
 }
 
-/* Smaller, tinted “Foundations” */
+/* push the second label down slightly by adjusting its translateY offset */
 .rotated-label.small {
-  font-size: .75rem;
+  transform: rotate(-90deg) translate(0, -75%);
+  font-size: 0.75rem;
   font-weight: 500;
   color: #2f7c4c;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-/* Main flow: 3 steps + 2 arrows in a grid */
+/* main flow: grid for 3 blocks + 2 arrows */
 .phase-flow {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr auto 1fr auto 1fr;
   grid-template-rows: auto 1fr;
-  column-gap: .5rem;
-  row-gap: .5rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 
 .phase-step {
-  grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
+  grid-row: 1 / 3;
 }
 
 .phase-header {
   grid-row: 1;
   background: #d0ebd8;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
@@ -115,8 +115,8 @@ nav_order: 91
 
 .phase-content {
   grid-row: 2;
-  padding: .5rem .75rem;
-  font-size: .9rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   color: #333;
 }
@@ -130,7 +130,7 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* Mobile: stack everything */
+/* mobile: stack and hide sidebar */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
@@ -141,7 +141,7 @@ nav_order: 91
   .phase-flow {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
   }
   .arrow {
     transform: rotate(90deg);
