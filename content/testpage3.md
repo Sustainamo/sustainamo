@@ -68,7 +68,7 @@ nav_order: 91
 
 /* 3) Vertical text via writing-mode */
 .rotated-label {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: upright;
   transform: rotate(180deg);   /* bottom-to-top */
   background: #e6f2ed;
