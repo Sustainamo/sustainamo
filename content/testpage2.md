@@ -63,7 +63,7 @@ nav_order: 91
   min-width: 3rem;
 }
 
-/* 3) pills no longer flex:1, fixed slim width */
+/* 3) pills */
 .rotated-label {
   writing-mode: sideways-lr;
   text-orientation: upright;
@@ -79,13 +79,13 @@ nav_order: 91
   width: 2.5ch;            /* slim equal width */
 }
 
-/* smaller Foundations, same width */
 .rotated-label.small {
   font-size: 0.75rem;
   font-weight: 500;
   color: #2f7c4c;
   opacity: 0.8;
-  width: 6ch;            /* match the other pill */
+  text-align: end;
+  width: 2.5ch; ;            /* match the other pill */
 }
 
 /* 4) main flow grid */
