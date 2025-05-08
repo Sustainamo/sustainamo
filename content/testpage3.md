@@ -70,7 +70,7 @@ nav_order: 91
 .rotated-label {
   writing-mode: sideways-lr;
   text-orientation: upright;
-  transform: rotate(180deg);   /* bottom-to-top */
+/*  transform: rotate(180deg);   /* bottom-to-top */
   background: #e6f2ed;
   padding: 0.25rem 0.5rem;
   border-radius: 8px;
