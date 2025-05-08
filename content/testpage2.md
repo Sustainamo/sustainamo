@@ -54,16 +54,17 @@ nav_order: 91
   margin: 1rem 0;
 }
 
-/* 2) sidebar */
+/* 2’) Sidebar auto-width to fit exactly the two pills */
 .phase-sidebar {
-  flex: 0 0 15%;
+  flex: 0 0 auto;        /* drop the 15% basis */
   display: flex;
   flex-direction: row;
   gap: 0.25rem;
-  min-width: 3rem;
+  align-items: flex-start; /* top-align the pills */
+  /* remove min-width so it shrinks to content */
 }
 
-/* 3) pills */
+/* 3’) Pills remain slim + right-aligned text */
 .rotated-label {
   writing-mode: sideways-lr;
   text-orientation: upright;
@@ -75,8 +76,8 @@ nav_order: 91
   letter-spacing: 0.05em;
   color: #1f3f2e;
   white-space: nowrap;
-  text-align: end;
-  width: 2.5ch;            /* slim equal width */
+  width: 2.5ch;         /* ultra-slim */
+  text-align: end;      /* flush text in */
 }
 
 .rotated-label.small {
@@ -84,10 +85,10 @@ nav_order: 91
   font-weight: 500;
   color: #2f7c4c;
   opacity: 0.8;
+  width: 2.5ch;
   text-align: end;
-  width: 2.5ch; ;            /* match the other pill */
 }
-
+  
 /* 4) main flow grid */
 .phase-flow {
   flex: 1;
