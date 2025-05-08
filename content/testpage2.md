@@ -43,7 +43,7 @@ nav_order: 91
 </div>
 
 <style>
-/* 1. Wrapper with flex + small gap */
+/* 1) Wrapper */
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start;
@@ -54,16 +54,21 @@ nav_order: 91
   margin: 1rem 0;
 }
 
-/* 2. Slim sidebar with flex-column labels */
+/* 2) Sidebar: 15% of total, labels side-by-side */
 .phase-sidebar {
+  flex: 0 0 15%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;    /* side by side */
   gap: 0.25rem;
-  align-items: flex-start;
-  min-width: 2.5rem;
+  min-width: 3rem;
 }
 
-/* 3. Vertical text via writing-mode + flip */
+/* both pills share equal width */
+.phase-sidebar .rotated-label {
+  flex: 1;
+}
+
+/* 3) Vertical text via writing-mode */
 .rotated-label {
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -78,7 +83,7 @@ nav_order: 91
   white-space: nowrap;
 }
 
-/* Smaller, tinted “Foundations” */
+/* slightly smaller / lighter Foundations */
 .rotated-label.small {
   font-size: 0.75rem;
   font-weight: 500;
@@ -86,7 +91,7 @@ nav_order: 91
   opacity: 0.8;
 }
 
-/* 4. Main flow uses CSS grid for three blocks + two arrows */
+/* 4) Main flow grid */
 .phase-flow {
   flex: 1;
   display: grid;
@@ -129,13 +134,13 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* 5. Mobile: stack and hide sidebar */
+/* 5) Mobile: sidebar moves above, still side-by-side */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
   }
   .phase-sidebar {
-    display: none;
+    margin-bottom: 0.5rem;
   }
   .phase-flow {
     display: flex;
