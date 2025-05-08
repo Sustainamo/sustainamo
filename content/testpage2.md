@@ -43,89 +43,83 @@ nav_order: 91
 </div>
 
 <style>
-/* wrapper: 15% sidebar, 85% flow */
+/* wrapper: 15% sidebar, 85% grid flow */
 .phase-diagram-wrapper {
   display: flex;
   width: 100%;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
-  padding: 0.5rem;
-  align-items: flex-start;
-  gap: 0.5rem;
+  padding: .5rem;
   margin: 1rem 0;
+  align-items: flex-start;
+  gap: .5rem;
 }
 
 .phase-sidebar {
   flex: 0 0 15%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.25rem;
+  position: relative; /* for absolute children */
+  min-width: 3rem;
 }
 
-/* both labels rotate from top-left */
+/* both labels absolutely positioned */
 .rotated-label {
+  position: absolute;
+  left: 0;
+  top: .5rem;
+  transform-origin: top left;
+  transform: rotate(-90deg);
   background: #e6f2ed;
-  padding: 0.2rem 0.4rem;
-  border-radius: 10px;
+  padding: .25rem .5rem;
+  border-radius: 8px;
   font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
+  font-size: .85rem;
+  letter-spacing: .05em;
   color: #1f3f2e;
   white-space: nowrap;
-  transform-origin: top left;
-  transform: rotate(270deg) translate(-100%, 0);
 }
 
-/* smaller, lighter “Foundations” */
 .rotated-label.small {
-  font-size: 0.75rem;
+  top: 3rem;            /* push below the first */
+  font-size: .75rem;
   font-weight: 500;
   color: #2f7c4c;
-  opacity: 0.8;
+  opacity: .8;
 }
 
-/* main flow uses CSS grid for precise rows/cols */
+/* main flow grid */
 .phase-flow {
   flex: 1;
   display: grid;
-  grid-template-columns:
-    1fr auto
-    1fr auto
-    1fr;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
   grid-template-rows: auto 1fr;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  column-gap: .5rem;
+  row-gap: .5rem;
 }
 
-/* each step occupies both rows */
 .phase-step {
   display: flex;
   flex-direction: column;
   grid-row: 1 / 3;
 }
 
-/* header in row-1 */
 .phase-header {
   grid-row: 1;
   background: #d0ebd8;
-  padding: 0.5rem 0.75rem;
+  padding: .5rem .75rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
   color: #2f4f2f;
 }
 
-/* content in row-2 */
 .phase-content {
   grid-row: 2;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
+  padding: .5rem .75rem;
+  font-size: .9rem;
   line-height: 1.4;
   color: #333;
 }
 
-/* arrows sit centred between header & content */
 .arrow {
   grid-row: 1 / 3;
   justify-self: center;
@@ -135,25 +129,18 @@ nav_order: 91
   font-weight: bold;
 }
 
-/* stack on mobile */
+/* mobile stack */
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
-    align-items: flex-start;
   }
   .phase-sidebar {
-    flex-direction: row;
-    gap: 0.5rem;
-  }
-  .rotated-label {
-    transform: none;
-    white-space: normal;
-    padding: 0.3rem 0.5rem;
+    display: none;  /* or reposition if you prefer */
   }
   .phase-flow {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: .5rem;
   }
   .arrow {
     transform: rotate(90deg);
