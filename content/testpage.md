@@ -9,7 +9,7 @@ nav_order: 9
 ---
 
 ---testing----
-
+<style>
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar rotated-label-container">
     <div class="rotated-label">PHASE ONE</div>
@@ -167,3 +167,4 @@ nav_order: 9
     font-size: 1rem;
   }
 }
+  </style>
