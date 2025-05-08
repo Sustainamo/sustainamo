@@ -75,7 +75,8 @@ nav_order: 91
   letter-spacing: 0.05em;
   color: #1f3f2e;
   white-space: nowrap;
-  width: 6ch;            /* slim equal width */
+  text-align: end;
+  width: 2.5ch;            /* slim equal width */
 }
 
 /* smaller Foundations, same width */
