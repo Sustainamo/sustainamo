@@ -37,6 +37,8 @@ In this section we will look at how to do this in three sections.  Initially a â
 <div class="phase-diagram-wrapper">
   <div class="phase-sidebar">
     <div class="rotated-label">PHASE ONE</div>
+  </div>
+  <div class="phase-sidebar">
     <div class="rotated-step">Foundations</div>
   </div>
   <div class="phase-diagram">
