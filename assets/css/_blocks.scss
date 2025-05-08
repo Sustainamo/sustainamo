@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin: 1rem 0; /* Reduced vertical margin */
+  margin: 1rem 0;        /* Reduced vertical margin */
   max-width: 100%;
   justify-content: space-between;
 }
@@ -14,7 +14,7 @@
   color: inherit;
   display: flex;
   flex-direction: column;
-  padding: 0.75rem; /* Reduced padding */
+  padding: 0.75rem;      /* Reduced padding */
   flex: 1 1 27%;
   border-radius: 8px;
   transition: transform 0.2s ease;
@@ -37,7 +37,7 @@
   color: #333;
 }
 
-/* Colour variants – SOLID */
+/* Colour variants - SOLID */
 .phase-blocks.green.solid a.phase-block:nth-child(1) {
   background-color: #e6f2ed;
 }
@@ -99,33 +99,29 @@
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start; /* Align top edges */
-  gap: 0.5rem; /* Reduced gap */
+  gap: 0.5rem;             /* Reduced gap */
   flex-wrap: nowrap;
-  margin: 1rem 0; /* Reduced vertical margin */
+  margin: 1rem 0;          /* Reduced vertical margin */
   border: 1px solid #d4e3dc;
   border-radius: 20px;
-  padding: 0.5rem; /* Reduced padding */
+  padding: 0.5rem;         /* Reduced padding */
 }
 
 .phase-sidebar {
   display: flex;
-  justify-content: flex-end; /* Align to the right (top after rotation) */
-  align-items: flex-start; /* Align to the top */
+  flex-direction: column;   /* stack “Phase One” and “Foundations” */
+  align-items: flex-end;    /* right-align the rotated labels */
+  justify-content: flex-start; /* top-align inside the wrapper */
+  gap: 0.25rem;             /* small, consistent gap */
+  align-self: flex-start;   /* hug the top of the wrapper */
+  margin-right: 0;          /* remove extra offset */
   font-family: sans-serif;
   flex: 0 0 auto;
-  width: auto; /* Let width be determined by content */
 }
 
-.rotated-label-container {
-  margin-right: 0.5rem; /* Reduced right margin */
-  align-self: flex-start; /* Align with the start of the flex item */
-  margin-top: 0.18rem; /* Tiny adjustment */
-}
-
+.rotated-label-container,
 .rotated-step-container {
-  margin-right: 0.5rem; /* Reduced right margin */
-  align-self: flex-start; /* Align with the start of the flex item */
-  margin-top: 2.28rem; /* Tiny adjustment */
+  margin: 0;                /* drop manual top margins */
 }
 
 .rotated-label {
@@ -136,10 +132,10 @@
   color: #1f3f2e;
   padding: 0.2rem 0.1rem;
   border-radius: 10px;
-  transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
-  transform-origin: top left; /* Rotate from the top-left corner */
+  transform: rotate(270deg) translate(-100%, 0);
+  transform-origin: top left;
   white-space: nowrap;
-  margin-bottom: 0.25rem; /* Further reduced bottom margin */
+  margin-bottom: 0.25rem;   /* reduced bottom margin */
 }
 
 .rotated-step {
@@ -147,22 +143,22 @@
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.2rem 0.1rem;
-  transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
-  transform-origin: top left; /* Rotate from the top-left corner */
+  transform: rotate(270deg) translate(-100%, 0);
+  transform-origin: top left;
   white-space: nowrap;
 }
 
 .phase-diagram {
   display: flex;
-  align-items: center; /* Center items vertically */
-  gap: 0.5rem; /* Reduced gap */
+  align-items: center;
+  gap: 0.5rem;
   flex: 1;
   flex-wrap: nowrap;
 }
 
 .phase-block {
   background: none;
-  padding: 0.5rem; /* Reduced padding */
+  padding: 0.5rem;
   border-radius: 12px;
   border: none;
   flex: 1;
@@ -171,22 +167,22 @@
 }
 
 .phase-block.current .phase-header {
-  background: #d0ebd8; /* Light green for the 'current' block header */
+  background: #d0ebd8;     /* ‘current’ header highlight */
 }
 
 .phase-header {
-  background: #d0ebd8; /* Light green background */
-  padding: 0.25rem 0.5rem; /* Reduced padding */
+  background: #d0ebd8;
+  padding: 0.25rem 0.5rem;
   border-radius: 8px;
-  font-weight: 600; /* Bold text */
-  color: #2f4f2f; /* Specific text color */
-  font-size: 0.9rem; /* Slightly smaller font size */
-  margin-bottom: 0.25rem; /* Reduced bottom margin */
+  font-weight: 600;
+  color: #2f4f2f;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
 }
 
 .phase-block p {
   margin: 0;
-  font-size: 0.8rem; /* Slightly smaller font size */
+  font-size: 0.8rem;
   color: #333;
 }
 
@@ -194,7 +190,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem; /* Reduced font size */
+  font-size: 1rem;
   flex: 0 0 auto;
   color: #66a189;
   font-weight: bold;
@@ -203,27 +199,28 @@
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
-    align-items: flex-start; /* Revert to top alignment on narrow screens */
-    gap: 0.25rem; /* Reduced gap */
-    padding: 0.5rem; /* Reduced padding */
-    margin: 1rem 0; /* Reduced vertical margin */
+    align-items: flex-start;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
   }
   .phase-sidebar {
     transform: none;
     flex-direction: row;
-    margin-right: 0.25rem; /* Reduced right margin */
+    margin-right: 0.25rem;
+    gap: 0.25rem;
   }
   .rotated-label,
   .rotated-step {
     transform: none;
     white-space: normal;
-    padding: 0.25rem 0.5rem; /* Reduced padding */
+    padding: 0.25rem 0.5rem;
     margin-right: 0.25rem;
     font-size: 0.8rem;
   }
   .phase-diagram {
     flex-direction: column;
-    gap: 0.25rem; /* Reduced gap */
+    gap: 0.25rem;
   }
   .arrow {
     transform: rotate(90deg);
