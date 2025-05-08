@@ -132,7 +132,8 @@
   color: #1f3f2e;
   padding: 0.5rem 0.2rem;
   border-radius: 10px;
-  transform: rotate(270deg);
+  transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
+  transform-origin: top left; /* Rotate from the top-left corner */
   white-space: nowrap;
 }
 
@@ -141,7 +142,8 @@
   color: #2f7c4c;
   font-weight: 500;
   padding: 0.5rem 0.2rem;
-  transform: rotate(270deg);
+  transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
+  transform-origin: top left; /* Rotate from the top-left corner */
   white-space: nowrap;
 }
 
@@ -151,30 +153,6 @@
   gap: 1rem;
   flex: 1;
   flex-wrap: nowrap;
-}
-
-.phase-block {
-  background: none;
-  padding: 1rem;
-  border-radius: 12px;
-  border: none;
-  flex: 1;
-  font-family: sans-serif;
-  transition: background 0.3s ease;
-}
-
-.phase-block.current .phase-header {
-  background: #d0ebd8;
-}
-
-.phase-header {
-  background: #d0ebd8;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  font-weight: 600;
-  color: #2f4f2f;
-  font-size: 1.05rem;
-  margin-bottom: 0.5rem;
 }
 
 .phase-block p {
