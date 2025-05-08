@@ -98,7 +98,7 @@
 /* Overview diagram blocks */
 .phase-diagram-wrapper {
   display: flex;
-  align-items: flex-start; /* Align top edges */
+  align-items: center; /* Vertically center the sidebar */
   gap: 1rem;
   flex-wrap: nowrap;
   margin: 2rem 0;
@@ -130,18 +130,19 @@
   font-size: 0.85rem;
   letter-spacing: 0.05em;
   color: #1f3f2e;
-  padding: 0.5rem 0.2rem;
+  padding: 0.2rem 0.1rem; /* Reduced vertical padding */
   border-radius: 10px;
   transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
   transform-origin: top left; /* Rotate from the top-left corner */
   white-space: nowrap;
+  margin-bottom: 0.5rem; /* Reduced bottom margin */
 }
 
 .rotated-step {
   font-size: 0.85rem;
   color: #2f7c4c;
   font-weight: 500;
-  padding: 0.5rem 0.2rem;
+  padding: 0.2rem 0.1rem; /* Reduced vertical padding */
   transform: rotate(270deg) translate(-100%, 0); /* Rotate and move to the left */
   transform-origin: top left; /* Rotate from the top-left corner */
   white-space: nowrap;
@@ -198,6 +199,7 @@
 @media (max-width: 768px) {
   .phase-diagram-wrapper {
     flex-direction: column;
+    align-items: flex-start; /* Revert to top alignment on narrow screens */
     gap: 0.5rem;
     padding: 1rem 0.5rem;
   }
@@ -211,6 +213,7 @@
     transform: none;
     white-space: normal;
     padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
   }
   .phase-diagram {
     flex-direction: column;
