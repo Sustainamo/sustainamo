@@ -38,62 +38,7 @@
 }
 
 /* Colour variants – SOLID */
-.phase-blocks.green.solid a.phase-block:nth-child(1) {
-  background-color: #e6f2ed;
-}
-.phase-blocks.green.solid a.phase-block:nth-child(2) {
-  background-color: #d0ebdf;
-}
-.phase-blocks.green.solid a.phase-block:nth-child(3) {
-  background-color: #bae1d1;
-}
-
-.phase-blocks.blue.solid a.phase-block:nth-child(1) {
-  background-color: #e2effa;
-}
-.phase-blocks.blue.solid a.phase-block:nth-child(2) {
-  background-color: #cce4f5;
-}
-.phase-blocks.blue.solid a.phase-block:nth-child(3) {
-  background-color: #b3d8f0;
-}
-
-/* OUTLINED STYLE */
-.phase-blocks.outlined a.phase-block {
-  background-color: #fff;
-  border: 2px solid;
-  box-shadow: none;
-}
-
-/* Colour outlines */
-.phase-blocks.outlined.green a.phase-block {
-  border-color: #b0e0cc;
-}
-.phase-blocks.outlined.blue a.phase-block {
-  border-color: #97c7e6;
-}
-
-/* Header box for outlined blocks */
-.phase-blocks.outlined.green a.phase-block h2 {
-  background-color: #b0e0cc;
-  padding: 0.5rem;
-  margin: -1.5rem -1.5rem 1rem -1.5rem;
-  border-radius: 6px 6px 0 0;
-}
-.phase-blocks.outlined.blue a.phase-block h2 {
-  background-color: #97c7e6;
-  padding: 0.5rem;
-  margin: -1.5rem -1.5rem 1rem -1.5rem;
-  border-radius: 6px 6px 0 0;
-}
-
-/* Responsive - stack */
-@media screen and (max-width: 768px) {
-  .phase-blocks a.phase-block {
-    flex: 1 1 100%;
-  }
-}
-
+/* ... (rest of .phase-blocks styles) ... */
 
 /* Overview diagram blocks */
 .phase-diagram-wrapper {
@@ -118,14 +63,14 @@
 
 .rotated-label-container {
   margin-right: 0.5rem; /* Reduced right margin */
-  /* Adjust top margin to align with "Discovery" header */
-  margin-top: 0.25rem; /* Experiment with this value */
+  align-self: flex-start; /* Align with the start of the flex item */
+  margin-top: 0.1rem; /* Fine-tune as needed */
 }
 
 .rotated-step-container {
   margin-right: 0.5rem; /* Reduced right margin */
-  /* Adjust top margin to align with "Stakeholder Engagement" header */
-  margin-top: 2.5rem; /* Experiment with this value */
+  align-self: flex-start; /* Align with the start of the flex item */
+  margin-top: 2.1rem; /* Fine-tune as needed */
 }
 
 .rotated-label {
@@ -154,7 +99,7 @@
 
 .phase-diagram {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: center; /* Center items vertically */
   gap: 0.5rem; /* Reduced gap */
   flex: 1;
   flex-wrap: nowrap;
@@ -201,32 +146,5 @@
 }
 
 @media (max-width: 768px) {
-  .phase-diagram-wrapper {
-    flex-direction: column;
-    align-items: flex-start; /* Revert to top alignment on narrow screens */
-    gap: 0.25rem; /* Reduced gap */
-    padding: 0.5rem; /* Reduced padding */
-    margin: 1rem 0; /* Reduced vertical margin */
-  }
-  .phase-sidebar {
-    transform: none;
-    flex-direction: row;
-    margin-right: 0.25rem; /* Reduced right margin */
-  }
-  .rotated-label,
-  .rotated-step {
-    transform: none;
-    white-space: normal;
-    padding: 0.25rem 0.5rem; /* Reduced padding */
-    margin-right: 0.25rem;
-    font-size: 0.8rem;
-  }
-  .phase-diagram {
-    flex-direction: column;
-    gap: 0.25rem; /* Reduced gap */
-  }
-  .arrow {
-    transform: rotate(90deg);
-    font-size: 1rem;
-  }
+  /* ... (rest of your media query CSS) ... */
 }
