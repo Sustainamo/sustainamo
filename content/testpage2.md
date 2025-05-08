@@ -47,7 +47,7 @@ nav_order: 91
 .phase-diagram-wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 0.5rem;
   border: 1px solid #d4e3dc;
   border-radius: 20px;
   padding: 0.5rem;
@@ -59,7 +59,7 @@ nav_order: 91
   flex: 0 0 auto;        /* drop the 15% basis */
   display: flex;
   flex-direction: row;
-  gap: 0.25rem;
+  gap: 0.5rem;
   align-items: flex-start; /* top-align the pills */
   /* remove min-width so it shrinks to content */
 }
