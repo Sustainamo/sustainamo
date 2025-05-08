@@ -104,4 +104,22 @@ nav_order: 91
   font-weight: bold;
   color: #66a189;
 }
+
+  .phase-sidebar .rotated-label {
+  /* rotate bottom-to-top */
+  transform: rotate(270deg);
+  transform-origin: top left;
+  white-space: nowrap;
+  margin: 0.25rem 0;        /* tweak spacing between the two labels */
+  font-weight: 600;
+  font-size: 0.85rem;
+  colour: #1f3f2e;
+}
+
+/* if you want “Foundations” a bit smaller */
+.phase-sidebar .rotated-label.small {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
 </style>
