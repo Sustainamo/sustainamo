@@ -36,8 +36,10 @@ nav_order: 9
 </div>
 
 
-/* CSS BELOW */
+
 <style>
+/* CSS BELOW */
+  
 /* Overview diagram blocks */
 .phase-diagram-wrapper {
   display: flex;
