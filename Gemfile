@@ -6,8 +6,5 @@ gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
-  gem "jekyll-styleguide", github: "davidhund/jekyll-styleguide"
-
-
   
 end
