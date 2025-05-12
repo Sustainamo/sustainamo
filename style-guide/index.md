@@ -4,8 +4,6 @@ title: Style Guide
 permalink: /style-guide/
 ---
 
-# Style Guide
-
 ## Components
 {% comment %} collect every page under style-guide/components/ {% endcomment %}
 
