@@ -14,13 +14,16 @@ permalink: /style-guide/
     <section class="sg-component">
       <h3>{{ comp.title }}</h3>
 
-      <!-- LIVE PREVIEW: output raw HTML so your real CSS applies -->
+      <!-- LIVE PREVIEW -->
       <div class="sg-example">
-        {{ comp.content | markdownify }}
+        {{ comp.content | safe }}
       </div>
 
-      <!-- MARKUP SNIPPET: escape the same HTML for copy/paste -->
-      <pre><code>{{ comp.content | escape }}</code></pre>
+      <!-- MARKUP TOGGLE -->
+      <details class="sg-markup-toggle">
+        <summary>View HTML markup</summary>
+        <pre><code>{{ comp.content | escape }}</code></pre>
+      </details>
     </section>
   {% endfor %}
 {% endfor %}
