@@ -51,4 +51,3 @@ Whilst undertaking discovery, it is helpful to start to note sustainability risk
 * What opportunities could there be to enhance the organisations operation, reputation, financial returns etc?
 * How resilient is the organisation currently to upcoming regulation, trends, competitor actions, and/or environmental changes such as biodiversity loss or climate change?
 * What gaps are there with current regulations or sector standards?  
-![image](https://github.com/user-attachments/assets/76fe20f4-1532-4c3b-a81a-b3418cba3de4)
