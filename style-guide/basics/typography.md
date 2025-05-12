@@ -6,17 +6,20 @@ permalink: /style-guide/basics/typography/
 
 # Typography
 
-## Font Families
-- **Primary:** _Your font name_  
-- **Fallback:** _List of fallback fonts_
+Our core heading and body styles, plus the special “Sustainamo Script” font.
 
-## Scale & Sizes
-| Element  | Size   | Weight |
-| -------- | ------ | ------ |
-| H1       | 2.5rem | 700    |
-| H2       | 2rem   | 600    |
-| Body     | 1rem   | 400    |
+## Font Families & Classes
 
-## Line-height & Spacing
-- Base line-height: _e.g. 1.5_  
-- Margin rules: _e.g. `h1 + p { margin-top: 0.5em; }`_
+We use a neutral sans-serif for body text and an expressive script for accent.
+
+```css
+body, p, ul, ol {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sustainamo-script {
+  font-family: "alkaline", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.1rem;
+}
