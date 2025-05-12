@@ -24,9 +24,9 @@ github_username: sustainamo
 # instagram_username: 
 rss: rss
 
-# removing blog related stuff for sustainamo
-# home_post_limit: 5   # Change to show more posts
-# show_excerpts: false
+collections:
+  components:
+    output: false
 
 plugins:
   - jekyll-feed
