@@ -5,8 +5,8 @@ Expects a variable `comp` with `.title` and `.content`
 
 <section id="{{ comp.title | slugify }}" class="guide-component">
   <h2>{{ comp.title }}</h2>
+
   <div class="component-preview">
-    {{ comp.content }}
+    {{ comp.content | markdownify }}
   </div>
-  <hr>
 </section>
