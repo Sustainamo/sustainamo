@@ -5,17 +5,15 @@ permalink: /style-guide/
 ---
 
 ## Components
-{% comment %} collect every page under style-guide/components/ {% endcomment %}
-
-{% assign comps = site.pages | where: "dir", "/style-guide/components/" %}
-{% for comp in comps %}
-  {% include style-guide/component.html comp=comp %}
+{% for comp in site.pages %}
+  {% if comp.path contains 'style-guide/components/' %}
+    {% include style-guide/component.html comp=comp %}
+  {% endif %}
 {% endfor %}
 
 ## Basics
-{% comment %} collect every page under style-guide/basics/ {% endcomment %}
-
-{% assign basics = site.pages | where: "dir", "/style-guide/basics/" %}
-{% for basic in basics %}
-  {% include style-guide/basic.html basic=basic %}
+{% for basic in site.pages %}
+  {% if basic.path contains 'style-guide/basics/' %}
+    {% include style-guide/basic.html basic=basic %}
+  {% endif %}
 {% endfor %}
