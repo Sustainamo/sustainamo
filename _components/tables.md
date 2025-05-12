@@ -1,5 +1,5 @@
 ---
-layout: styleguide
+layout: style-guide
 title: Tables
 permalink: /style-guide/tables/
 ---
