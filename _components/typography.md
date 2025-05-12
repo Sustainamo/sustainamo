@@ -1,7 +1,7 @@
 ---
 layout: style-guide
 title: Typography
-permalink: /_components/typography/
+permalink: /style-guide/typography/
 ---
 
 # Typography
