@@ -4,12 +4,6 @@ title: Tables
 permalink: /style-guide/tables/
 ---
 
-```mermaid
-flowchart LR
-    A[Base Table] --> B[Striped Rows]
-    A --> C[Responsive Behaviour]
-```
-
 # Tables
 
 ## Base Table
