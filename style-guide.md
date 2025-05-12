@@ -16,7 +16,7 @@ permalink: /style-guide/
 
       <!-- LIVE PREVIEW: output raw HTML so your real CSS applies -->
       <div class="sg-example">
-        {{ comp.content }}
+        {{ comp.content | markdownify }}
       </div>
 
       <!-- MARKUP SNIPPET: escape the same HTML for copy/paste -->
