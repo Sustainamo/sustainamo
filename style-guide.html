@@ -1,29 +1,12 @@
 ---
-layout: default
 title: Style Guide
+layout: default
 permalink: /style-guide/
 ---
 
-<h1>Style Guide</h1>
+# Style Guide
 
-{% assign groups = site.components | group_by: "section" %}
-{% for grp in groups %}
-  <h2>{{ grp.name }}</h2>
-
-  {% for comp in grp.items %}
-    <section class="sg-component">
-      <h3>{{ comp.title }}</h3>
-
-      <!-- LIVE PREVIEW -->
-      <div class="sg-example">
-        {{ comp.content | safe }}
-      </div>
-
-      <!-- MARKUP TOGGLE -->
-      <details class="sg-markup-toggle">
-        <summary>View HTML markup</summary>
-        <pre><code>{{ comp.content | escape }}</code></pre>
-      </details>
-    </section>
-  {% endfor %}
-{% endfor %}
+- [Typography](/style-guide/typography/)
+- [Colour Palette](/style-guide/colors/)
+- [Buttons](/style-guide/buttons/)
+- [Phase Blocks](/style-guide/phase-blocks/)
