@@ -54,13 +54,21 @@ Some examples of methods for stakeholder categorisation and where they might be 
 - **Interest & power**: in corporate settings or those with existing strong governance structures, assessing how interested stakeholders are in sustainability efforts and their power to influence or lead decision-making  
 - **Importance & influence**: in compliance-driven contexts, ensuring key decision makers, regulatory stakeholders, and those whose opinions most influence external perceptions are engaged, to ensure meeting industry standards and/or legal requirements  
 - **Relevance & impact**: for strategies with a focus on the most meaningful sustainable outcomes, ensuring the views of those most affected are weighted appropriately  
-- **Centrality**: a simplified approach, ranking stakeholders based on how closely related they are to achieving sustainable outcomes  
+- **Centrality**: a simplified approach, ranking stakeholders based on how closely related they are to achieving sustainable outcomes
+
+<div style="max-width: 700px; margin: 2rem auto;">
+  <img src="assets/images/foundations/importanceImpact.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+</div>
 
 Once you have categorised stakeholders, you will have a clear view of which are the most central to your strategy, and an understanding of how many fall into each of your categories, which will in turn inform your approach on who to contact and how.
 
 ### 3.2.4 How to contact stakeholders
 
 There is no set way to contact stakeholders, but typically one or more of the following methods would be used:
+
+<div style="max-width: 700px; margin: 2rem auto;">
+  <img src="assets/images/foundations/contactMethods.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+</div>
 
 It is important to tailor the approach to your stakeholders, and the specific context of your organisation. It should be noted that the approaches taken will impact the data received, and the level of engagement and buy-in that those stakeholders will have going forwards. Particular attention should be paid to accessibility considerations to ensure that the process is inclusive.
 
