@@ -7,13 +7,17 @@ permalink: /style-guide/
 # Style Guide
 
 ## Components
-{% assign comps = site.pages | where: "dir", "/style-guide/components" %}
+{% comment %} collect every page under style-guide/components/ {% endcomment %}
+
+{% assign comps = site.pages | where: "dir", "/style-guide/components/" %}
 {% for comp in comps %}
   {% include style-guide/component.html comp=comp %}
 {% endfor %}
 
 ## Basics
-{% assign basics = site.pages | where: "dir", "/style-guide/basics" %}
+{% comment %} collect every page under style-guide/basics/ {% endcomment %}
+
+{% assign basics = site.pages | where: "dir", "/style-guide/basics/" %}
 {% for basic in basics %}
   {% include style-guide/basic.html basic=basic %}
 {% endfor %}
