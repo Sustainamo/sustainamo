@@ -135,8 +135,8 @@ It is important that organisations define their own questions based on their spe
 
 #### Example question: What does a sustainable [organisation / event…] look like to you?
 
-- **Category:** Baseline (ask all)  
-- **Type:** Qualitative  
+- **Stakeholder group:** All  
+- **Question type:** Qualitative  
 - **Answer format:** Open text  
 - **Rationale:** Open ended question to identify themes and priorities through key words, and how they differ between stakeholder categories. This gives a high-level picture of the sustainability maturity (depth of understanding and engagement) among your stakeholders, and how perceptions and expectations may differ between groups.
 
@@ -145,7 +145,7 @@ An alternative way to ask the above question would be to ask what other organisa
 #### Example question: What percentage of your current products have you performed a Life Cycle Analysis (LCA) or Social LCA on?
 
 - **Stakeholder group:** Suppliers  
-- **Type:** Quantitative  
+- **Question type:** Quantitative  
 - **Answer format:** LCA: __% / SCLA __% / Intend to or would be open to start assessing within next year / None and no plans  
 - **Rationale:** This gives concrete information on how many products an individual organisation has data for, and indirectly tells you:
   - how feasible it would be to collect LCA data from suppliers in year one  
@@ -157,7 +157,7 @@ The above question would be most suited to a supplier who manufactures their own
 #### Example question: Would you/your organisation be interested in joining sustainability training sessions, and if so, what topics would you like them to cover?
 
 - **Stakeholder group:** Any – depending on motivation  
-- **Type:** Qualitative or Quantitative  
+- **Question type:** Qualitative or Quantitative  
 - **Answer format:** Yes / No / Free text or multiple selection  
 - **Rationale:** This question both informs you of willingness to join training, but also helps to show the areas of sustainability that stakeholders are less confident and/or most interested in learning about. Where sustainability maturity is expected to be low (or you have specific needs/interests) consider giving a multiple selection to guide the answers and avoid respondents putting the topics they know rather than those that might help them the most (but they don’t necessarily know to raise).
 
@@ -166,7 +166,7 @@ The purpose (and therefore targeted stakeholders) of this question can differ de
 #### Example question: How important do you feel sustainability will be to our organisation’s success in the next ten years, and how central to this do you feel you/your team are?
 
 - **Stakeholder group:** Internal employees  
-- **Type:** Quantitative and Qualitative  
+- **Question type:** Quantitative and Qualitative  
 - **Answer format:** (As one or two questions (you/your team)) Select from 1 (no impact) to 10 (critical to success) // Free text  
 - **Rationale:** This question is intended to gauge internal opinions on how sustainability aligns with business objectives, and the extent to which individuals see themselves, and/or their teams, as having accountability for making the organisation sustainable.
 
@@ -175,7 +175,7 @@ This sort of question can help map differing perspectives within the organisatio
 #### Example question: Sourcing sustainable materials can increase production costs. Would you be willing to pay more for a product that was net-zero (and/or sustainably sourced)?
 
 - **Stakeholder group:** Customer  
-- **Type:** Quantitative and Qualitative  
+- **Question type:** Quantitative and Qualitative  
 - **Answer format:** Free text // Multiple choice (e.g. +10%, +30%, +50% etc)  
 - **Rationale:** This question aims to explore customer willingness to pay a premium for more sustainable products. The free text entry allows customers to express attitudes towards where the responsibility for sustainability costs should sit; additionally, it can help you understand how motivated customers are by sustainability considerations.
 
