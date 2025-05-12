@@ -8,7 +8,7 @@ last-updated: 25-04-23
 
 <<<<Draft content>>>>
 
-<h3>Understand the context in which you are operating</h3>
+<h2>Understand the context in which you are operating</h3>
 The first step is to understand the internal and external environments in which the strategy will be operating, and to identify what the most important elements are to your organisation from a sustainability perspective.  How to do this is covered below.   There is no set way in which this information should be gathered, but it is recommended the findings are recorded for two main reasons:
 1. Firstly, in order to be able to share the understanding with others to help them understand (or sign off on) the logic and rationale, and/or provide a sense-check for you in areas of their expertise.  This will also help if you decide to follow a standard such as ISO14001 or ISO20121 which require organisations to be able to demonstrate how they arrived at their identified issues (and that they are aware of things such as relevant legal/ regulatory obligations).  
 2. Secondly, in order to review the considerations underpinning the strategy when you periodically review it, and to have a place in which to add additional learnings that inevitably happen throughout the process of creating and implementing your strategy.  
