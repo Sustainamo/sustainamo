@@ -15,7 +15,7 @@ permalink: /style-guide/
       <div class="sg-example">
         {{ comp.content | markdownify }}
       </div>
-      <pre><code>{{ comp.content | jsonify }}</code></pre>
+      <pre><code>{{ comp.content | escape }}</code></pre>
     </section>
   {% endfor %}
 {% endfor %}
