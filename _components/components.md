@@ -1,11 +1,11 @@
 ---
 layout: styleguide
-title: Components
-permalink: /style-guide/components/
+title: Diagrams
+permalink: /style-guide/diagrams/
 ---
 
-# Components
-{% for item in site.components %}
+# Diagrams
+{% for item in site.diagrams %}
 
 ## {{ item.title }}
 
