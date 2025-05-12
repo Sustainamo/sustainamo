@@ -24,7 +24,7 @@ github_username: sustainamo
 rss: rss
 
 collections:
-  foundations:
+  basics:
     output: false
   components:
     output: false
