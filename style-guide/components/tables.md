@@ -1,7 +1,7 @@
 ---
-layout: style-guide
+layout: styleguide
 title: Tables
-permalink: /style-guide/basics/tables/
+permalink: /style-guide/components/tables/
 ---
 
 # Tables
@@ -17,6 +17,10 @@ permalink: /style-guide/basics/tables/
   </tbody>
 </table>
 ```
+
+## Table for questions ##
+Can have as many rows as necessary, but uses table component for styling
+
 
 ## Variants
 - **Striped rows**  

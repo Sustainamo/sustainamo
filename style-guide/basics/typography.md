@@ -1,7 +1,7 @@
 ---
-layout: style-guide
+layout: styleguide
 title: Typography
-permalink: /style-guide/typography/
+permalink: /style-guide/basics/typography/
 ---
 
 # Typography

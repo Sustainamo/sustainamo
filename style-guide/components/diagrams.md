@@ -1,7 +1,7 @@
 ---
 layout: styleguide
 title: Diagrams
-permalink: /style-guide/diagrams/
+permalink: /style-guide/components/diagrams/
 ---
 
 # Diagrams
