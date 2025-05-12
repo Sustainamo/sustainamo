@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Style Guide
 permalink: /style-guide/
 ---
 
