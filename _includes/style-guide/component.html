@@ -1,0 +1,12 @@
+{%- comment -%}  
+Renders one “component” (e.g. tables, diagrams)  
+Expects a variable `comp` with `.title` and `.content`  
+{%- endcomment -%}
+
+<section id="{{ comp.title | slugify }}" class="guide-component">
+  <h2>{{ comp.title }}</h2>
+  <div class="component-preview">
+    {{ comp.content }}
+  </div>
+  <hr>
+</section>
