@@ -6,7 +6,6 @@ order: 3
 last-updated: 25-04-23
 ---
 
-```markdown
 ## 3.2 Stakeholder engagement
 
 The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
