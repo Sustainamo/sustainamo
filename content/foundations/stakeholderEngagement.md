@@ -57,7 +57,7 @@ Some examples of methods for stakeholder categorisation and where they might be 
 - **Centrality**: a simplified approach, ranking stakeholders based on how closely related they are to achieving sustainable outcomes
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="assets/images/foundations/importanceImpact.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/foundations/importanceImpact.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
 </div>
 
 Once you have categorised stakeholders, you will have a clear view of which are the most central to your strategy, and an understanding of how many fall into each of your categories, which will in turn inform your approach on who to contact and how.
@@ -67,7 +67,7 @@ Once you have categorised stakeholders, you will have a clear view of which are 
 There is no set way to contact stakeholders, but typically one or more of the following methods would be used:
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="assets/images/foundations/contactMethods.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/foundations/contactMethods.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
 </div>
 
 It is important to tailor the approach to your stakeholders, and the specific context of your organisation. It should be noted that the approaches taken will impact the data received, and the level of engagement and buy-in that those stakeholders will have going forwards. Particular attention should be paid to accessibility considerations to ensure that the process is inclusive.
