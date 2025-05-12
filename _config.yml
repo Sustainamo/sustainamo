@@ -24,10 +24,6 @@ github_username: sustainamo
 # instagram_username: 
 rss: rss
 
-collections:
-  components:
-    output: false
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
