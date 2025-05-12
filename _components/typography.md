@@ -1,5 +1,5 @@
 ---
-layout: styleguide
+layout: style-guide
 title: Typography
 permalink: /_components/typography/
 ---
