@@ -1,12 +1,13 @@
-{%- comment -%}  
-Renders one “basic” item (e.g. colours, typography)  
-Expects a variable `basic` with `.title` and `.content`  
-{%- endcomment -%}
-
 <section id="{{ basic.title | slugify }}" class="guide-basic">
   <h2>{{ basic.title }}</h2>
 
   <div class="basic-preview">
     {{ basic.content | markdownify }}
   </div>
+
+  <details>
+    <summary>Show code</summary>
+    <pre><code>{{ basic.content | escape }}</code></pre>
+  </details>
+  
 </section>
