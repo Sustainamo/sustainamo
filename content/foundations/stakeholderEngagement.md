@@ -187,5 +187,3 @@ Depending on the volume of stakeholders, you may also wish to structure engageme
 In terms of standards, **ISO14001** requires you to identify ‘relevant parties’ but does not specify who they should be. **ISO20121** is more prescriptive, and says identification ‘shall, where applicable’ include the event organiser, event owner, workforce, supply chain, participants, attendees, regulatory bodies and the community. **GRI Standards** take this a step further, requiring organisations to disclose who was engaged, how, and how their input influenced decisions. Stakeholder engagement should help define sustainability ‘material topics’.
 
 These standards all require evidence of initial and ongoing stakeholder engagement, so it is recommended to consider how best to approach and track this at the initial stakeholder engagement stage. The database/spreadsheet that you create when identifying them could be used to record subsequent engagements or note where to find evidence (i.e. in a CRM system, email threads of particular team members, regular meeting/contract review notes, etc).
-```
-
