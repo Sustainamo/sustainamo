@@ -1,7 +1,7 @@
 ---
 layout: style-guide
 title: Tables
-permalink: /style-guide/tables/
+permalink: /style-guide/basics/tables/
 ---
 
 # Tables
