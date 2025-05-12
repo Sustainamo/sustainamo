@@ -1,14 +1,8 @@
---- file: style-guide/typography.md ---
 ---
 layout: styleguide
 title: Typography
-permalink: /style-guide/typography/
+permalink: /_components/typography/
 ---
-
-```mermaid
-flowchart TD
-    A[Font Families] --> B[Scale & Sizes] --> C[Line-height & Spacing]
-```
 
 # Typography
 
