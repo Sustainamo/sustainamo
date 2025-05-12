@@ -16,7 +16,7 @@ The first step is to understand the internal and external environments in which 
 <h3>Be very clear on the values and positioning of the party creating the strategy</h3>
 A sustainability strategy is the means by which an organisation identifies and approaches the social, economic, and environmental issues which are important to it.  It is therefore essential to review your organisation's purpose, its values, mission statement, and strategic objectives to understand what the sustainability strategy should be helping to achieve.
 
-<h3>Map out why you are creating the strategy?</h3>
+<h3>Map out why you are creating the strategy</h3>
 Organisations and events often pursue sustainability for various reasons, including:
 * Meeting regulatory requirements or standards,
 * Enhancing brand reputation or aligning with core values,
