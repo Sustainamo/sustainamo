@@ -8,10 +8,10 @@ permalink: /style-guide/
 
 ## Components
 {% for comp in site.components %}
-  {% include component.html %}
+  {% include style-guide/component.html %}
 {% endfor %}
 
 ## Basics
 {% for basic in site.basics %}
-  {% include basic.html %}
+  {% include style-guide/basic.html %}
 {% endfor %}
