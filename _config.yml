@@ -24,8 +24,10 @@ github_username: sustainamo
 rss: rss
 
 collections:
+  foundations:
+    output: false
   components:
-    output: true
+    output: false
 
 plugins:
   - jekyll-feed
