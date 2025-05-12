@@ -3,7 +3,6 @@ title: Sustainamo
 author: Content by Ash Bladon
 description: A free, comprehensive guide to creating and implementing a meaningful sustainability strategy # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
-
 baseurl: ""  # Required for Cloudflare Pages
 
 # email: ""
@@ -30,9 +29,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-styleguide
 
-  # titles_from_headings:
-  # strip_title: true
-  # collections: true
+styleguide:
+  path: style-guide.htm
 
 sass:
   sass_dir: assets/css
