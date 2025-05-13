@@ -12,10 +12,14 @@ Our brand palette with CSS variables, usage notes, and minimum contrast ratios.
 
 These colours are central to our brand identity.
 
-<div class="colour-swatch-group">
+## Primary Brand
+
+These colours are central to our brand identity.
+
+<div class="colour-swatch-group" style="gap: 1rem;">
   <div class="colour-swatch" style="background-color: var(--color-primary); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
-  <div class="colour-swatch" style="background-color: var(--color-secondary); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); margin-left: 1rem;"></div>
-  <div class="colour-swatch" style="background-color: var(--color-accent); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); margin-left: 1rem;"></div>
+  <div class="colour-swatch" style="background-color: var(--color-secondary); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
+  <div class="colour-swatch" style="background-color: var(--color-accent); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
 </div>
 
 <div class="colour-swatch-group" style="margin-top: 1rem;">
