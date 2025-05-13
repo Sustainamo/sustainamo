@@ -4,20 +4,18 @@ title: Style Guide
 permalink: /style-guide/
 ---
 
-## Basics
-{% for basic in site.pages %}
-  {% if basic.path contains 'style-guide/basics/' %}
-<!--    <section id="{{ basic.title | slugify }}" -->class="guide-basic">
-      {% include style-guide/basic.html basic=basic %}
-    </section>
-  {% endif %}= 
+# Basics
+{% for basic in site.basics %}
+  <section id="{{ basic.title | slugify }}" class="guide-basic">
+    {% include style-guide/basic.html basic=basic %}
+  </section>
 {% endfor %}
 
 <hr>
 
-## Components
-{% for comp in site.pages %}
-  {% if comp.path contains 'style-guide/components/' %}
+# Components
+{% for comp in site.components %}
+  <section id="{{ comp.title | slugify }}" class="guide-component">
     {% include style-guide/component.html comp=comp %}
-  {% endif %}
+  </section>
 {% endfor %}
