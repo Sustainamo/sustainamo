@@ -13,14 +13,9 @@ permalink: /style-guide/
 {% endfor %}
 
 # Components
-{% for comp in site.components %}
-  <section id="{{ comp.title | slugify }}" class="guide-component">
+{% for component in site.components %}
+  <section id="{{ component.title | slugify }}" class="guide-component">
     {% include style-guide/component.html component=comp %}
   </section>
   <hr class="short-hr">
-{% endfor %}
-
-# Components ({{ site.components | size }} found)
-{% for comp in site.components %}
-  <p>{{ comp.title }}</p>
 {% endfor %}
