@@ -3,8 +3,6 @@ layout: styleguide
 title: Colour Palette
 permalink: /style-guide/basics/colour-palette/
 ---
-# Colour Palette
-
 Our brand palette with CSS variables, usage notes, and minimum contrast ratios.## Primary Brand
 
 These colours are central to our brand identity.
@@ -86,33 +84,6 @@ These greys provide a versatile backdrop and text colours.
     </tr>
   </tbody>
 </table>
-
-<details>
-  <summary>Show code</summary>
-
-  ```css
-  :root {
-    /* Primary brand */
-    --color-primary:    #204312; /* headings, CTAs */
-    --color-secondary: #6A8A56; /* accents, links */
-    --color-accent:     #F4A261; /* highlights */
-
-    /* Neutral greys */
-    --color-grey-100: #f9f9f9;
-    --color-grey-500: #666666;
-    --color-grey-900: #222222;
-    --color-grey-border: #ddd;
-    --color-grey-light: #eee;
-    --color-grey-separator: #ccc;
-
-    --color-link: #007bff; /* Standard link colour */
-  }
-
-  /* Example usage */
-  h1 { color: var(--color-primary); }
-  a  { color: var(--color-secondary); }
-  button.btn-accent { background: var(--color-accent); }
-</details>
 
 **Accessibility Notes:**
 
