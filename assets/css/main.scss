@@ -4,9 +4,10 @@
 @import "minima";
 @import "variables";
 @import "blocks";
-@import "tables"
+@import "tables";
 
 // customisations below
+// =========================
 
 .site-header .wrapper {
   display: flex;
@@ -77,6 +78,7 @@ h3 {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
 @media screen and (max-width: var(--bp-nav) {
   .site-nav .trigger {
     display: none;
