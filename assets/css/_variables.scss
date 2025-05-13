@@ -12,3 +12,12 @@
   --color-grey-light:  #eee;
   --color-grey-separator: #aaa;
 }
+
+
+/* BREAKPOINTS */
+:root {
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+}
+
