@@ -1,121 +1,65 @@
----
-layout: styleguide
-title: Colour Palette
-permalink: /style-guide/basics/colour-palette/
----
-
-# Colour Palette
-
-Our brand palette with CSS variables, usage notes, and minimum contrast ratios.
-
 ## Primary Brand
 
 These colours are central to our brand identity.
 
-## Primary Brand
-
-These colours are central to our brand identity.
-
-<div class="colour-swatch-group" style="gap: 1rem;">
-  <div class="colour-swatch" style="background-color: var(--color-primary); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
-  <div class="colour-swatch" style="background-color: var(--color-secondary); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
-  <div class="colour-swatch" style="background-color: var(--color-accent); width: 60px; height: 60px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);"></div>
-</div>
-
-<div class="colour-swatch-group" style="margin-top: 1rem;">
-  <div class="colour-swatch contrast-example" style="background-color: #fff; color: #204312;">
-    <span>Text on Primary</span>
-    <span>Contrast 7.2:1 (AA+ body, AAA headings)</span>
-  </div>
-  <div class="colour-swatch contrast-example" style="background-color: #fff; color: #6A8A56;">
-    <span>Text on Secondary</span>
-    <span>Contrast 4.5:1 (AA body)</span>
-  </div>
-  <div class="colour-swatch contrast-example" style="background-color: #fff; color: #F4A261;">
-    <span>Text on Accent</span>
-    <span>(Contrast with white needs careful use)</span>
-  </div>
-</div>
-
-<div class="colour-swatch-group" style="margin-top: 1rem;">
-  <div class="colour-swatch" style="background-color: var(--color-primary);">
-    <span>--color-primary</span>
-    <span>#204312</span>
-  </div>
-  <div class="colour-swatch" style="background-color: var(--color-secondary);">
-    <span>--color-secondary</span>
-    <span>#6A8A56</span>
-  </div>
-  <div class="colour-swatch" style="background-color: var(--color-accent);">
-    <span>--color-accent</span>
-    <span>#F4A261</span>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-primary); text-align: left;"></td>
+    <td style="text-align: left;">Primary colour, used for text and main elements of diagrams requiring colour</td>
+  </tr>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-secondary); text-align: left;"></td>
+    <td style="text-align: left;">Secondary colour, for accents and links</td>
+  </tr>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-accent); text-align: left;"></td>
+    <td style="text-align: left;">Accent colour, used for highlights</td>
+  </tr>
+</table>
 
 ## Neutral Greys
 
 These greys provide a versatile backdrop and text colours.
 
-<div class="colour-swatch-group">
-  <div class="colour-swatch contrast-example" style="background-color: #f9f9f9; color: #222222;">
-    <span>Text on Grey 100</span>
-    <span>Contrast 19:1 (AAA)</span>
-  </div>
-  <div class="colour-swatch contrast-example" style="background-color: #f9f9f9; color: #666666;">
-    <span>Text on Grey 100</span>
-    <span>Contrast 5.9:1 (AA)</span>
-  </div>
-  <div class="colour-swatch contrast-example" style="background-color: #666666; color: #f9f9f9;">
-    <span>Text on Grey 500</span>
-    <span>Contrast 3.2:1 (Below AA body)</span>
-  </div>
-  <div class="colour-swatch contrast-example" style="background-color: #222222; color: #f9f9f9;">
-    <span>Text on Grey 900</span>
-    <span>Contrast 9.7:1 (AAA)</span>
-  </div>
-</div>
-
-<div class="colour-swatch-group" style="margin-top: 1rem;">
-  <div class="colour-swatch" style="background-color: var(--color-grey-100); color: var(--color-grey-900);">
-    <span>--color-grey-100</span>
-    <span>#f9f9f9</span>
-  </div>
-  <div class="colour-swatch" style="background-color: var(--color-grey-500); color: var(--color-grey-100);">
-    <span>--color-grey-500</span>
-    <span>#666666</span>
-  </div>
-  <div class="colour-swatch" style="background-color: var(--color-grey-900); color: var(--color-grey-100);">
-    <span>--color-grey-900</span>
-    <span>#222222</span>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-grey-100); text-align: left;"></td>
+    <td style="text-align: left;">Grey 100</td>
+  </tr>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-grey-500); text-align: left;"></td>
+    <td style="text-align: left;">Grey 500</td>
+  </tr>
+  <tr>
+    <td style="width: 50px; height: 30px; background-color: var(--color-grey-900); text-align: left;"></td>
+    <td style="text-align: left;">Grey 900</td>
+  </tr>
+</table>
 
 <details>
   <summary>Show code</summary>
 
-  <pre>
-    <code class="language-css">
-:root {
-  /* Primary brand */
-  --color-primary:    #204312; /* headings, CTAs */
-  --color-secondary: #6A8A56; /* accents, links */
-  --color-accent:     #F4A261; /* highlights */
+  ```css
+  :root {
+    /* Primary brand */
+    --color-primary:    #204312; /* headings, CTAs */
+    --color-secondary: #6A8A56; /* accents, links */
+    --color-accent:     #F4A261; /* highlights */
 
-  /* Neutral greys */
-  --color-grey-100: #f9f9f9;
-  --color-grey-500: #666666;
-  --color-grey-900: #222222;
+    /* Neutral greys */
+    --color-grey-100: #f9f9f9;
+    --color-grey-500: #666666;
+    --color-grey-900: #222222;
 
-  --color-link: #007bff; /* Standard link colour */
+    --color-link: #007bff; /* Standard link colour */
 
-}
+  }
 
-/* Example usage */
-h1 { color: var(--color-primary); }
-a  { color: var(--color-secondary); }
-button.btn-accent { background: var(--color-accent); }
-    </code>
-  </pre>
+  /* Example usage */
+  h1 { color: var(--color-primary); }
+  a  { color: var(--color-secondary); }
+  button.btn-accent { background: var(--color-accent); }
+  ```
 
 </details>
 
