@@ -3,6 +3,6 @@
 
   {%assign parts = component.content | split:  '<!-- preview end -->' %}
     
-  <div class="component">
+  <div class="component-preview">
     {{ parts[0] | markdownify }}
   </div>
