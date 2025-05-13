@@ -1,4 +1,11 @@
-## Primary Brand
+---
+layout: styleguide
+title: Colour Palette
+permalink: /style-guide/basics/colour-palette/
+---
+# Colour Palette
+
+Our brand palette with CSS variables, usage notes, and minimum contrast ratios.## Primary Brand
 
 These colours are central to our brand identity.
 
