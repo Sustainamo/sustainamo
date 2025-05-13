@@ -94,6 +94,9 @@ These greys provide a versatile backdrop and text colours.
   --color-grey-100: #f9f9f9;
   --color-grey-500: #666666;
   --color-grey-900: #222222;
+
+  --color-link: #007bff; /* Standard link colour */
+
 }
 
 /* Example usage */
