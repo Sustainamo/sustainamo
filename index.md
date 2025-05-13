@@ -3,6 +3,8 @@ layout: home
 title: Sustainamo
 ---
 
+Test
+
 This is where we speak about the purpose of the site, opening sourcing sustainability knowledge, inviting other people to contribute etc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis semper venenatis. In quis tempus magna. Donec metus erat, efficitur eget felis id, sagittis lacinia lacus. Mauris a ullamcorper ligula. Fusce sed posuere nulla. Nam sodales vulputate purus ut semper. Vestibulum commodo quam in leo sollicitudin, a vestibulum purus finibus...
 
 <section class="phase-blocks solid green">

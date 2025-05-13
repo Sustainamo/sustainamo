@@ -4,6 +4,7 @@
 @import "minima";
 @import "variables";
 @import "blocks";
+@import "tables"
 
 // customisations below
 
@@ -72,11 +73,17 @@ h3 {
 
 /* Overall column width */
 .wrapper {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-
+@media screen and (max-width: var(--bp-nav) {
+  .site-nav .trigger {
+    display: none;
+    .
+  }
+  
+}
 /* ** MAIN NAVIGATION MENU ** */
 
 .site-nav {
@@ -112,7 +119,7 @@ h3 {
 }
 
 /* Mobile behaviour */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: var(--bp-nav)) {
   .site-nav .trigger {
     display: none;
     flex-direction: column;
@@ -250,64 +257,4 @@ h3 {
   margin: 0 0.25rem;
   color: var(--color-grey-separator);
   font-weight: normal;
-}
-
-
-/* RESPONSIVE TABLE */
-.responsive-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1em;
-  font-size: 0.95em;
-}
-
-.responsive-table th,
-.responsive-table td {
-  border: 1px solid var(--color-grey-border);
-  padding: 0.6em 0.8em;
-  text-align: left;
-}
-
-@media screen and (max-width: 600px) {
-  .responsive-table thead {
-    display: none;
-  }
-
-  .responsive-table tr {
-    display: block;
-    margin-bottom: 1em;
-    border: 1px solid var(--color-grey-border);
-    padding: 0.5em;
-  }
-
-  .responsive-table td {
-    display: block;
-    padding-left: 50%;
-    position: relative;
-    text-align: right;
-    border: none;
-    border-bottom: 1px solid var(--color-grey-light);
-  }
-
-  .responsive-table td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 0.8em;
-    top: 0.6em;
-    font-weight: bold;
-    text-align: left;
-  }
-
-  .responsive-table td[colspan]::before {
-    content: attr(data-label);
-  }
-}
-
-/* Centering 2nd and 3rd columns */
-.centre-ticks th:nth-child(2),
-.centre-ticks th:nth-child(3),
-.centre-ticks td:nth-child(2),
-.centre-ticks td:nth-child(3),
-.centre-ticks td[colspan="2"] {
-  text-align: center;
 }
