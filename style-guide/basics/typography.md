@@ -12,10 +12,9 @@ Our core heading and body styles, plus the Sustainamo Script font.
 
 We use a neutral system font for body text and the custom “alkaline” script for accents.
 
-<details>
-  <summary>Show CSS</summary>
+<details amrkdown="1">
+<summary>Show CSS</summary>
 
-```css
 /* Body text */
 body, p, ul, ol {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -28,7 +27,6 @@ body, p, ul, ol {
   font-style: normal;
   font-size: 1.1rem;
 }
-```
 
 </details>
 
