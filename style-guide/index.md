@@ -7,7 +7,7 @@ permalink: /style-guide/
 ## Basics
 {% for basic in site.pages %}
   {% if basic.path contains 'style-guide/basics/' %}
-e3    <section id="{{ basic.title | slugify }}" class="guide-basic">
+<!--    <section id="{{ basic.title | slugify }}" -->class="guide-basic">
       {% include style-guide/basic.html basic=basic %}
     </section>
   {% endif %}= 
