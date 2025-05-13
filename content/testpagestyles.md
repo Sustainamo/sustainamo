@@ -40,31 +40,7 @@ last-updated: 25-04-23
     <li><a href="#Internal engagement">Internal engagement</a></li>
     <li><a href="#Stakeholder identification and mapping">Stakeholder identification and mapping</a></li>
     <li><a href="#Which stakeholders to contact">Which stakeholders to contact</a></li>
-    <li><a href="#What fields to collect">What fields to collect    .section-nav {
-      position: sticky;
-      top: 2rem;
-      background: #f7f7f7;
-      border: 1px solid #e0e0e0;
-      padding: 1rem;
-      border-radius: 6px;
-      margin-bottom: 2rem;
-      max-width: 250px;
-    }
-    .section-nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .section-nav li {
-      margin-bottom: 0.5rem;
-    }
-    .section-nav a {
-      color: #204312;
-      text-decoration: none;
-    }
-    .section-nav a:hover {
-      text-decoration: underline;
-    }</a></li>
+    <li><a href="#What fields to collect">What fields to collect</a></li>
   </ul>
 </nav>
 
