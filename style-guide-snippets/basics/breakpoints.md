@@ -41,7 +41,8 @@ Our responsive breakpoints help you target mobile, tablet, and desktop layouts.
       <td><code>@media (max-width: var(--bp-nav))</code></td>
     </tr>
     <tr>
-      <td>📊 Table</td>
+      <td><img src="assets/images/styleguide/icon-table.svg" alt="Table icon" width="24" /> height="24" Table</td>
+      
       <td><code>--bp-table</code></td>
       <td>600px</td>
       <td><code>@media (max-width: var(--bp-table))</code></td>
