@@ -91,9 +91,10 @@ These greys provide a versatile backdrop and text colours.
 </div>
 
 <details>
-<summary>Show code</summary>
+  <summary>Show code</summary>
 
-```css
+  <pre>
+    <code class="language-css">
 :root {
   /* Primary brand */
   --color-primary:    #204312; /* headings, CTAs */
@@ -113,7 +114,8 @@ These greys provide a versatile backdrop and text colours.
 h1 { color: var(--color-primary); }
 a  { color: var(--color-secondary); }
 button.btn-accent { background: var(--color-accent); }
-```
+    </code>
+  </pre>
 
 </details>
 
