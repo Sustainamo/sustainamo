@@ -12,7 +12,7 @@ Our core heading and body styles, plus the Sustainamo Script font.
 
 We use a neutral system font for body text and the custom “alkaline” script for accents.
 
-<details amrkdown="1">
+<details markdown="1">
 <summary>Show CSS</summary>
 
 /* Body text */
