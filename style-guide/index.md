@@ -19,3 +19,8 @@ permalink: /style-guide/
   </section>
   <hr class="short-hr">
 {% endfor %}
+
+# Components ({{ site.components | size }} found)
+{% for comp in site.components %}
+  <p>{{ comp.title }}</p>
+{% endfor %}
