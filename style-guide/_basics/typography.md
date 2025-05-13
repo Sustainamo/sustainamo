@@ -35,7 +35,7 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
   </tbody>
 </table>
 
----
+<hr class="short-hr">
 
 ### Heading Styles
 
@@ -80,9 +80,7 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
     </tr>
   </tbody>
 </table>
-
----
-
+<br>
 ### Body Text & Lists
 
 <table class="responsive-table">
@@ -103,28 +101,3 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
     </tr>
   </tbody>
 </table>
-
----
-
-### Usage Example
-
-```css
-body, p, ul, ol {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
-  color: #333;
-}
-
-.sustainamo-script {
-  font-family: "alkaline", cursive;
-  font-size: 1.1rem;
-}
-
-h1 { font-size: 1.8rem; font-weight: 300; color: #204312; }
-h2 { font-size: 1.5rem; color: #204312; }
-h3 { font-size: 1.25rem; color: #204312; }
-h4 { font-size: 1.1rem; color: #204312; }
-
-@media (min-width: 768px) {
-  h1 { font-size: 2.2rem; }
-}

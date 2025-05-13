@@ -6,7 +6,9 @@ permalink: /style-guide/basics/colour-palette/
 
 ## Colour palette
 
-Our brand palette with CSS variables, usage notes, and minimum contrast ratios.## Primary Brand
+Our brand palette with CSS variables, usage notes, and minimum contrast ratios.
+
+### Primary Brand
 
 These colours are central to our brand identity.
 
@@ -88,7 +90,7 @@ These greys provide a versatile backdrop and text colours.
   </tbody>
 </table>
 
-**Accessibility Notes:**
+#### Accessibility Notes:
 
 * **Primary on White (7.2:1):** This contrast comfortably meets WCAG AA standards for body text and even the more stringent AAA standards for headings. It ensures good readability for most users.
 * **Secondary on White (4.5:1):** This meets the minimum WCAG AA standard for body text. While acceptable, consider if a slightly darker shade might improve readability for some users.

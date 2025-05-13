@@ -9,13 +9,13 @@ permalink: /style-guide/
   <section id="{{ basic.title | slugify }}" class="guide-basic">
     {% include style-guide/basic.html basic=basic %}
   </section>
+  <hr class="short-hr">
 {% endfor %}
-
-<hr>
 
 # Components
 {% for comp in site.components %}
   <section id="{{ comp.title | slugify }}" class="guide-component">
-    {% include style-guide/component.html comp=comp %}
+    {% include style-guide/component.html component=comp %}
   </section>
+  <hr class="short-hr">
 {% endfor %}
