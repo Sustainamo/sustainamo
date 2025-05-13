@@ -4,6 +4,8 @@ title: Breakpoints
 permalink: /style-guide/basics/breakpoints/
 ---
 
+## Breakpoints
+
 Our responsive breakpoints help you target mobile, tablet, and desktop layouts.
 
 <table>
