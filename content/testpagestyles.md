@@ -190,7 +190,7 @@ last-updated: 25-04-23
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.005em;
     color: #11181C;
   }
