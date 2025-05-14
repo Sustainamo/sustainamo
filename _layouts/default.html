@@ -18,6 +18,10 @@
     <div class="no-print">
       {%- include footer.html -%}
     </div>
+
+    {% if page.layout == "home" %}
+      <script src="/assets/js/hero.js"></script>
+    {% endif %}
   </body>
 
 </html>
