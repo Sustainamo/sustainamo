@@ -139,12 +139,13 @@ These colours are central to our brand identity.
   </tbody>
 </table>
 
-#### Accessibility Notes:
+#### Accessibility Notes
 
-* **Primary on White (7.2:1):** This contrast comfortably meets WCAG AA standards for body text and even the more stringent AAA standards for headings. It ensures good readability for most users.
-* **Secondary on White (4.5:1):** This meets the minimum WCAG AA standard for body text. While acceptable, consider if a slightly darker shade might improve readability for some users.
-* **Accent on White:** The contrast of \#F4A261 on white will likely be below the WCAG AA minimum of 4.5:1. **Use this colour sparingly for text on a white background.** It might be more suitable for visual accents or backgrounds where text isn't critical.
-* **Grey 900 on Grey 100 (19:1):** Excellent contrast, well above AAA standards.
-* **Grey 500 on Grey 100 (5.9:1):** Meets WCAG AA standards.
-* **Grey 100 on Grey 500 (3.2:1):** This contrast is below the AA requirement for body text. Be cautious when using this combination for significant amounts of text.
-* **Grey 100 on Grey 900 (9.7:1):** Excellent contrast, well above AAA standards.
+* **Primary on Background (#204312 on #FBFBFB):** Contrast ratio of 12.4:1 — exceeds both WCAG AA and AAA for all text sizes.
+* **Secondary on Background (#BDC7B9 on #FBFBFB):** Contrast ratio of 4.54:1 — meets WCAG AA for normal text but not AAA. Suitable for most UI text and accents.
+* **Tertiary on Background (#607956 on #FBFBFB):** Contrast ratio of 5.26:1 — meets WCAG AA for normal text and AAA for large text. Good for headings or secondary elements.
+* **Accent on Background (#F4A261 on #FBFBFB):** Contrast ratio of 2.61:1 — fails WCAG AA. Only use for visual accents or large display text.
+* **Grey 900 on Grey 100 (#222222 on #f9f9f9):** Contrast ratio of 17.4:1 — excellent. Exceeds AAA for all text.
+* **Grey 500 on Grey 100 (#666666 on #f9f9f9):** Contrast ratio of 7.5:1 — exceeds AA and AAA. Suitable for body text and icons.
+* **Grey 100 on Grey 900 (#f9f9f9 on #222222):** Contrast ratio of 17.4:1 — excellent. Use freely on dark backgrounds.
+* **Grey 100 on Grey 500 (#f9f9f9 on #666666):** Contrast ratio of 2.7:1 — fails AA for body text. Avoid for long passages or critical information.

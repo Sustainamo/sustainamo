@@ -5,8 +5,37 @@ permalink: /content/testpagestyles/
 order: 3
 last-updated: 25-04-23
 ---
+
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Montserrat:wght@600&family=Poppins:wght@100;500&family=Space+Mono&family=Work+Sans:wght@400&family=Outfit:wght@100;400&display=swap" rel="stylesheet">
+
 <style>
-   .section-nav {
+  .font-test-container {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+  }
+  .font-test-container h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+<div class="font-test-container">
+  <h2>Montserrat Test</h2>
+  <p class="font-montserrat">The quick brown fox jumps over the lazy dog. 1234567890 — Headline and body test.</p>
+</div>
+
+<div class="font-test-container">
+  <h2>Space Mono Test</h2>
+  <p class="font-space-mono">The quick brown fox jumps over the lazy dog. 1234567890 — Brand and monospaced test.</p>
+</div>
+
+<style>
+.section-nav {
   position: sticky;
   top: 2rem;
   background: #f7f7f7;
@@ -16,33 +45,213 @@ last-updated: 25-04-23
   margin-bottom: 2rem;
   max-width: 250px;
 }
+
+.section-nav[open] {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
 .section-nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 1rem 0 0;
 }
+
 .section-nav li {
   margin-bottom: 0.5rem;
 }
+
 .section-nav a {
   color: #204312;
   text-decoration: none;
 }
+
 .section-nav a:hover {
   text-decoration: underline;
-} 
-
+}
 </style>
 
-<nav class="section-nav" aria-label="In this section">
-  <strong>In this section</strong>
+<details class="section-nav" aria-label="In this section">
+  <summary><strong>In this section</strong></summary>
   <ul>
     <li><a href="#Internal engagement">Internal engagement</a></li>
     <li><a href="#Stakeholder identification and mapping">Stakeholder identification and mapping</a></li>
     <li><a href="#Which stakeholders to contact">Which stakeholders to contact</a></li>
     <li><a href="#What fields to collect">What fields to collect</a></li>
   </ul>
-</nav>
+</details>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
+
+<style>
+  .font-compare-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .font-sample {
+    flex: 1 1 200px;
+    max-width: 300px;
+    padding: 1rem;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+  }
+  .font-sample h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: #11181C;
+  }
+  .font-spacemono {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #11181C;
+  }
+
+  .font-section ul,
+.font-section li {
+  font-family: inherit;
+} 
+
+</style>
+
+<div class="font-compare-grid">
+  <div class="font-sample">
+    <h3>Montserrat</h3>
+    <p class="font-montserrat">
+      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
+    </p>
+  </div>
+  <div class="font-sample">
+    <h3>Space Mono</h3>
+    <p class="font-spacemono">
+      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
+    </p>
+  </div>
+  <div class="font-sample">
+    <h3>Poppins</h3>
+    <p class="font-poppins">
+      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
+    </p>
+  </div>
+</div>
+
+<hr>
+<h2>Font Comparison – Paragraph Style</h2>
+
+<style>
+  .font-section {
+    margin: 2rem 0;
+  }
+  .font-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .font-manrope {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #222;
+  }
+  .font-spacemono {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #11181C;
+  }
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    color: #333;
+  }
+  .font-worksans {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.975rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #11181C;
+  }
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.005em;
+    color: #11181C;
+  }
+</style>
+
+<div class="font-section font-manrope">
+  <div class="font-label">Manrope</div>
+  <p>
+    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
+<br><br>
+    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
+<br><br>
+    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
+    <ul>
+      <li>introduce the wider organisation to the sustainability function</li>
+      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
+      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
+      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
+      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
+      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
+    </ul>
+  </p>
+</div>
+<div class="font-section font-worksans">
+  <div class="font-label">Work Sans</div>
+  <p>
+    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
+    <br><br>
+    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
+    <br><br>
+    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
+    <ul>
+      <li>introduce the wider organisation to the sustainability function</li>
+      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
+      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
+      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
+      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
+      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
+    </ul>
+  </p>
+</div>
+
+<div class="font-section font-outfit">
+  <div class="font-label">Outfit</div>
+  <p>
+    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
+    <br><br>
+    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
+    <br><br>
+    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
+    <ul>
+      <li>introduce the wider organisation to the sustainability function</li>
+      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
+      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
+      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
+      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
+      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
+    </ul>
+  </p>
+</div>
+
 
 ## 3.2 Stakeholder engagement 
 

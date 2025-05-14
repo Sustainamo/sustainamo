@@ -13,6 +13,7 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
 <table class="responsive-table">
   <thead>
     <tr>
+      <th>Label</th>
       <th>Sample</th>
       <th>Class/Selector</th>
       <th>Font Stack</th>
@@ -21,16 +22,25 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
   </thead>
   <tbody>
     <tr>
+      <td>Body Font</td>
       <td style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">The quick brown fox</td>
       <td><code>body, p, ul, ol</code></td>
       <td><code>system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif</code></td>
-      <td>Body text, lists</td>
+      <td>Primary text for content and lists</td>
     </tr>
     <tr>
+      <td>Headline Font</td>
+      <td style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500;">The quick brown fox</td>
+      <td><code>h1, h2, h3, h4</code></td>
+      <td><code>system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif</code></td>
+      <td>Used for section headings and emphasis</td>
+    </tr>
+    <tr>
+      <td>Brand Font</td>
       <td style="font-family: 'alkaline', cursive;">Sustainamo</td>
       <td><code>.sustainamo-script</code></td>
       <td><code>"alkaline", cursive</code></td>
-      <td>Brand accent, headings, highlights</td>
+      <td>Logo, brand accent, or decorative emphasis</td>
     </tr>
   </tbody>
 </table>
