@@ -34,8 +34,8 @@ last-updated: 25-04-23
 
 </style>
 
-<nav class="section-nav" aria-label="On this page">
-  <strong>On this page</strong>
+<nav class="section-nav" aria-label="In this section">
+  <strong>In this section</strong>
   <ul>
     <li><a href="#Internal engagement">Internal engagement</a></li>
     <li><a href="#Stakeholder identification and mapping">Stakeholder identification and mapping</a></li>

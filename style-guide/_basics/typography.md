@@ -101,3 +101,27 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
     </tr>
   </tbody>
 </table>
+
+### Links
+
+Links use the brand blue for clarity and accessibility. Visited links use a slightly different shade for distinction.
+
+<p>
+  <a href="#" style="color: #175076; text-decoration: underline;">This is a link</a>
+  &nbsp;|&nbsp;
+  <a href="#" style="color: #1565a5; text-decoration: underline;">This is a visited link</a>
+</p>
+
+```css
+a {
+  color: var(--color-link); /* #175076 */
+  text-decoration: underline;
+}
+a:visited {
+  color: var(--color-link-visited); /* #1565a5 */
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  opacity: 0.85;
+}

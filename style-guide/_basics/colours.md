@@ -32,9 +32,19 @@ These colours are central to our brand identity.
       <td><code>var(--color-secondary)</code></td>
     </tr>
     <tr>
+      <td style="width: 50px; height: 30px; background-color: var(--color-tertiary);"></td>
+      <td>Tertiary colour, for supporting accents and diagrams</td>
+      <td><code>var(--color-tertiary)</code></td>
+    </tr>
+    <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-accent);"></td>
       <td>Accent colour, used for highlights</td>
       <td><code>var(--color-accent)</code></td>
+    </tr>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: var(--color-background); border: 1px solid #ccc;"></td>
+      <td>Background colour, used for page backgrounds</td>
+      <td><code>var(--color-background)</code></td>
     </tr>
   </tbody>
 </table>
@@ -86,6 +96,18 @@ These greys provide a versatile backdrop and text colours.
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-separator);"></td>
       <td>Colour for separators, like in breadcrumbs</td>
       <td><code>var(--color-grey-separator)</code></td>
+    </tr>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: #175076;"></td>
+      <td>Link colour (default, unvisited)</td>
+      <td><code>var(--color-link)</code></td>
+      <td><code>#175076</code></td>
+    </tr>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: #1565a5;"></td>
+      <td>Visited link colour</td>
+      <td><code>var(--color-link-visited)</code></td>
+      <td><code>#1565a5</code></td>
     </tr>
   </tbody>
 </table>
