@@ -23,4 +23,8 @@ This is where we speak about the purpose of the site, opening sourcing sustainab
 </section>
 
 
-Vestibulum efficitur sapien eu est dapibus, eget ultrices nunc pulvinar. In et massa elit. Phasellus ut magna vitae felis ornare mattis dictum a quam. Nullam eu arcu vel turpis laoreet feugiat quis tincidunt mauris. Curabitur quis enim non urna convallis semper. Nunc mi arcu, semper vitae tincidunt eu, tempus vel ex. Nam eget felis porttitor, pretium turpis quis, tristique neque.
+Welcome to Sustainamo, your go-to source for open-sourcing sustainability knowledge. 
+
+We are committed to empowering individuals and communities by providing accessible and actionable insights to drive collective action towards a sustainable future. At Sustainamo, we believe that sharing knowledge is the key to overcoming environmental challenges and fast-tracking positive change. Join us in our mission to create a more sustainable world where information is freely available for all, inspiring innovative solutions and collaborative efforts to protect our planet for future generations. 
+
+Together, let's accelerate the journey towards a greener tomorrow.
