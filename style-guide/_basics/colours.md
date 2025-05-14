@@ -49,7 +49,40 @@ These colours are central to our brand identity.
   </tbody>
 </table>
 
-### Neutral Greys
+### Link colours
+
+<table class="responsive-table">
+  <thead>
+    <tr>
+      <th>Swatch</th>
+      <th>Usage</th>
+      <th>CSS Variable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: var(--color-link);"></td>
+      <td>Link colour (default, unvisited)</td>
+      <td><code>var(--color-link)</code></td>
+      <td><code>#175076</code></td>
+    </tr>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: var(-color-link-visited);"></td>
+      <td>Visited link colour</td>
+      <td><code>var(--color-link-visited)</code></td>
+      <td><code>#1565a5</code></td>
+    </tr>
+    <tr>
+      <td style="width: 50px; height: 30px; background-color: var(--colour-link-hover);"></td>
+      <td>Visited link colour</td>
+      <td><code>var(--color-link-hover)</code></td>
+      <td><code>#1565a5</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Neutral Greys (for tables, nav etc)
 
 These greys provide a versatile backdrop and text colours.
 
@@ -78,11 +111,6 @@ These greys provide a versatile backdrop and text colours.
       <td><code>var(--color-grey-900)</code></td>
     </tr>
     <tr>
-      <td style="width: 50px; height: 30px; background-color: var(--color-link);"></td>
-      <td>Standard link colour</td>
-      <td><code>var(--color-link)</code></td>
-    </tr>
-    <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-border);"></td>
       <td>Border colour for tables and other UI elements</td>
       <td><code>var(--color-grey-border)</code></td>
@@ -96,18 +124,6 @@ These greys provide a versatile backdrop and text colours.
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-separator);"></td>
       <td>Colour for separators, like in breadcrumbs</td>
       <td><code>var(--color-grey-separator)</code></td>
-    </tr>
-    <tr>
-      <td style="width: 50px; height: 30px; background-color: #175076;"></td>
-      <td>Link colour (default, unvisited)</td>
-      <td><code>var(--color-link)</code></td>
-      <td><code>#175076</code></td>
-    </tr>
-    <tr>
-      <td style="width: 50px; height: 30px; background-color: #1565a5;"></td>
-      <td>Visited link colour</td>
-      <td><code>var(--color-link-visited)</code></td>
-      <td><code>#1565a5</code></td>
     </tr>
   </tbody>
 </table>
