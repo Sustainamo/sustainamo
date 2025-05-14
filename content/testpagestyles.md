@@ -6,7 +6,7 @@ order: 3
 last-updated: 25-04-23
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Montserrat:wght@600&family=Poppins:wght@100;500&family=Space+Mono&family=Work+Sans:wght@400&family=Outfit:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
   .font-test-container {
@@ -80,7 +80,6 @@ last-updated: 25-04-23
   </ul>
 </details>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
 
 <style>
   .font-compare-grid {
@@ -174,7 +173,7 @@ last-updated: 25-04-23
     font-family: 'Poppins', sans-serif;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 0.01em;
     color: #333;
   }
@@ -188,7 +187,8 @@ last-updated: 25-04-23
   }
   .font-outfit {
     font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
+    font-size: 0.975
+    rem;
     line-height: 1.5rem;
     font-weight: 300;
     letter-spacing: 0.005em;
@@ -214,8 +214,8 @@ last-updated: 25-04-23
     </ul>
   </p>
 </div>
-<div class="font-section font-worksans">
-  <div class="font-label">Work Sans</div>
+<div class="font-section font-poppins">
+  <div class="font-label">Poppins</div>
   <p>
     The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
     <br><br>
