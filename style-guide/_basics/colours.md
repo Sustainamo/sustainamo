@@ -18,6 +18,7 @@ These colours are central to our brand identity.
       <th>Swatch</th>
       <th>Usage</th>
       <th>CSS Variable</th>
+      <th>Hex</th>
     </tr>
   </thead>
   <tbody>
@@ -25,26 +26,31 @@ These colours are central to our brand identity.
       <td style="width: 50px; height: 30px; background-color: var(--color-primary);"></td>
       <td>Primary colour, used for text and main elements of diagrams requiring colour</td>
       <td><code>var(--color-primary)</code></td>
+      <td><code>#204312</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-secondary);"></td>
       <td>Secondary colour, for accents and links</td>
       <td><code>var(--color-secondary)</code></td>
+      <td><code>#BDC7B9</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-tertiary);"></td>
       <td>Tertiary colour, for supporting accents and diagrams</td>
       <td><code>var(--color-tertiary)</code></td>
+      <td><code>#607956</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-accent);"></td>
       <td>Accent colour, used for highlights</td>
       <td><code>var(--color-accent)</code></td>
+      <td><code>#F4A261</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-background); border: 1px solid #ccc;"></td>
       <td>Background colour, used for page backgrounds</td>
       <td><code>var(--color-background)</code></td>
+      <td><code>#FBFBFB</code></td>
     </tr>
   </tbody>
 </table>
@@ -57,6 +63,7 @@ These colours are central to our brand identity.
       <th>Swatch</th>
       <th>Usage</th>
       <th>CSS Variable</th>
+      <th>Hex</th>
     </tr>
   </thead>
   <tbody>
@@ -67,24 +74,21 @@ These colours are central to our brand identity.
       <td><code>#175076</code></td>
     </tr>
     <tr>
-      <td style="width: 50px; height: 30px; background-color: var(-color-link-visited);"></td>
-      <td>Visited link colour</td>
-      <td><code>var(--color-link-visited)</code></td>
+      <td style="width: 50px; height: 30px; background-color: var(--color-link-hover);"></td>
+      <td>Link hover colour</td>
+      <td><code>var(--color-link-hover)</code></td>
       <td><code>#1565a5</code></td>
     </tr>
     <tr>
-      <td style="width: 50px; height: 30px; background-color: var(--colour-link-hover);"></td>
-      <td>Visited link colour</td>
-      <td><code>var(--color-link-hover)</code></td>
-      <td><code>#1565a5</code></td>
+      <td style="width: 50px; height: 30px; background-color: var(--color-link-clicked);"></td>
+      <td>Link clicked/active colour</td>
+      <td><code>var(--color-link-clicked)</code></td>
+      <td><code>#4b3b6b</code></td>
     </tr>
   </tbody>
 </table>
 
-
 ### Neutral Greys (for tables, nav etc)
-
-These greys provide a versatile backdrop and text colours.
 
 <table class="responsive-table">
   <thead>
@@ -92,6 +96,7 @@ These greys provide a versatile backdrop and text colours.
       <th>Swatch</th>
       <th>Usage</th>
       <th>CSS Variable</th>
+      <th>Hex</th>
     </tr>
   </thead>
   <tbody>
@@ -99,31 +104,37 @@ These greys provide a versatile backdrop and text colours.
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-100);"></td>
       <td>Grey 100</td>
       <td><code>var(--color-grey-100)</code></td>
+      <td><code>#f9f9f9</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-500);"></td>
       <td>Grey 500</td>
       <td><code>var(--color-grey-500)</code></td>
+      <td><code>#666666</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-900);"></td>
       <td>Grey 900</td>
       <td><code>var(--color-grey-900)</code></td>
+      <td><code>#222222</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-border);"></td>
       <td>Border colour for tables and other UI elements</td>
       <td><code>var(--color-grey-border)</code></td>
+      <td><code>#ddd</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-light);"></td>
       <td>Light grey for subtle dividers and backgrounds</td>
       <td><code>var(--color-grey-light)</code></td>
+      <td><code>#eee</code></td>
     </tr>
     <tr>
       <td style="width: 50px; height: 30px; background-color: var(--color-grey-separator);"></td>
       <td>Colour for separators, like in breadcrumbs</td>
       <td><code>var(--color-grey-separator)</code></td>
+      <td><code>#aaa</code></td>
     </tr>
   </tbody>
 </table>
