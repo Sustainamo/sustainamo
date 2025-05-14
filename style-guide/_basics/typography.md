@@ -6,7 +6,7 @@ permalink: /style-guide/basics/typography/
 
 ## Typography
 
-A guide to Sustainamo’s core type styles, font stacks, and usage.
+ A guide to Sustainamo’s core type styles, font stacks, and usage.
 
 ### Font Families
 
@@ -23,23 +23,23 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
   <tbody>
     <tr>
       <td>Body Font</td>
-      <td style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">The quick brown fox</td>
+      <td style="font-family: 'Manrope', sans-serif;">The quick brown fox</td>
       <td><code>body, p, ul, ol</code></td>
-      <td><code>system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif</code></td>
+      <td><code>'Manrope', 'Segoe UI', Roboto, sans-serif</code></td>
       <td>Primary text for content and lists</td>
     </tr>
     <tr>
       <td>Headline Font</td>
-      <td style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500;">The quick brown fox</td>
+      <td style="font-family: 'Montserrat', sans-serif; font-weight: 600;">The quick brown fox</td>
       <td><code>h1, h2, h3, h4</code></td>
-      <td><code>system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif</code></td>
+      <td><code>'Montserrat', 'Segoe UI', Roboto, sans-serif</code></td>
       <td>Used for section headings and emphasis</td>
     </tr>
     <tr>
       <td>Brand Font</td>
       <td style="font-family: 'alkaline', cursive;">Sustainamo</td>
       <td><code>.sustainamo-script</code></td>
-      <td><code>"alkaline", cursive</code></td>
+      <td><code>'alkaline', cursive</code></td>
       <td>Logo, brand accent, or decorative emphasis</td>
     </tr>
   </tbody>
@@ -61,35 +61,36 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
   </thead>
   <tbody>
     <tr>
-      <td><h1 style="font-size:1.8rem; font-weight:300; color:#204312;">Heading 1</h1></td>
+      <td><h1 style="font-family:'Montserrat',sans-serif; font-size:2rem; font-weight:600; color:#204312;">Heading 1</h1></td>
       <td><code>h1</code></td>
-      <td>1.8rem<br>(2.2rem ≥768px)</td>
-      <td>300</td>
+      <td>2rem</td>
+      <td>600</td>
       <td><span style="color:#204312;">#204312</span></td>
     </tr>
     <tr>
-      <td><h2 style="font-size:1.5rem; color:#204312;">Heading 2</h2></td>
+      <td><h2 style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:600; color:#204312;">Heading 2</h2></td>
       <td><code>h2</code></td>
       <td>1.5rem</td>
-      <td>400</td>
+      <td>600</td>
       <td><span style="color:#204312;">#204312</span></td>
     </tr>
     <tr>
-      <td><h3 style="font-size:1.25rem; color:#204312;">Heading 3</h3></td>
+      <td><h3 style="font-family:'Montserrat',sans-serif; font-size:1.2rem; font-weight:600; color:#204312;">Heading 3</h3></td>
       <td><code>h3</code></td>
-      <td>1.25rem</td>
-      <td>400</td>
+      <td>1.2rem</td>
+      <td>600</td>
       <td><span style="color:#204312;">#204312</span></td>
     </tr>
     <tr>
-      <td><h4 style="font-size:1.1rem; color:#204312;">Heading 4</h4></td>
+      <td><h4 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:600; color:#204312;">Heading 4</h4></td>
       <td><code>h4</code></td>
-      <td>1.1rem</td>
-      <td>400</td>
+      <td>1rem</td>
+      <td>600</td>
       <td><span style="color:#204312;">#204312</span></td>
     </tr>
   </tbody>
 </table>
+
 <br>
 ### Body Text & Lists
 
@@ -104,10 +105,10 @@ A guide to Sustainamo’s core type styles, font stacks, and usage.
   </thead>
   <tbody>
     <tr>
-      <td style="font-size:1rem; color:#333;">The quick brown fox jumps over the lazy dog.</td>
+      <td style="font-family: 'Manrope', sans-serif; font-size:0.95rem; color:#222;">The quick brown fox jumps over the lazy dog.</td>
       <td><code>p, ul, ol</code></td>
       <td>1.6</td>
-      <td><span style="color:#333;">#333</span></td>
+      <td><span style="color:#222;">#222</span></td>
     </tr>
   </tbody>
 </table>
@@ -135,3 +136,4 @@ a:focus {
   text-decoration: underline;
   opacity: 0.85;
 }
+```
