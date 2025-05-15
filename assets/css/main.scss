@@ -5,6 +5,7 @@
 @import "variables";
 @import "blocks";
 @import "tables";
+@import "hero";
 
 // customisations below
 // =========================
@@ -84,55 +85,6 @@ h4 { font-size: 1.0rem; }
   white-space: nowrap;
 }
 
-/* ** HERO BANNER ** */
-.hero-banner {
-  position: relative;
-  width: 100%;
-  height: 60vh;
-  max-height: 600px;
-  overflow: hidden;
-
-  .slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out;
-  }
-
-  .slide.active {
-    opacity: 1;
-    z-index: 1;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .hero-content.position-1 {
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
-    color: white;
-    text-shadow: 0 0 4px var(--color-primary);
-    max-width: 40rem;
-  }
-  .hero-content.position-2 {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(3);
-    color: white;
-    text-shadow: 0 0 4px var(--color-primary);
-    max-width: 40rem;
-    font-family: "alkaline", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-}
 
 /* Overall column width */
 .wrapper {
