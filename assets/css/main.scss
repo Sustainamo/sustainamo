@@ -84,6 +84,7 @@ h4 { font-size: 1.0rem; }
   white-space: nowrap;
 }
 
+/* ** HERO BANNER ** */
 .hero-banner {
   position: relative;
   width: 100%;
@@ -109,12 +110,27 @@ h4 { font-size: 1.0rem; }
     object-fit: cover;
   }
 
-  .hero-content {
+  .hero-content.position-1 {
     position: absolute;
     bottom: 20%;
     left: 10%;
     color: white;
+    text-shadow: 0 0 4px var(--color-primary);
     max-width: 40rem;
+  }
+  .hero-content.position-2 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(3);
+    color: white;
+    text-shadow: 0 0 4px var(--color-primary);
+    max-width: 40rem;
+    font-family: "alkaline", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
 
