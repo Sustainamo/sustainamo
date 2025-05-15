@@ -27,25 +27,20 @@
   object-fit: cover;
 }
 
-.hero-content.position-1 {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  color: white;
-  text-shadow: 0 0 4px var(--color-primary);
-  max-width: 40rem;
-}
-
-.hero-content.position-2 {
+.hero-font {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 0 0 4px var(--color-primary);
-  max-width: 90%;
+  width: 85%; // replaces max-width to fix wrapping box
   text-align: center;
-  font-size: clamp(3.5rem, 12vw, 8rem);
-  will-change: transform, opacity;
-  line-height: 1.15;
+}
+
+.hero-font h1 {
+  font-size: clamp(2.5rem, 8vw, 6rem); // keep this for fluid scaling
+  line-height: 1.2;
+  margin: 0 auto;
+  white-space: normal; // allow wrap
+  text-shadow: 0 0 4px var(--color-primary);
+  color: var(--color-background);
 }
