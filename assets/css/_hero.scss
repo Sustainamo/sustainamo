@@ -29,18 +29,20 @@
 
 .hero-font {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 85%; // replaces max-width to fix wrapping box
+  width: 90%; // replaces max-width to fix wrapping box
   text-align: center;
 }
 
 .hero-font h1 {
-  font-size: clamp(2.5rem, 8vw, 6rem); // keep this for fluid scaling
+  font-size: clamp(2.25rem, 7.2vw, 5.4rem); // keep this for fluid scaling
   line-height: 1.2;
   margin: 0 auto;
   white-space: normal; // allow wrap
-  text-shadow: 0 0 4px var(--color-primary);
+  text-shadow:
+    0 0 4px var(--color-primary),
+    0 0 6px var(--color-primary),
   color: var(--color-background);
 }
