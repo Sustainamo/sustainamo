@@ -243,6 +243,31 @@ h4 { font-size: 1.0rem; }
   display: block;
 }
 
+/* ICON GRID */
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.icon-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.icon-card svg,
+.icon-card img {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
 /* CONTENT BREADCRUMBS STYLING */
 .breadcrumbs {
   display: flex;
