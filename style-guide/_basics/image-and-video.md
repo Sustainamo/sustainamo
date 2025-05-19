@@ -53,6 +53,7 @@ Use the `.image-grid` class to display multiple images in a responsive grid layo
 
 - Images will wrap and resize automatically.
 - Use for galleries or sets of related images.
+- Individual images inside `.image-grid` are capped at `max-width: 200px` to maintain layout consistency.
 
 ---
 
@@ -84,3 +85,27 @@ Wrap embedded videos (e.g., YouTube, Vimeo) in a `.video-wrapper` to maintain as
 - Use meaningful `alt` text for all images.
 - Use descriptive `title` attributes for embedded videos.
 - Ensure images and videos have sufficient contrast and are not essential for understanding content unless described elsewhere.
+
+---
+
+## Media Card Aspect Ratio
+
+The `.media-card` class maintains a consistent aspect ratio for image blocks (typically 3:2). Useful for grid-aligned image previews or media components.
+
+### Example
+
+```html
+<figure class="media-card">
+  <img src="/assets/images/example.jpg" alt="Alt text">
+</figure>
+```
+
+### CSS
+
+```scss
+.media-card {
+  aspect-ratio: 3 / 2;
+}
+```
+
+- Helps align content in photo grids or cards visually.

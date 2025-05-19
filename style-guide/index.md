@@ -4,18 +4,19 @@ title: Style Guide
 permalink: /style-guide/
 ---
 
-# Basics
-{% for basic in site.basics %}
-  <section id="{{ basic.title | slugify }}" class="guide-basic">
-    {% include style-guide/basic.html basic=basic %}
-  </section>
-  <hr class="short-hr">
-{% endfor %}
+This is the jumping off point for the style guide:
 
-# Components
-{% for component in site.components %}
-  <section id="{{ component.title | slugify }}" class="guide-component">
-    {% include style-guide/component.html component=comp %}
-  </section>
-  <hr class="short-hr">
-{% endfor %}
+<section class="phase-blocks solid green">
+  <a href="/style-guide/basics/" class="phase-block">
+    <h2>Basics</h2>
+    <p>Core elements like breakpoints, colours, fonts etc.</p>
+  </a>
+  <a href="/style-guide/components/" class="phase-block">
+    <h2>Components</h2>
+    <p>Elements such as tables, image cards etc.</p>
+  </a>
+  <a href="/style-guide/brandassets/" class="phase-block">
+    <h2>Logos and icons etc</h2>
+    <p>Logos, icons and other brand assets.</p>
+  </a>
+</section>

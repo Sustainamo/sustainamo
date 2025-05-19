@@ -33,7 +33,7 @@ The `.wrapper` class defines the main content container. It keeps content center
 
 ```css
 .wrapper {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;       /* center horizontally */
   padding: 0 1.5rem;    /* gutter space on mobile */
 }
@@ -43,7 +43,7 @@ The `.wrapper` class defines the main content container. It keeps content center
 
 ## Key Points
 
-- **Max width:** Prevents content from stretching too wide for readability.
+- **Max width (1000px):** Prevents content from stretching too wide for readability.
 - **Centered:** Uses `margin: 0 auto` to center on the page.
 - **Responsive padding:** Adds horizontal space on small screens.
 - **Reusable:** Use `.wrapper` on any block that should be centered and constrained.

@@ -1,4 +1,4 @@
----
+ ---
 layout: styleguide
 title: Typography
 permalink: /style-guide/basics/typography/
@@ -23,9 +23,9 @@ permalink: /style-guide/basics/typography/
   <tbody>
     <tr>
       <td>Body Font</td>
-      <td style="font-family: 'Manrope', sans-serif;">The quick brown fox</td>
+      <td style="font-family: 'Poppins', sans-serif;">The quick brown fox</td>
       <td><code>body, p, ul, ol</code></td>
-      <td><code>'Manrope', 'Segoe UI', Roboto, sans-serif</code></td>
+      <td><code>'Poppins', 'Segoe UI', Roboto, sans-serif</code></td>
       <td>Primary text for content and lists</td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ permalink: /style-guide/basics/typography/
   </thead>
   <tbody>
     <tr>
-      <td style="font-family: 'Manrope', sans-serif; font-size:0.95rem; color:#222;">The quick brown fox jumps over the lazy dog.</td>
+      <td style="font-family: 'Poppins', sans-serif; font-size:0.95rem; color:#222;">The quick brown fox jumps over the lazy dog.</td>
       <td><code>p, ul, ol</code></td>
       <td>1.6</td>
       <td><span style="color:#222;">#222</span></td>

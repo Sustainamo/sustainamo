@@ -32,7 +32,7 @@ last-updated: 25-04-23
 <div class="font-test-container">
   <h2>Space Mono Test</h2>
   <p class="font-space-mono">The quick brown fox jumps over the lazy dog. 1234567890 — Brand and monospaced test.</p>
-</div>
+</div> 
 
 <style>
 .section-nav {
@@ -61,7 +61,8 @@ last-updated: 25-04-23
 }
 
 .section-nav a {
-  color: #204312;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
   text-decoration: none;
 }
 
@@ -70,15 +71,8 @@ last-updated: 25-04-23
 }
 </style>
 
-<details class="section-nav" aria-label="In this section">
-  <summary><strong>In this section</strong></summary>
-  <ul>
-    <li><a href="#Internal engagement">Internal engagement</a></li>
-    <li><a href="#Stakeholder identification and mapping">Stakeholder identification and mapping</a></li>
-    <li><a href="#Which stakeholders to contact">Which stakeholders to contact</a></li>
-    <li><a href="#What fields to collect">What fields to collect</a></li>
-  </ul>
-</details>
+
+{% include toc.html html=content class="section-nav" %}
 
 
 <style>
@@ -442,3 +436,28 @@ Depending on the volume of stakeholders, you may also wish to structure engageme
 In terms of standards, **ISO14001** requires you to identify ‘relevant parties’ but does not specify who they should be. **ISO20121** is more prescriptive, and says identification ‘shall, where applicable’ include the event organiser, event owner, workforce, supply chain, participants, attendees, regulatory bodies and the community. **GRI Standards** take this a step further, requiring organisations to disclose who was engaged, how, and how their input influenced decisions. Stakeholder engagement should help define sustainability ‘material topics’.
 
 These standards all require evidence of initial and ongoing stakeholder engagement, so it is recommended to consider how best to approach and track this at the initial stakeholder engagement stage. The database/spreadsheet that you create when identifying them could be used to record subsequent engagements or note where to find evidence (i.e. in a CRM system, email threads of particular team members, regular meeting/contract review notes, etc).
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sectionNav = document.querySelector(".section-nav");
+
+    if (sectionNav && sectionNav.tagName.toLowerCase() === "details") {
+      sectionNav.setAttribute("open", "true");
+
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (!entry.isIntersecting) {
+            sectionNav.removeAttribute("open");
+          }
+        },
+        {
+          root: null,
+          threshold: 0,
+          rootMargin: "-100px 0px 0px 0px"
+        }
+      );
+
+      observer.observe(sectionNav);
+    }
+  });
+</script>

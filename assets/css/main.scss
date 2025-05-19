@@ -30,11 +30,11 @@ hr {
 
 /* TYPOGRAPHY */
 body {
-  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  font-family: $font-body;
   font-weight: 300;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #222;
+  color: $color-grey-900;
 }
 
 strong, b {
@@ -48,16 +48,24 @@ strong, b {
   font-size: 1.2rem;
 }
 
+// Heading styles per style guide
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', 'Segoe UI', Roboto, sans-serif;
+  font-family: $font-heading;
   font-weight: 600;
   line-height: 1.2;
+  color: $color-primary;
 }
 
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.2rem; }
-h4 { font-size: 1.0rem; }
+h1 { font-size: 2rem; margin-top: 2rem; margin-bottom: 1rem; }
+h2 { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+h3 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 1rem; }
+h4 { font-size: 1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+h5, h6 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
 /* MISC */
 .responsive-img {
