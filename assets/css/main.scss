@@ -30,11 +30,11 @@ hr {
 
 /* TYPOGRAPHY */
 body {
-  font-family: $font-body;
+  font-family: variables.$font-body;
   font-weight: 300;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: $color-grey-900;
+  color: variables.$color-grey-900;
 }
 
 strong, b {
@@ -50,10 +50,10 @@ strong, b {
 
 // Heading styles per style guide
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-heading;
+  font-family: variables.$font-heading;
   font-weight: 600;
   line-height: 1.2;
-  color: $color-primary;
+  color: variables.$color-primary;
 }
 
 h1 { font-size: 2rem; margin-top: 2rem; margin-bottom: 1rem; }
