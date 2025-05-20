@@ -6,6 +6,72 @@ order: 3
 last-updated: 25-04-23
 ---
 
+<details class="section-nav" open aria-label="In this section">
+  <summary><strong>In this section</strong></summary>
+  <ul>
+    <li><a href="#32-stakeholder-engagement">3.2 Stakeholder engagement</a></li>
+    <li><a href="#321-internal-engagement-internal-engagement">3.2.1 Internal engagement</a></li>
+    <li><a href="#322-stakeholder-identification-and-mapping-stakeholder-identification-and-mapping">3.2.2 Stakeholder identification and mapping</a></li>
+    <li><a href="#323-which-stakeholders-to-contact">3.2.3 Which stakeholders to contact</a></li>
+    <li><a href="#324-how-to-contact-stakeholders">3.2.4 How to contact stakeholders</a></li>
+    <li><a href="#325-what-fields-to-collect-when-stakeholder-mapping">3.2.5 What fields to collect when stakeholder mapping</a></li>
+    <li><a href="#326-how-to-create-questions-for-stakeholders">3.2.6 How to create questions for stakeholders</a></li>
+    <li><a href="#327-what-types-of-questions-to-ask-stakeholders">3.2.7 What types of questions to ask stakeholders?</a></li>
+    <li><a href="#328-timing-and-phasing-of-stakeholder-engagement">3.2.8 Timing and phasing of stakeholder engagement</a></li>
+    <li><a href="#329-a-note-on-standards">3.2.9 A note on standards</a></li>
+  </ul>
+</details>
+
+<style>
+.section-nav {
+  position: sticky;
+  top: 2rem;
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.fixed-nav {
+  position: fixed !important;
+  top: 2rem;
+  z-index: 1000;
+}
+
+.section-nav[open] {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.section-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.section-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.section-nav a {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  text-decoration: none;
+}
+
+.section-nav a:hover {
+  text-decoration: underline;
+}
+
+.section-nav summary {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+</style>
+
+
+
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
@@ -33,47 +99,6 @@ last-updated: 25-04-23
   <h2>Space Mono Test</h2>
   <p class="font-space-mono">The quick brown fox jumps over the lazy dog. 1234567890 — Brand and monospaced test.</p>
 </div> 
-
-<style>
-.section-nav {
-  position: sticky;
-  top: 2rem;
-  background: #f7f7f7;
-  border: 1px solid #e0e0e0;
-  padding: 1rem;
-  border-radius: 6px;
-  margin-bottom: 2rem;
-  max-width: 250px;
-}
-
-.section-nav[open] {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.section-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-}
-
-.section-nav li {
-  margin-bottom: 0.5rem;
-}
-
-.section-nav a {
-  color: var(--color-primary);
-  font-family: var(--font-heading);
-  text-decoration: none;
-}
-
-.section-nav a:hover {
-  text-decoration: underline;
-}
-</style>
-
-
-{% include toc.html html=content class="section-nav" %}
-
 
 <style>
   .font-compare-grid {
@@ -247,7 +272,7 @@ last-updated: 25-04-23
 </div>
 
 
-## 3.2 Stakeholder engagement 
+<h3>3.2 Stakeholder engagement </h3>
 
 The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
 
@@ -440,24 +465,34 @@ These standards all require evidence of initial and ongoing stakeholder engageme
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const sectionNav = document.querySelector(".section-nav");
+    const originalOffset = sectionNav.offsetTop;
+    const placeholder = document.createElement("div");
+    placeholder.style.height = sectionNav.offsetHeight + "px";
+    placeholder.style.display = "none";
+    let isSticky = false;
 
-    if (sectionNav && sectionNav.tagName.toLowerCase() === "details") {
-      sectionNav.setAttribute("open", "true");
+    function handleScroll() {
+      const scrollY = window.pageYOffset;
 
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (!entry.isIntersecting) {
-            sectionNav.removeAttribute("open");
-          }
-        },
-        {
-          root: null,
-          threshold: 0,
-          rootMargin: "-100px 0px 0px 0px"
+      if (scrollY > originalOffset && !isSticky) {
+        sectionNav.classList.add("fixed-nav");
+        sectionNav.removeAttribute("open");
+        placeholder.style.display = "block";
+        if (!sectionNav.previousElementSibling || sectionNav.previousElementSibling !== placeholder) {
+          sectionNav.parentNode.insertBefore(placeholder, sectionNav);
         }
-      );
-
-      observer.observe(sectionNav);
+        isSticky = true;
+      } else if (scrollY <= originalOffset && isSticky) {
+        sectionNav.classList.remove("fixed-nav");
+        sectionNav.setAttribute("open", "true");
+        if (placeholder.parentNode) {
+          placeholder.parentNode.removeChild(placeholder);
+        }
+        placeholder.style.display = "none";
+        isSticky = false;
+      }
     }
+
+    window.addEventListener("scroll", handleScroll);
   });
 </script>

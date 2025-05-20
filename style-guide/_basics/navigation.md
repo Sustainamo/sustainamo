@@ -75,6 +75,25 @@ Content navigation helps users move between related pages, such as sections of a
 - Use `.content_navi-label` for the link text.
 - Use `.content_navi-arrow` for directional arrows.
 
+--
+
+---
+
+## Section Navigation (Sticky Summary Nav)
+
+This optional collapsible nav floats on scroll and can be reused on any content page.
+
+### Example
+
+```html
+<details class="section-nav" open aria-label="In this section">
+  <summary><strong>In this section</strong></summary>
+  <ul>
+    <li><a href="#section-1">Section 1</a></li>
+    <li><a href="#section-2">Section 2</a></li>
+  </ul>
+</details>
+
 ---
 
 ## Accessibility Notes
