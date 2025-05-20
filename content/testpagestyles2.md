@@ -1,10 +1,11 @@
 ---
 title: "Stakeholder engagement"
 layout: content
-permalink: /content/testpagestyles/
+permalink: /content/testpagestyles2/
 order: 3
 last-updated: 25-04-23
 ---
+
 
 <details class="section-nav" open aria-label="In this section">
   <summary><strong>In this section</strong></summary>
@@ -16,7 +17,7 @@ last-updated: 25-04-23
     <li><a href="#324-how-to-contact-stakeholders">3.2.4 How to contact stakeholders</a></li>
     <li><a href="#325-what-fields-to-collect-when-stakeholder-mapping">3.2.5 What fields to collect when stakeholder mapping</a></li>
     <li><a href="#326-how-to-create-questions-for-stakeholders">3.2.6 How to create questions for stakeholders</a></li>
-    <li><a href="#327-what-types-of-questions-to-ask-stakeholders">3.2.7 What types of questions to ask stakeholders?</a></li>
+    <li><a href="#327-what-tygpes-of-questions-to-ask-stakeholders">3.2.7 What types of questions to ask stakeholders?</a></li>
     <li><a href="#328-timing-and-phasing-of-stakeholder-engagement">3.2.8 Timing and phasing of stakeholder engagement</a></li>
     <li><a href="#329-a-note-on-standards">3.2.9 A note on standards</a></li>
   </ul>
@@ -24,8 +25,7 @@ last-updated: 25-04-23
 
 <style>
 .section-nav {
-  position: sticky;
-  top: 2rem;
+  position: static;
   background: #f7f7f7;
   border: 1px solid #e0e0e0;
   padding: 1rem;
@@ -33,40 +33,41 @@ last-updated: 25-04-23
   margin-bottom: 2rem;
   max-width: 600px;
 }
-
-.fixed-nav {
-  position: fixed !important;
-  top: 2rem;
-  z-index: 1000;
-}
-
 .section-nav[open] {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-
 .section-nav ul {
   list-style: none;
   padding: 0;
   margin: 1rem 0 0;
 }
-
 .section-nav li {
   margin-bottom: 0.5rem;
 }
-
 .section-nav a {
   color: var(--color-primary);
   font-family: var(--font-heading);
   text-decoration: none;
 }
-
 .section-nav a:hover {
   text-decoration: underline;
 }
-
 .section-nav summary {
   font-family: var(--font-heading);
   color: var(--color-primary);
+}
+.section-nav-sticky {
+  display: none;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 6px;
+  max-width: 600px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 </style>
 
@@ -464,35 +465,21 @@ These standards all require evidence of initial and ongoing stakeholder engageme
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const sectionNav = document.querySelector(".section-nav");
-    const originalOffset = sectionNav.offsetTop;
-    const placeholder = document.createElement("div");
-    placeholder.style.height = sectionNav.offsetHeight + "px";
-    placeholder.style.display = "none";
-    let isSticky = false;
+    const sectionNav = document.querySelector('.section-nav');
+    const stickyNav = document.querySelector('.section-nav-sticky');
+    if (!sectionNav || !stickyNav) return;
+
+    // Get the trigger point as described
+    const sectionNavTop = sectionNav.getBoundingClientRect().top + window.scrollY;
+    const triggerPoint = sectionNavTop + sectionNav.offsetHeight - 100;
 
     function handleScroll() {
-      const scrollY = window.pageYOffset;
-
-      if (scrollY > originalOffset && !isSticky) {
-        sectionNav.classList.add("fixed-nav");
-        sectionNav.removeAttribute("open");
-        placeholder.style.display = "block";
-        if (!sectionNav.previousElementSibling || sectionNav.previousElementSibling !== placeholder) {
-          sectionNav.parentNode.insertBefore(placeholder, sectionNav);
-        }
-        isSticky = true;
-      } else if (scrollY <= originalOffset && isSticky) {
-        sectionNav.classList.remove("fixed-nav");
-        sectionNav.setAttribute("open", "true");
-        if (placeholder.parentNode) {
-          placeholder.parentNode.removeChild(placeholder);
-        }
-        placeholder.style.display = "none";
-        isSticky = false;
+      if (window.scrollY > triggerPoint) {
+        stickyNav.style.display = 'block';
+      } else {
+        stickyNav.style.display = 'none';
       }
     }
-
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
   });
 </script>
