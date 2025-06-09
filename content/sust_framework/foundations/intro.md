@@ -2,10 +2,9 @@
 title: "Introduction to Foundations"
 layout: content
 permalink: /foundations/introduction/
-order: 1
-nav: true
-nav_title: "Foundations"
-nav_order: 2
+nav: false
+# nav_title: "Foundations"
+# nav_order: 2
 ---
 
 To be successful, a sustainability strategy must be grounded in a clear understanding of the context in which it will operate.  This means having a clear understanding of:
