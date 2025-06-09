@@ -2,10 +2,9 @@
 title: "Overview"
 layout: content
 permalink: /sustainability/overview/
-order: 1
-nav: true
-nav_title: "Overview"
-nav_order: 1
+nav: false
+# nav_title: "Sustainability Framework"
+# nav_order: 1
 ---
 
 Sustainability relates to almost every aspect of your organisation or event, so knowing where to start can be daunting.  However, you can make it a manageable process by following a step-by-step process, and incrementally building out your strategy,
