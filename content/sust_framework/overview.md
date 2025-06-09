@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 layout: content
-permalink: /overview/
+permalink: /sustainability/overview/
 order: 1
 nav: true
 nav_title: "Overview"
