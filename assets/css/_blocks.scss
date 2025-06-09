@@ -32,9 +32,13 @@ transform: translateY(-5px);
 }
 
 /* Typography inside block */
-.phase-blocks a.phase-block h2,
+.phase-blocks a.phase-block h2 {
+  color: #333;
+  margin: 0.5rem 0 0.5rem 0; // T R B L
+}
+
 .phase-blocks a.phase-block p {
-color: #333;
+  color: #333;
 }
 
 /* Colour variants – SOLID */

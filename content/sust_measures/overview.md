@@ -2,9 +2,9 @@
 title: "Overview"
 layout: content
 permalink: /sustainability/measures/
-nav: true
-nav_title: "Sustainability Measures"
-nav_order: 2
+nav: false
+# nav_title: "Sust. Measures"
+# nav_order: 2
 ---
 
 Holding page for sustainability measures section

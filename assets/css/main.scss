@@ -67,6 +67,11 @@ h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.note {
+  font-style: italic;
+  color: 	var(--color-accent)
+}
+
 /* MISC */
 .responsive-img {
   max-width: 100%;
