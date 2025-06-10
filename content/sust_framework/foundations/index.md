@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Foundations"
+title: "Building solid foundations"
 layout: content
-permalink: /foundations/introduction/
+permalink: /framework/foundations/introduction/
 nav: false
 # nav_title: "Foundations"
 # nav_order: 2

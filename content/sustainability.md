@@ -9,9 +9,9 @@ nav_order: 1
 <span class="note">Section to explain two parts to sustainablity - the framework and measures... Framework most important , measures more examples but really should be set in the context of your own strategy...<span>
 
 <div class="phase-blocks green solid">
-  <a class="phase-block" href="/sustainability/framework/">
+  <a class="phase-block" href="/sustframework/">
     <h2>Sustainability Strategy</h2>
-    <p>Creating a framework to define what sustainability means *in your context* and setting out how you will approach it.</p>
+    <p>Creating a framework to define what sustainability means <strong>to your organisation</strong> and how you will therefore approach it.</p>
   </a>
   <a class="phase-block" href="/sustainability/measures/">
     <h2>Sustainablity measures</h2>
