@@ -28,4 +28,9 @@ To be successful, a sustainability strategy must be grounded in a clear understa
   </a>
 </section>
 
-In this section we will look at how to do this in three sections.  Initially a ‘discovery’ phase, where the sustainability team (the people responsible for delivering the strategy) will outline the internal and external environment the strategy will exist within.  This will be followed by a process of ‘stakeholder engagement’, where the considerations of the people who affect, and are affected by the organisation/ event will be collected.  Lastly, these findings will be evaluated to create a prioritised list of issues with materially impact the organisation / event from a sustainability perspective.  This entire process is often referred to as a ‘materiality assessment’.  
+In this section we will look at how to do this in three phases:
+1. Initially a ‘discovery’ phase, where the sustainability team (the people responsible for delivering the strategy) will identify at a high level, the internal and external environment the strategy will be operating within.  
+2. This will be followed by an interactive ‘stakeholder engagement’ phase, where the considerations of the people who affect, and are affected by, the organisation/ event will be explored and documented.  
+3. In the last phase, these findings will be evaluated to create a prioritised list of that the issues that 'materially impact’ the organisation / event from a sustainability perspective.  
+
+This entire three-phase process is often referred to as a ‘materiality assessment’.   

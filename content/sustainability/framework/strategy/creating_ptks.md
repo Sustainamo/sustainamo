@@ -40,20 +40,22 @@ Standardise formats for policies, targets, and KPIs to streamline the process. H
 ### 4.3.3 Key considerations for policy development
 Aligning policies with organisational function
 Policies should reflect the unique sustainability challenges and opportunities of an organisation. While all organisations may need policies covering areas like energy, waste, and procurement, the focus and implementation will differ depending on the sector.
+
 For example:
 
-- **A venue** might focus on enabling sustainable choices for attendees, with policies for:
-  - Encouraging low-carbon travel and providing public transport incentives.
-  - Reducing event waste through clear bin systems and supplier requirements.
-  - Sourcing sustainable catering, minimising food waste, and eliminating single-use plastics through service design.
-- **A consultancy** might focus on embedding sustainability in its advisory work, with policies for:
-  - Ensuring all client recommendations include sustainability considerations.
-  - Offering sustainability training to staff and external partners.
-  - Reducing emissions from business travel and offsetting unavoidable impacts.
-- **A manufacturer** might prioritise operational efficiency and supply chain impact, with policies for:
-  - Circular procurement — prioritising materials that are reusable, recycled, or responsibly sourced.
-  - Reducing production waste and improving resource efficiency.
-  - Phasing out high-impact refrigerants and monitoring emissions across sites.
+**A venue** might focus on enabling sustainable choices for attendees, with policies for:
+- Encouraging low-carbon travel and providing public transport incentives.
+- Reducing event waste through clear bin systems and supplier requirements.
+- Sourcing sustainable catering, minimising food waste, and eliminating single-use plastics through service design.
+
+**A consultancy** might focus on embedding sustainability in its advisory work, with policies for:
+- Ensuring all client recommendations include sustainability considerations.- Offering sustainability training to staff and external partners.
+- Reducing emissions from business travel and offsetting unavoidable impacts.
+
+**A manufacturer** might prioritise operational efficiency and supply chain impact, with policies for:
+- Circular procurement — prioritising materials that are reusable, recycled, or responsibly sourced.
+- Reducing production waste and improving resource efficiency.
+- Phasing out high-impact refrigerants and monitoring emissions across sites.
 
 Policies should not exist in isolation; they should be designed within the operational realities of the organisation (and functional teams) who will implement them. 
 
@@ -72,11 +74,11 @@ It is essential to define and use terminology consistently to ensure clarity and
 </div>
 
  
-#### Use of language
+### Use of language
 Language in policies should be precise and enforceable. Vague wording can lead to lack of accountability and inconsistent implementation. Consider using structured terminology like the MoSCoW method suggested below:
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="/assets/images/content/cptk_moscow.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/content/sustainbility/cptk_moscow.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
 </div>
 
  

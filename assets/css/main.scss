@@ -354,3 +354,12 @@ h5, h6 {
   color: var(--color-grey-separator);
   font-weight: normal;
 }
+
+/*Example Box*/
+.exampleBox {
+  background-color: #f4f4f4;
+  border-left: 4px solid #fe9400; // or whatever accent you use
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}

@@ -1,5 +1,5 @@
 ---
-title: "Discovery"
+title: "Getting started - 'Discovery'"
 layout: content
 permalink: /foundations/discovery/
 order: 2
@@ -9,11 +9,11 @@ last-updated: 25-04-23
 <<<<Draft content>>>>
 
 <h2>Understanding the context in which you are operating</h2>
-The first step is to understand the internal and external environments in which the strategy will be operating, and to identify what the most important elements are to your organisation from a sustainability perspective.  How to do this is covered below.   There is no set way in which this information should be gathered, but it is recommended the findings are recorded for two main reasons:
+The first step is to understand the internal and external environments in which the strategy will be operating, and to identify what the most important elements are to your organisation from a sustainability perspective.  How to do this is covered below.  There is no set way in which this information should be gathered, but it is recommended the findings are recorded for two main reasons:
 1. Firstly, in order to be able to share the understanding with others to help them understand (or sign off on) the logic and rationale, and/or provide a sense-check for you in areas of their expertise.  This will also help if you decide to follow a standard such as ISO14001 or ISO20121 which require organisations to be able to demonstrate how they arrived at their identified issues (and that they are aware of things such as relevant legal/ regulatory obligations).  
 2. Secondly, in order to review the considerations underpinning the strategy when you periodically review it, and to have a place in which to add additional learnings that inevitably happen throughout the process of creating and implementing your strategy.  
 
-<h3>Be very clear on the values and positioning of the party creating the strategy</h3>
+<h3>Be clear on the values and positioning of the party creating the strategy</h3>
 A sustainability strategy is the means by which an organisation identifies and approaches the social, economic, and environmental issues which are important to it.  It is therefore essential to review your organisation's purpose, its values, mission statement, and strategic objectives to understand what the sustainability strategy should be helping to achieve.
 
 <h3>Map out why you are creating the strategy</h3>
@@ -27,7 +27,7 @@ Understanding this will help to frame the broader objective of the strategy, the
 <h3>What is the external context?</h3>
 This is the environment in which your organisation / event operates.  Key considerations are (globally and for the region(s) in which you operate):
 * What are the legal and regulatory obligations?
-* What are the trends within your sector (and how is your organisation currently responding to them)
+* What are the trends within your sector (and how is your organisation currently responding to them)?
 * What are similar organisations/ events (or competitors) doing in regards to sustainability?  How are they promoting this?  What are the challenges / opportunities from doing something different (or not?)
 * What are consumer and societal expectations and values in your sector, and where can you monitor this (i.e. print media, social media, etc)
 * How do the media cover and report on sustainability in your sector?

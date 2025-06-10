@@ -8,6 +8,8 @@ nav_order: 1
 ---
 <span class="note">Section to explain two parts to sustainablity - the framework and measures... Framework most important , measures more examples but really should be set in the context of your own strategy...<span>
 
+<span class="note">something here about the framework / strategy being the most important starting area<span>
+
 <div class="phase-blocks green solid">
   <a class="phase-block" href="/sustframework/">
     <h2>Sustainability Strategy</h2>
