@@ -45,7 +45,8 @@ strong, b {
   font-family: "alkaline", sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: variables.$color-primary;
 }
 
 // Heading styles per style guide
@@ -356,10 +357,9 @@ h5, h6 {
 }
 
 /*Example Box*/
-.exampleBox {
-  background-color: #f4f4f4;
+.examplebox {
+  background-color: rgba(variables.$color-tertiary,0.1);
   border-left: 4px solid #fe9400; // or whatever accent you use
   padding: 1rem;
   margin: 1.5rem 0;
-  font-style: italic;
 }
