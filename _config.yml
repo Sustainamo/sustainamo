@@ -14,7 +14,6 @@ theme: minima
 markdown: kramdown
 kramdown:
   input: GFM
-  parse_block_html: true #enables markdown inside html blocks (divs)
 
 timezone: Etc/UTC 
 future: false # GitHub Pages will publish future posts if this isn't set to false
