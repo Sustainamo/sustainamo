@@ -2,84 +2,91 @@
 title: "Creating policies, targets and KPIs"
 layout: content
 permalink: /strategy/creating-policies-targets-and-kpis/
-order: 3
-last-updated: 25-05-21
+order: 9
 ---
 
-### 4.3.1 Summary
-Transforming sustainability commitments into measurable progress requires a structured approach to policies, targets, and KPIs.  Without this, sustainability efforts risk being vague, inconsistent, or difficult to implement.  Policies establish clear expectations and accountability; Targets translate policies into action through tangible goals; and KPIs track progress internally, ensuring accountability and measuring performance.
+### Summary
+Developing sustainability policies is an iterative process, where broad commitments are refined into measurable actions and tracked for accountability.  This is not always a linear process, as some policies, targets or KPIs might already exist, and some targets or KPIs might be immediately apparent whilst working on policies, whereas others take time and research to create.  The availability (and outcomes) of baseline data will also help shape your ultimate policies, targets and KPIs.  Adopting an iterative, layered approach can be very beneficial, allowing refinement as feasibility and data insights emerge.
 
-Before beginning to develop policies, targets and KPIs, define the structure you will use, and the roles and responsibilities of those to be involved.  The process is iterative and collaborative, translating the insights from the materiality assessment through the lens of the sustainability vision and guiding principles.  Policies start as broad commitments and become more specific through an iterative process, targets refine the commitments, policies are adjusted or expanded to support those targets, and KPIs establish measurable indicators of progress, with each step informed by operational realities and the available data.
+This section outlines how to approach this, with a focus on how to actually generate the policies and associated targets and KPIs, and then to ensure they are feasible and  achievable.  
 
-This section will outline how to structure the process effectively, and provides practical guidance on developing a clear, achievable, and enforceable framework.  
+### Creation flow
 
-### 4.3.2 Preparation: structure and planning
-Aligning the process in relation to organisational structures, resources, and priorities helps to streamline implementation, avoid roadblocks, and ensure sustainability efforts lead to positive outcomes.  
+The diagram below provides an overview of this process and shows how the different steps can inform both following and previous steps.   The best long-term results will come from PTKs that are not developed by the functional teams who will be responsible for their implementation, supported and facilitated by a sustainability team.  The in-depth knowledge and understanding of domain areas, combined with expert sustainability and facilitation support, ensures policies are practical, enforceable, and drive real change.
 
-***Structuring policy areas***<br>
-Define how policies will be grouped, whether by function (e.g., Procurement, Operations, Transport) and/or by specific topics (e.g., Plastics, Energy Use, Waste Management). Consider how policies align with existing teams and responsibilities, ensuring clear accountability and deliverability.  The approach may evolve as you start to identify policies and targets, but an initial firm foundation will greatly help.  
-
-***Assigning Ownership***<br>
-For the best outcomes, policies and targets should be embedded through the teams responsible for implementing them, with sustainability teams supporting but not imposing. For example, catering teams should take the lead on food waste reduction, while sustainability teams provide guidance and facilitation. Identify policy owners early and clarify their role.
-
-***Engagement and awareness***<br>
-Assess whether teams understand the vision and sustainability commitments. If they were not heavily involved in developing the vision and principles, additional engagement may be needed to ensure alignment and buy-in. Consider whether teams have the necessary knowledge, skills, and resources to contribute meaningfully.
-
-***Timeline and milestones***<br>
-Develop a realistic timeline, mapping out which teams need to be involved at each stage, and communicate this in advance. Factor in time for consultation, review, and refinement. Allow for data collection where baseline measurements are not yet available.
-
-***Definition of Done (DoD)***<br>
-Define the criteria individual policies, targets and KPIs have to meet to be considered “Done”.  For example, that the team responsible for that area, and the sustainability team are satisfied the policies are comprehensive, and that individual components meet standards for clarity, completeness, feasibility, and ability to be assessed.   
-
-***Data and insights readiness***<br>
-Ensure key information from the materiality assessment is available to support policy development. While baseline analysis will take place later, consider what data will need to be gathered and factor this into the timeline.
-
-***Preparing templates***<br>
-Standardise formats for policies, targets, and KPIs to streamline the process. Having structured templates helps maintain consistency and ensures policies are clear, actionable, and trackable.
-
-### 4.3.3 Key considerations for policy development
-Aligning policies with organisational function
-Policies should reflect the unique sustainability challenges and opportunities of an organisation. While all organisations may need policies covering areas like energy, waste, and procurement, the focus and implementation will differ depending on the sector.
-
-For example:
-
-**A venue** might focus on enabling sustainable choices for attendees, with policies for:
-- Encouraging low-carbon travel and providing public transport incentives.
-- Reducing event waste through clear bin systems and supplier requirements.
-- Sourcing sustainable catering, minimising food waste, and eliminating single-use plastics through service design.
-
-**A consultancy** might focus on embedding sustainability in its advisory work, with policies for:
-- Ensuring all client recommendations include sustainability considerations.- Offering sustainability training to staff and external partners.
-- Reducing emissions from business travel and offsetting unavoidable impacts.
-
-**A manufacturer** might prioritise operational efficiency and supply chain impact, with policies for:
-- Circular procurement — prioritising materials that are reusable, recycled, or responsibly sourced.
-- Reducing production waste and improving resource efficiency.
-- Phasing out high-impact refrigerants and monitoring emissions across sites.
-
-Policies should not exist in isolation; they should be designed within the operational realities of the organisation (and functional teams) who will implement them. 
-
-### How do you intend to use the policies?
-Your policies will define your organisational sustainability approach and ambition, providing not only a practical framework, but potentially an effective communication tool.  Externally they can help set expectations for suppliers and stakeholders through providing a clear reference point for contracts and ways of working.  In addition, they can signal your values, build transparency, and drive engagement with customers, partners, and the wider community.   Sharing policies with suppliers gives them a clear understanding of what is required to align with your requirements and expectations, and facilitates their inclusion in contractual arrangements.  
-
-Internally, policies provide clarity, making it easier for teams to act. A well-structured policy removes ambiguity, ensures consistency, and helps people understand exactly what’s expected of them; moving sustainability from an abstract concept to something they can apply in day-to-day decisions.
-
-It is recommended that organisations treat their policies as a powerful engagement tool, both for internal alignment and external transparency. This could take the form of full policies, select sections, or tailored versions for different audiences.
-
-### Defining policies, targets and KPIs
-It is essential to define and use terminology consistently to ensure clarity and alignment.  Some organisations may call targets objectives, or combine policies with targets, or targets with KPIs etc.  Organisations should adopt an approach which aligns with how they already work. The framework presented here is a recommended approach for those starting from scratch:
+Familiarising yourself with the steps and processes in the diagram  will help frame this section and your understanding of the overall process.  
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="/assets/images/content/sustainability/cptk_definingpolicies.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/content/sustainability/cptk_flow.png" alt="diagram showing creation flow for process of developing policies, targets and KPIs" style="width: 100%; height: auto;">
 </div>
 
- 
-### Use of language
-Language in policies should be precise and enforceable. Vague wording can lead to lack of accountability and inconsistent implementation. Consider using structured terminology like the MoSCoW method suggested below:
+### Iteratively create policies, targets and KPIs
+#### Generate policy ideas
 
-<div style="max-width: 700px; margin: 2rem auto;">
-  <img src="/assets/images/content/sustainbility/cptk_moscow.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+You will have done a lot of work during the definition of your vision and principles that can be used here.  Using the structure you identified in the preparation phase, work with the relevant teams to review the topics that were identified as important in the materiality assessment and consider how they relate to the vision and the guiding principles.  What actions, restrictions or commitments would be required to apply the principles to the issues?   
+
+For example, if you have the *“Circularity in materials”* principle mentioned earlier, and material analysis found that customers are concerned about food waste, then you may start to develop policies around reducing food waste, using module construction methods for temporary structures, and committing to donate unused office equipment.   
+
+Whiteboarding or interaction sessions can be helpful to drive engagement and generate ideas.  For example, you might write the issues on sticky notes and then group by principle, or, write out the issues on the board and then suggest two or three commitments that would be required to achieve them. 
+
+Do not worry about creating too many ideas or policies, they can be reduced through iterative review and prioritisation as you progress through the process.  As you develop your policies, and work through adding targets and KPIs, the policies will evolve and develop sub-policies.  It is important to strike a balance with policies between being too vague (or weak) to be meaningful, or too strong (or stringent) to be realistic.  A realistic policy will set clear direction, and also acknowledge operational realities (potentially through sub-policies).  
+
+<div class="examplebox">
+<span class="sustainamo-script">For example: </span>
+<p></p>
+<p><strong>Weak policy:</strong> <em>"We encourage sustainable waste management."</em></p>
+<p><strong>Strong policy:</strong> <em>"Single-use plastics are completely prohibited across all operations."</em></p>
+<p><strong>Realistic Policy:</strong> <em>"We will phase out all single-use plastics by 2030"</em>, with sub-policies of: <em>"Between 2025 and 2029 exceptions can be made on a case-by-case basis for health and safety or excessive cost grounds"</em>, and further sub-policies detailing the exemption criteria.</p>
 </div>
 
- 
-Utilising the same language in contracts and when assessing proposals from suppliers / contractors is helpful, as it provides clear assessment criteria and allows third parties to understand what is expected from them.
+#### Make them measurable  
+Once you have a list of initial policies, consider how you would quantify the policy.  For example, if you have a policy of “Minimise food waste”, a target might be “Reduce food waste to X kilos a month, or reduce food waste by Y% each year”.  In thinking through the targets, you may decide you’d like to ‘divert z% of food waste to compost”, minimising waste and embracing circularity.  This target could then prompt you to add a new policy around diverting all biological waste to compost. 
+
+A target can either be absolute (tap flow of less than 3.75litres/min, or no one than 1 tonne of material waste per 100sq meter of construction etc) or relative (reduce electricity usage by 10% per visitor, 30% of main meal menu items to be vegan).  Whether targets are strong or not is contextual.  Local and global guidelines (such as BREEAM, WRAP etc) can be useful, as can looking at the policies of other organisations or events that are similar to yours.  If in doubt, it can be helpful to benchmarking approaches within your particular sector and/or region, and aiming to increase ambition based on what is currently possible. 
+
+#### Add indicators to assess them 
+Whilst the targets that you have quantified your policies with should be ambitious, they must be also be measurable through KPIs.  This effectively means applying one or more ‘indicators’ to each target to be able to test and report on whether it is being met.  Taking the food waste example, whilst there are high-tech solutions to recording what goes into kitchen waste, it is harder to measure in public-facing bins, especially where recycling is not being well adhered to.  A waste contractor (or facilitates) should be able to tell you how many bags of biological mater are collected in a given period though, and they may even be able to tell you how many bags were contaminated (contained non-biological waste).  A further consideration is whether the amount of waste should be relational to the amount of sales, or absolute.   
+
+For a policy to reduce food waste, with a target of 50% reduction, your KPIs may be something like the following: 
+- Weight of purchased ingredients in a given week / weight of organic waste collected from kitchen bins in same week 
+- Servings purchased / servings sold (i.e. ingredients purchase based on sales forecast vs actual sold) 
+- Value of sales from food prepared on site only / (organic waste bags collected from kitchen * estimated value of wastage in a bag) 
+
+#### Define the baseline data 
+Baseline data is information that tells us how we are performing against an indicator at the beginning of the period we want to measure.  There can be a somewhat circular logic to baseline data; where it is available, it is helpful to use it to inform the process of shaping policies and targets, but often it is necessary to think through how to create indicators for a target in order to know what form the baseline data could take.  The availability of data may then lead to a revision of the target to ensure it can be accurately measured.   
+
+Before finalising a KPI, it is important to check the availability and appropriateness of baseline data by acquiring an example of it.  If calculations / manipulation of the data will be required, this should also be done as it will highlight any issues that may not be immediately apparent in the data.  This is particularly important where KPIs are reliant on more than one data source (e.g. where they are relative) as there is more room for error.   
+
+#### Apply a feasibility test
+By working collaboratively with each team area, resulting policies, targets, and KPIs should already be feasible.  However, it is always helpful to have a final step review and ensure feasibility within the specific context of your organisation.  Some (non-exhaustive) considerations may be:   
+  
+**Data availability**  
+Do you have the internal procedures and external contractual arrangements in place to ensure the timely provision of the required indicator data?
+
+**Supplier flexibility**  
+Are existing / new suppliers likely to be able to meet these requirements? Is there a potential cost implication?
+
+**Material / services availability**  
+Where policies stipulate certain types of goods or services to be used, are they available (in sufficient quantity/quality) in your region? What are the lead times and cost implications?
+
+**Procurement**  
+Do your contracts / procurement processes support these requirements? Can they be updated to ensure they do in future (i.e. require suppliers to provide necessary data; include penalties for failing to meet sustainability requirements etc)
+
+**Training needs**  
+Do staff / suppliers / customers require additional information or capacity building to be able to meet these targets?
+
+**Operational impact**  
+Is the resource / processes in place to support it? Does it affect more than one team, are all parties aware and onboard?
+
+**Enforceable**  
+Are the policies enforceable? What happens if they are not met?
+
+**Phased change vs. immediate action**  
+Can the policy be implemented now, or does it require transition planning?
+
+**Finance**  
+Are there any potential costs and are they acceptable?
+
+As part of the process, you may have reviewed the PTKs collectively to check for any conflicts or duplications, but if not, then this should be done before progressing to the validation and sign off phase.  As the sustainability team will be across all the workstreams involved, they are best placed to undertake this process.
+
+It’s important to note that not all policies need to be implemented in the first year or current period.  It may be that there simply isn’t capacity, or that some policies (or targets) would benefit from others being implemented first.  Having additional targets for policies, or complete policies (with associated Targets and KPIs) that aren’t “active” for the current period can help to support longer term sustainability goals, and also provides increased flexibility.  For example, it helps with forecasting carbon reductions into the future and can also provide alternative options should one target not be achievable (non-conform), it may be possible to swap in another one (if your sustainability procedures for handling non-conformities allows it).  

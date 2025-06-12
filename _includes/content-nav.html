@@ -1,4 +1,4 @@
-{%- assign section = page.path | split: '/' | slice: 0, 2 | join: '/' -%}
+{%- assign section = page.path | split: '/' | slice: 0, 3 | join: '/' -%}
 
 {%- assign siblings = site.pages 
   | where_exp: "p", "p.path contains section and p.order" 
@@ -45,11 +45,8 @@
   {%- endif -%}
 </div>
 
-{%- comment -%}
-Debug output — comment in to help troubleshoot
 {%- for p in site.pages -%}
   {%- if p.path contains section and p.order == nil -%}
     ⚠ Missing order: {{ p.path }}
   {%- endif -%}
 {%- endfor -%}
-{%- endcomment -%}

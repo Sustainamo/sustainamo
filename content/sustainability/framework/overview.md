@@ -1,7 +1,8 @@
 ---
 title: "Sustainability Framework"
 layout: content
-permalink: /sustframework/
+permalink: /sustainability-framework/
+order: 0
 nav: false
 # nav_title: "Sust. Framework"
 # nav_order: 1
@@ -38,3 +39,4 @@ In addition, it is helpful to develop a governance framework to support managing
     <p>Integrate, monitor progress, and iterate to improve.</p>
   </a>
 </section>
+

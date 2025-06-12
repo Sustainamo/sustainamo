@@ -11,7 +11,7 @@ nav_order: 1
 <span class="note">something here about the framework / strategy being the most important starting area<span>
 
 <div class="phase-blocks green solid">
-  <a class="phase-block" href="/sustframework/">
+  <a class="phase-block" href="/sustainability-framework/">
     <h2>Sustainability Strategy</h2>
     <p>Creating a framework to define what sustainability means <strong>to your organisation</strong> and how you will therefore approach it.</p>
   </a>
@@ -20,3 +20,4 @@ nav_order: 1
     <p>Examples of measures and policies that could be put in place, if appropriate for your given context and strategy</p>
   </a>
 </div>
+

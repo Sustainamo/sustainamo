@@ -1,6 +1,6 @@
 ###### Content for header / footer
 title: Sustainamo
-author: Content by Ash Bladon
+author: Ash Bladon
 description: A free, comprehensive guide to creating and implementing a meaningful sustainability strategy # This will also show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 baseurl: ""  # Required for Cloudflare Pages
@@ -39,3 +39,6 @@ plugins:
 
 sass:
   sass_dir: assets/css
+
+include:
+  - robots.txt

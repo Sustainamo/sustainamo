@@ -2,7 +2,7 @@
 title: "Vision and principles"
 layout: content
 permalink: /strategy/vision-and-principles/
-order: 2
+order: 7
 last-updated: 25-05-21
 ---
 

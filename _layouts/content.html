@@ -33,8 +33,12 @@ layout: default
         {%- endif -%}
         {%- assign index = index | plus: 1 -%}
       {%- endfor -%}
-      {%- assign prev = siblings[current_index | minus: 1] -%}
-      {%- assign next = siblings[current_index | plus: 1] -%}
+      
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+
+      {% assign prev = siblings[prev_index] %}
+      {% assign next = siblings[next_index] %}
     </ul>
     <p>Current index: {{ current_index }}</p>
     <p>Prev: {{ prev.url }} — {{ prev.title }}</p>
