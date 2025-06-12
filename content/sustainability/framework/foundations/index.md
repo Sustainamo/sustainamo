@@ -19,7 +19,7 @@ In this section we will look at how to do this in three phases:
 2. This will be followed by an interactive ‘stakeholder engagement’ phase, where the considerations of the people who affect, and are affected by, the organisation/ event will be explored and documented.  
 3. In the last phase, these findings will be evaluated to create a prioritised list of that the issues that 'materially impact’ the organisation / event from a sustainability perspective.  
 
-This entire three-phase process is often referred to as a ‘materiality assessment’.   
+This entire three-phase process is often referred to as a ‘materiality assessment’. 
 
 <section class="phase-blocks outlined green">
   <a href="/foundations/discovery/" class="phase-block">
