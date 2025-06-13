@@ -30,10 +30,12 @@
   }
 
   .site-nav label {
-    display: inline-block;
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    top: 2px;
+    right: 2px;
     z-index: 1002;
   }
 }
