@@ -8,14 +8,19 @@
 @use "tables";
 @use "hero";
 
-// customisations below
-// =========================
+// ** HEADER **
+.site-header {
+ postion: relative;
+ z-index:1000;
+}
 
 .site-header .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+// ** Dividers **
 
 hr {
   margin-top: 30px;

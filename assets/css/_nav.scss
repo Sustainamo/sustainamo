@@ -44,6 +44,7 @@
     padding: 0.5rem 1rem;
     border: 3px solid var(--color-grey-500);
     border-radius: 0.5rem;
+    z-index: 1001;
   }
 
   .nav-trigger:checked + label {
