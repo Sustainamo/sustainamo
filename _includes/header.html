@@ -13,10 +13,9 @@
       <img src="/assets/images/Icons/mingcute--wave-line.svg" alt="Menu" width="26" height="26" />
       </span>
       </label>
-
       <div class="trigger">
-        {% assign nav_items = site.data.navigation | sort: "order" %}
         <img src="/assets/images/Icons/ph--snowflake-light.svg" alt="" class="nav-icon-open" />
+        {% assign nav_items = site.data.navigation | sort: "order" %}
         {% for item in nav_items %} 
           <div class="nav-group">
             <a class="page-link main-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
