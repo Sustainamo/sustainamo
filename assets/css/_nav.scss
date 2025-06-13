@@ -1,0 +1,65 @@
+@use "variables";
+
+/* ** MAIN NAVIGATION MENU ** */
+
+.site-nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.site-nav .trigger {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.page-link {
+  font-size: 0.9rem;
+}
+
+.site-nav .nav-trigger {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+.site-nav label {
+  display: none;
+}
+
+@media screen and (max-width: var(--bp-nav)) {
+  .site-nav .trigger {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+    border: 3px solid var(--color-grey-500);
+    border-radius: 0.5rem;
+  }
+
+  .nav-trigger:checked + label {
+    display: none;
+  }
+
+  .nav-trigger:checked + label + .trigger {
+    display: flex;
+  }
+
+  .site-nav label {
+    display: inline-block;
+  }
+
+  .site-nav .trigger a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
