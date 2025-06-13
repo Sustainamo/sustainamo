@@ -21,7 +21,8 @@
 
       <div class="trigger">
         {% assign nav_items = site.data.navigation | sort: "order" %}
-        {% for item in nav_items %}
+        <img src="/assets/images/Icons/ph--snowflake-light.svg" alt="" class="nav-icon-open" />
+        {% for item in nav_items %} 
           <div class="nav-group">
             <a class="page-link main-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% if item.children %}
