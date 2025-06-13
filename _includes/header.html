@@ -20,10 +20,20 @@
       </label>
 
       <div class="trigger">
-        {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" -%}
-        {%- for page in nav_pages -%}
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.nav_title | default: page.title | escape }}</a>
-        {%- endfor -%}
+        {% assign nav_items = site.data.navigation | sort: "order" %}
+        {% for item in nav_items %}
+          <div class="nav-group">
+            <a class="page-link main-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.children %}
+              <ul class="sub-links">
+                {% assign children = item.children | sort: "order" %}
+                {% for child in children %}
+                  <li><a class="page-link" href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
       </div>
     </nav>
   </div>
