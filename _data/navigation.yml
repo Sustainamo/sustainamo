@@ -10,7 +10,7 @@
       order: 2
 
 - title: Carbon
-  url: /carbon/
+  url: /carbon/overview/
   order: 2
   children:
     - title: Carbon management
