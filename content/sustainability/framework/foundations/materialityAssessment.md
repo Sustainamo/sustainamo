@@ -1,7 +1,7 @@
 ---
 title: "Materiality assessment"
 layout: content
-permalink: /foundations/materialityAssessment/
+permalink: /sustainability/foundations/materialityAssessment/
 order: 4
 last-updated: 25-04-23
 ---

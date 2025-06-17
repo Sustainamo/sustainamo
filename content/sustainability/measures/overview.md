@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Sustainability Measures"
 layout: content
 permalink: /sustainability/measures/
 nav: false

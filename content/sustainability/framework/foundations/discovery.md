@@ -1,7 +1,7 @@
 ---
 title: "Getting started - 'Discovery'"
 layout: content
-permalink: /foundations/discovery/
+permalink: /sustainability/foundations/discovery/
 order: 2
 last-updated: 25-04-23
 ---

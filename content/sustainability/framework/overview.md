@@ -1,14 +1,14 @@
 ---
 title: "Sustainability Framework"
 layout: content
-permalink: /sustainability-framework/
+permalink: /sustainability/framework/
 order: 0
 nav: false
 # nav_title: "Sust. Framework"
 # nav_order: 1
 ---
 
-A sustainability framework is...  <span class="note">...in one-two sentences what it is and why it's important...<span>
+A sustainability framework is...  <span class="note">...in one-two sentences what it is and why it's important...<span> (whole approach - strategy, goals, and how you implement it...)
 
 Sustainability relates to almost every aspect of your organisation or event, so knowing where to start can be daunting.  However, you can make it a manageable process by following a step-by-step process, and incrementally building out your strategy.
 

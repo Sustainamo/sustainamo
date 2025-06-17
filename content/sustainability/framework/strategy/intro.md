@@ -1,7 +1,7 @@
 ---
 title: "Strategy & Planning: Introduction"
 layout: content
-permalink: /strategy/introduction/
+permalink: /sustainability/strategy/introduction/
 order: 6
 last-updated: 25-05-21
 ---
