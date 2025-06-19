@@ -2,25 +2,6 @@
 
 /* ** MAIN NAVIGATION MENU ** */
 
-.site-nav {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  border: none;
-}
-
-.site-nav .trigger {
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
-}
-
-.site-nav .trigger .nav-icon-open {
-  width: 26px;
-  height: 26px;
-  margin: 0 0 1rem auto;
-  display: block;
-}
 
 .page-link {
   font-size: 0.9rem;
@@ -38,25 +19,42 @@
   }
 }
 
-@media screen and (max-width: var(--bp-nav)) {
-  .site-nav {
-    position: relative;
+// ************* //
+// MOBILE STYLES //
+// ************* //
+@media screen and (max-width: variables.$bp-nav) {
+
+.site-nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
   }
 
-  .site-nav label {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    position: fixed;
-    top: 2px;
-    right: 2px;
-    z-index: 1002;
-  }
-  .site-nav .page-link {
-    margin-left: 0 !important;
-    padding: 0 !important;
-  }
-  
+.site-nav .trigger {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.site-nav .trigger .nav-icon-open {
+  width: 26px;
+  height: 26px;
+  margin: 0 0 0.5rem auto;
+  display: block;
+}
+
+
+.site-nav label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: fixed;
+  z-index: 1002;
+}
+
+.site-nav .main-link {
+    // no additional styles
 }
 
 .trigger {
@@ -76,10 +74,12 @@
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 1001;
   pointer-events: auto;
+  overflow: visible;
 }
 
-.nav-trigger:checked ~ .trigger {
+.site-nav .nav-trigger:checked ~ .trigger {
   display: flex;
+  padding-bottom: 10px;
 }
 
 .sub-links {
@@ -87,12 +87,55 @@
   padding: 0;
   margin: 0;
 }
-
-.menu-icon {
-  display: block;
 }
 
 /* Hide the menu icon when the menu is open */
 .nav-trigger:checked + label .menu-icon {
   display: none;
+}
+
+// ************* //
+// DESKTOP STYLES //
+// ************* //
+@media screen and (min-width: variables.$bp-nav-dsk) {
+  .site-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .trigger {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background: none;
+    border: none;
+    padding: 0;
+    position: static;
+    box-shadow: none;
+  }
+
+  .nav-group {
+    position: relative;
+  }
+
+  .sub-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--color-background);
+    padding: 1rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    z-index: 1000;
+  }
+
+  .nav-group:hover .sub-links {
+    display: block;
+  }
+
+ .nav-icon-open {
+  display: none;
+}
 }
