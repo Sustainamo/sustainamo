@@ -26,6 +26,17 @@
   font-size: 0.9rem;
 }
 
+.main-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--color-primary); // adjust as needed
+  margin-right: 1.5rem;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
 @media screen and (max-width: var(--bp-nav)) {
   .site-nav .trigger {
     display: none;
@@ -47,6 +58,9 @@
     display: block;
     margin: 0.5rem 0;
   }
+
+}
+
 }
 
 .sub-links {
