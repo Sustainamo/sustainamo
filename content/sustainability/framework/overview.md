@@ -1,7 +1,7 @@
 ---
 title: "Sustainability Framework"
 layout: content
-permalink: /sustainability/framework/
+permalink: /sustainability/framework/overview/
 order: 0
 nav: false
 # nav_title: "Sust. Framework"
@@ -26,15 +26,15 @@ In addition, it is helpful to develop a governance framework to support managing
 <span class="note">...bookmark this page or jump right in...<span>
 
 <section class="phase-blocks solid green">
-  <a href="/framework/foundations/introduction/" class="phase-block">
+  <a href="/sustainability/framework/foundations/introduction/" class="phase-block">
     <h2>Foundations</h2>
     <p>Research internal ops, engage stakeholders, analyse materiality.</p>
   </a>
-  <a href="/strategy/introduction" class="phase-block">
+  <a href="/sustainability/framework/strategy/introduction/" class="phase-block">
     <h2>Strategy & Planning</h2>
     <p>Set vision, develop policies, define targets and actions.</p>
   </a>
-  <a href="/implementation/introduction" class="phase-block">
+  <a href="/sustainability/framework/implementation/introduction/" class="phase-block">
     <h2>Implementation & Improvement</h2>
     <p>Integrate, monitor progress, and iterate to improve.</p>
   </a>

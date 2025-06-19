@@ -2,11 +2,11 @@
   url: /sustainability/
   order: 1
   children:
-    - title: Sustainability strategy
-      url: /sustainability-framework/
+    - title: Sustainability framework
+      url: /sustainability/framework/overview/
       order: 1
     - title: Sustainability measures
-      url: /sustainability/measures/
+      url: /sustainability/measures/overview/
       order: 2
 
 - title: Carbon
@@ -14,10 +14,10 @@
   order: 2
   children:
     - title: Carbon management
-      url: /carbon/management/
+      url: /carbon/management/introduction/
       order: 1
     - title: Carbon offsetting
-      url: /carbon/offsetting/
+      url: /carbon/offsetting/introduction/
       order: 2
 
 - title: Get involved

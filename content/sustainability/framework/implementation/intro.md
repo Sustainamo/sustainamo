@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Implementation & Improvement"
 layout: content
-permalink: /implementation/introduction/
+permalink: /sustainability/framework/implementation/introduction/
 order: 1
 nav: false
 # nav_title: "Implementation"

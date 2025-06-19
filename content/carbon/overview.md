@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Carbon"
 layout: content
 permalink: /carbon/overview/
 nav: true

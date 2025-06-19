@@ -2,7 +2,7 @@
 title: "Foundations introduction"
 layout: content
 order: 1
-permalink: /sustainability/foundations/introduction/
+permalink: /sustainability/framework/foundations/introduction/
 nav: false
 # nav_title: "Foundations"
 # nav_order: 2
