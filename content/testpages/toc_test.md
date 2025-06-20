@@ -1,284 +1,20 @@
 ---
 title: "Stakeholder engagement"
 layout: content
-permalink: /testpagestyles/
+permalink: /toctest/
 order: 3
 last-updated: 25-04-23
 ---
 
-<details class="section-nav" open aria-label="In this section">
-  <summary><strong>In this section</strong></summary>
-  <ul>
-    <li><a href="#32-stakeholder-engagement">3.2 Stakeholder engagement</a></li>
-    <li><a href="#321-internal-engagement-internal-engagement">3.2.1 Internal engagement</a></li>
-    <li><a href="#322-stakeholder-identification-and-mapping-stakeholder-identification-and-mapping">3.2.2 Stakeholder identification and mapping</a></li>
-    <li><a href="#323-which-stakeholders-to-contact">3.2.3 Which stakeholders to contact</a></li>
-    <li><a href="#324-how-to-contact-stakeholders">3.2.4 How to contact stakeholders</a></li>
-    <li><a href="#325-what-fields-to-collect-when-stakeholder-mapping">3.2.5 What fields to collect when stakeholder mapping</a></li>
-    <li><a href="#326-how-to-create-questions-for-stakeholders">3.2.6 How to create questions for stakeholders</a></li>
-    <li><a href="#327-what-types-of-questions-to-ask-stakeholders">3.2.7 What types of questions to ask stakeholders?</a></li>
-    <li><a href="#328-timing-and-phasing-of-stakeholder-engagement">3.2.8 Timing and phasing of stakeholder engagement</a></li>
-    <li><a href="#329-a-note-on-standards">3.2.9 A note on standards</a></li>
-  </ul>
-</details>
+{% include toc.html max_depth=3 %}
 
-<style>
-.section-nav {
-  position: sticky;
-  top: 2rem;
-  background: #f7f7f7;
-  border: 1px solid #e0e0e0;
-  padding: 1rem;
-  border-radius: 6px;
-  margin-bottom: 2rem;
-  max-width: 600px;
-}
-
-.fixed-nav {
-  position: fixed !important;
-  top: 2rem;
-  z-index: 1000;
-}
-
-.section-nav[open] {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.section-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-}
-
-.section-nav li {
-  margin-bottom: 0.5rem;
-}
-
-.section-nav a {
-  color: var(--color-primary);
-  font-family: var(--font-heading);
-  text-decoration: none;
-}
-
-.section-nav a:hover {
-  text-decoration: underline;
-}
-
-.section-nav summary {
-  font-family: var(--font-heading);
-  color: var(--color-primary);
-}
-</style>
-
-
-
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-<style>
-  .font-test-container {
-    margin: 2rem 0;
-    padding: 1rem;
-    border: 1px dashed #ccc;
-    border-radius: 6px;
-  }
-  .font-test-container h2 {
-    font-size: 1.3rem;
-    margin-top: 0;
-  }
-  .font-montserrat {
-    font-family: 'Montserrat', sans-serif;
-  }
-</style>
-
-<div class="font-test-container">
-  <h2>Montserrat Test</h2>
-  <p class="font-montserrat">The quick brown fox jumps over the lazy dog. 1234567890 — Headline and body test.</p>
-</div>
-
-<div class="font-test-container">
-  <h2>Space Mono Test</h2>
-  <p class="font-space-mono">The quick brown fox jumps over the lazy dog. 1234567890 — Brand and monospaced test.</p>
-</div> 
-
-<style>
-  .font-compare-grid {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-  }
-  .font-sample {
-    flex: 1 1 200px;
-    max-width: 300px;
-    padding: 1rem;
-    border: 1px dashed #ccc;
-    border-radius: 6px;
-  }
-  .font-sample h3 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .font-montserrat {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 600;
-    color: #11181C;
-  }
-  .font-spacemono {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 400;
-    color: #11181C;
-  }
-
-  .font-section ul,
-.font-section li {
-  font-family: inherit;
-} 
-
-</style>
-
-<div class="font-compare-grid">
-  <div class="font-sample">
-    <h3>Montserrat</h3>
-    <p class="font-montserrat">
-      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
-    </p>
-  </div>
-  <div class="font-sample">
-    <h3>Space Mono</h3>
-    <p class="font-spacemono">
-      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
-    </p>
-  </div>
-  <div class="font-sample">
-    <h3>Poppins</h3>
-    <p class="font-poppins">
-      Brand-specific fonts are an important visual element in a brand's visual system. Brand-specific fonts are the preferred fonts for the brand and can be used across all communication channels.
-    </p>
-  </div>
-</div>
-
-<hr>
-<h2>Font Comparison – Paragraph Style</h2>
-
-<style>
-  .font-section {
-    margin: 2rem 0;
-  }
-  .font-label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  .font-manrope {
-    font-family: 'Manrope', sans-serif;
-    font-size: 0.95rem;
-    line-height: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 0;
-    color: #222;
-  }
-  .font-spacemono {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.95rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-    letter-spacing: -0.025em;
-    color: #11181C;
-  }
-  .font-poppins {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 0.01em;
-    color: #333;
-  }
-  .font-worksans {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 0.975rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    color: #11181C;
-  }
-  .font-outfit {
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.975
-    rem;
-    line-height: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 0.005em;
-    color: #11181C;
-  }
-</style>
-
-<div class="font-section font-manrope">
-  <div class="font-label">Manrope</div>
-  <p>
-    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
-<br><br>
-    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
-<br><br>
-    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
-    <ul>
-      <li>introduce the wider organisation to the sustainability function</li>
-      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
-      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
-      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
-      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
-      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
-    </ul>
-  </p>
-</div>
-<div class="font-section font-poppins">
-  <div class="font-label">Poppins</div>
-  <p>
-    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
-    <br><br>
-    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
-    <br><br>
-    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
-    <ul>
-      <li>introduce the wider organisation to the sustainability function</li>
-      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
-      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
-      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
-      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
-      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
-    </ul>
-  </p>
-</div>
-
-<div class="font-section font-outfit">
-  <div class="font-label">Outfit</div>
-  <p>
-    The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
-    <br><br>
-    The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see.
-    <br><br>
-    As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
-    <ul>
-      <li>introduce the wider organisation to the sustainability function</li>
-      <li>provide training and establish a baseline of understanding around what is meant by sustainability and carbon management</li>
-      <li>present back key findings around sustainability in your sector (and/or organisation currently)</li>
-      <li>have interactive engagement sessions to collaboratively start to workshop what some sustainability considerations are that are important to your colleagues, your customers/attendees, suppliers, and more widely as an organisation</li>
-      <li>present a timeline for the development of the sustainability strategy, outlining the role that teams will play in shaping and implementing the strategy</li>
-      <li>have a senior stakeholder speak at the session to endorse the approach and emphasise its importance to the organisation</li>
-    </ul>
-  </p>
-</div>
-
-
-<h3>3.2 Stakeholder engagement </h3>
+## 3.2 Stakeholder engagement
 
 The discovery stage will have given you a good understanding of your organisation and the context that it operates in. It will have also furnished you with a broad, high-level understanding of the main sustainability considerations for your organisation and introduced you to many of the relevant stakeholders throughout the organisation.
 
 The next step is to create and implement a plan to identify key stakeholders, determine which are most central to achieving your strategy, and subsequently gather their views on which sustainability issues matter most, in addition to the challenges they may face and opportunities they see. This is a comprehensive process which takes some time to complete properly. However, it is one of the most important steps in creating an effective and impactful strategy and can help build lasting beneficial relationships with stakeholders.
 
-### 3.2.1 Internal engagement {Internal engagement}
+### 3.2.1 Internal engagement
 
 As sustainability relates to every aspect of an organisation, it is most effective when it is delivered as an integral part of the operation of each element of the organisation. To start to build early internal engagement and buy-in, it is highly recommended (but optional) to have an organisation-wide ‘sustainability workshop’ between completing discovery and beginning stakeholder engagement. This session is an opportunity to:
 
@@ -291,7 +27,7 @@ As sustainability relates to every aspect of an organisation, it is most effecti
 
 It is a chance to start the organisation thinking of sustainability as something they have agency for, and to signpost the involvement that will be required later on. This session can set the tone for an interactive, collaborative process, where the organisation works together to deliver sustainable outcomes.
 
-### 3.2.2 Stakeholder identification and mapping {Stakeholder identification and mapping}
+### 3.2.2 Stakeholder identification and mapping
 
 Stakeholders are people or organisations who will either impact or be impacted by your organisation. This typically includes:
 
@@ -323,7 +59,7 @@ Some examples of methods for stakeholder categorisation and where they might be 
 - **Centrality**: a simplified approach, ranking stakeholders based on how closely related they are to achieving sustainable outcomes
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="/assets/images/foundations/importanceImpact.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/content/importanceImpact.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
 </div>
 
 Once you have categorised stakeholders, you will have a clear view of which are the most central to your strategy, and an understanding of how many fall into each of your categories, which will in turn inform your approach on who to contact and how.
@@ -333,7 +69,7 @@ Once you have categorised stakeholders, you will have a clear view of which are 
 There is no set way to contact stakeholders, but typically one or more of the following methods would be used:
 
 <div style="max-width: 700px; margin: 2rem auto;">
-  <img src="/assets/images/foundations/contactMethods.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
+  <img src="/assets/images/content/contactMethods.png" alt="diagram showing Importance vs Impact matrix" style="width: 100%; height: auto;">
 </div>
 
 It is important to tailor the approach to your stakeholders, and the specific context of your organisation. It should be noted that the approaches taken will impact the data received, and the level of engagement and buy-in that those stakeholders will have going forwards. Particular attention should be paid to accessibility considerations to ensure that the process is inclusive.
@@ -461,38 +197,3 @@ Depending on the volume of stakeholders, you may also wish to structure engageme
 In terms of standards, **ISO14001** requires you to identify ‘relevant parties’ but does not specify who they should be. **ISO20121** is more prescriptive, and says identification ‘shall, where applicable’ include the event organiser, event owner, workforce, supply chain, participants, attendees, regulatory bodies and the community. **GRI Standards** take this a step further, requiring organisations to disclose who was engaged, how, and how their input influenced decisions. Stakeholder engagement should help define sustainability ‘material topics’.
 
 These standards all require evidence of initial and ongoing stakeholder engagement, so it is recommended to consider how best to approach and track this at the initial stakeholder engagement stage. The database/spreadsheet that you create when identifying them could be used to record subsequent engagements or note where to find evidence (i.e. in a CRM system, email threads of particular team members, regular meeting/contract review notes, etc).
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const sectionNav = document.querySelector(".section-nav");
-    const originalOffset = sectionNav.offsetTop;
-    const placeholder = document.createElement("div");
-    placeholder.style.height = sectionNav.offsetHeight + "px";
-    placeholder.style.display = "none";
-    let isSticky = false;
-
-    function handleScroll() {
-      const scrollY = window.pageYOffset;
-
-      if (scrollY > originalOffset && !isSticky) {
-        sectionNav.classList.add("fixed-nav");
-        sectionNav.removeAttribute("open");
-        placeholder.style.display = "block";
-        if (!sectionNav.previousElementSibling || sectionNav.previousElementSibling !== placeholder) {
-          sectionNav.parentNode.insertBefore(placeholder, sectionNav);
-        }
-        isSticky = true;
-      } else if (scrollY <= originalOffset && isSticky) {
-        sectionNav.classList.remove("fixed-nav");
-        sectionNav.setAttribute("open", "true");
-        if (placeholder.parentNode) {
-          placeholder.parentNode.removeChild(placeholder);
-        }
-        placeholder.style.display = "none";
-        isSticky = false;
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-  });
-</script>

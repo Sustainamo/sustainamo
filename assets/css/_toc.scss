@@ -1,0 +1,37 @@
+@use "variables" as variable;
+
+// Match .section-nav box style from testpagestyles2.md
+#toc {
+  position: static;
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 0.9rem;
+}
+
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#toc li {
+  margin-bottom: 0.4rem;
+}
+
+// match .section-nav link styles and font
+#toc a {
+  color: #{variable.$color-primary};
+  font-family: var(--font-heading);
+}
+
+#toc a:hover {
+  text-decoration: underline;
+}
+
+.toc-outline {
+  margin-bottom: 2rem;
+}
