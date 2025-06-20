@@ -97,11 +97,18 @@
 // ************* //
 // DESKTOP STYLES //
 // ************* //
+
+// All .site-nav desktop styles consolidated here (see main.scss for layout container)
 @media screen and (min-width: variables.$bp-nav-dsk) {
   .site-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: auto;
+  }
+
+  .main-link {
+    font-weight: 500;
   }
 
   .trigger {
@@ -110,9 +117,10 @@
     gap: 2rem;
     background: none;
     border: none;
-    padding: 0;
+    padding-top: 22px;
     position: static;
     box-shadow: none;
+    margin-left: auto;
   }
 
   .nav-group {
@@ -121,17 +129,24 @@
 
   .sub-links {
     display: none;
+    &:empty {
+      display: none !important;
+    }
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     background: var(--color-background);
     padding: 1rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
     z-index: 1000;
+    width: max-content;
+    min-width: 200px;
+    list-style: none;
+    text-align: right;
   }
 
-  .nav-group:hover .sub-links {
+  .nav-group:hover .sub-links:not(:empty) {
     display: block;
   }
 
