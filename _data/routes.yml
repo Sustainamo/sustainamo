@@ -1,5 +1,9 @@
 # _data/routes.yml
 
+# HOW TO USE
+# <a href="{{ site.data.routes.carbon_offsetting.url }}">
+# {{ site.data.routes.carbon_offsetting.label }}
+# </a>
 
 carbon_offsetting:
   url: /carbon/offsetting/introduction/
