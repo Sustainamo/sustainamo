@@ -1,18 +1,25 @@
-- key: sustainability
+- title: Sustainability
+  url: /sustainability/
   order: 1
   children:
-    - key: sustainability_framework
+    - title: Sustainability framework
+      url: /sustainability/framework/overview/
       order: 1
-    - key: sustainability_measures
+    - title: Sustainability measures
+      url: /sustainability/measures/overview/
       order: 2
 
-- key: carbon
+- title: Carbon
+  url: /carbon/overview/
   order: 2
   children:
-    - key: carbon_management
+    - title: Carbon management
+      url: /carbon/management/introduction/
       order: 1
-    - key: carbon_offsetting
+    - title: Carbon offsetting
+      url: /carbon/offsetting/introduction/
       order: 2
 
-- key: get_involved
+- title: Get involved
+  url: /get-involved/
   order: 3
