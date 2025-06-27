@@ -1,0 +1,10 @@
+# _data/routes.yml
+
+
+carbon_offsetting:
+  url: /carbon/offsetting/introduction/
+  label: Carbon offsetting
+
+sustainability_framework:
+  url: /sustainability/framework/overview/
+  label: Sustainability framework
