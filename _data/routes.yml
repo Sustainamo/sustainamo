@@ -5,10 +5,30 @@
 # {{ site.data.routes.carbon_offsetting.label }}
 # </a>
 
-carbon_offsetting:
-  url: /carbon/offsetting/introduction/
-  label: Carbon offsetting
+sustainability:
+  url: /sustainability/
+  label: Sustainability
 
 sustainability_framework:
   url: /sustainability/framework/overview/
   label: Sustainability framework
+
+sustainability_measures:
+  url: /sustainability/measures/overview/
+  label: Sustainability measures
+
+carbon:
+  url: /carbon/overview/
+  label: Carbon
+
+carbon_management:
+  url: /carbon/management/introduction/
+  label: Carbon management
+
+carbon_offsetting:
+  url: /carbon/offsetting/introduction/
+  label: Carbon offsetting
+
+get_involved:
+  url: /get-involved/
+  label: Get involved
