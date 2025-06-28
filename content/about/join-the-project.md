@@ -4,155 +4,98 @@ layout: content
 permalink: /about/join-the-project/
 ---
 
-This is an open-source, community-powered project — and we’d love you to be part of it.
+Sustainamo is open-source and community-powered — and we’d love you to be part of it.
 
-We’re building something ambitious, but it only works if people know it exists. Like Zola said, *“It’s not that the light is lacking, but eyes to see.”* So let’s start there:
+We’re building something ambitious: a shared, practical library of tools, templates, guidance, and support for making sustainability real. But it only works if people know it exists. Like Zola said, *“It’s not that the light is lacking, but eyes to see.”*
+
+So let’s start there.
 
 ---
 
-## 👀 Spread the Word  
-Know someone working on sustainability strategy? Or wrangling carbon data? Or figuring out how to actually *do* something meaningful? Share Sustainamo with them.  
-Post it. Plug it. Whisper it to a mate in the pub.  
+## 👀 Spread the Word
+
+Know someone working on sustainability strategy? Or wrangling carbon data? Or figuring out how to actually *do* something meaningful?
+
+Share Sustainamo with them.  
+Post it. Plug it. Whisper it to a mate in the pub.
+
 This project grows when people who care find each other.
 
 ---
 
-## 💻 Tech & Digital  
-We’ve got a working site – but we need help turning it into something solid and scalable.  
-Immediate needs:  
-- Refactor and clean up the base site  
-- Add functionality for commenting and discussion  
-- Lay the groundwork for a StackOverflow-style Q&A hub for sustainability implementation challenges  
-- Start building a proper community section
+## 💻 Tech & Digital
 
-If you’re a dev, designer, or digital thinker – we’d love your brain on this.
+The site’s live — but it’s early days. We need help making it solid, scalable, and genuinely useful.
 
----
+Immediate needs:
+- Refactor and clean up the base code
+- Add commenting and discussion functionality
+- Lay the groundwork for a StackOverflow-style Q&A hub
+- Start building the community section
 
-## ✍️ Content & Strategy  
-We’re looking for:  
-- **Editors and copywriters** to review and refine content, making it clear, accessible and helpful  
-- **Information architects** to help structure content and keep things coherent as we grow  
-- **Strategists and storytellers** to shape how we talk about this work and bring it to life  
-
-If you like turning chaos into clarity, this bit’s for you.
+If you're a dev, designer, or digital thinker — we’d love your brain on this.
 
 ---
 
-## 🌍 Sustainability & Carbon Experts  
-We’re building practical, real-world guidance – and that means we need real-world experience. Whether you’ve:  
-- Led a strategy inside an organisation  
-- Delivered projects through an agency or consultancy  
-- Worked with public sector or third sector clients  
-- Built tools, standards, or carbon models  
+## ✍️ Content & Strategy
 
-… your insight matters. Help us define best practice, sense-check the content, and make sure what’s written is actually useful.
+We’re looking for people to help shape, polish, and evolve the content.
 
----
+- **Editors & copywriters** – to keep the tone clear, helpful, and human
+- **Information architects** – to organise the content as it grows
+- **Strategists & storytellers** – to shape the narrative and get it into the world
 
-## 🤝 Credit & Attribution  
-All content will be © Sustainamo and shared under a Creative Commons licence (see [Sharing Policy](#)).  
-But contributors will absolutely be credited. If you write or shape something, your name goes on it — e.g. *Name, Role, Organisation*.  
-This is a living project, so we’ll figure out the finer details of how we show contribution and ownership together.
+If you like turning chaos into clarity, this is your moment.
 
 ---
 
-## Other Ways to Help  
-Got something else in mind? Want to help with partnerships, outreach, governance, or funding models?  
-Brilliant. Get in touch. We’re figuring this out as we go — and we’d rather build it with good people than wait for it to be perfect.
+## 🌍 Sustainability & Carbon Experts
+
+We’re aiming for practical, grounded guidance. That means we need real-world experience.
+
+Whether you’ve:
+- Delivered a strategy inside an organisation
+- Worked agency-side across different clients
+- Built tools, standards, or carbon models
+- Operated in the public or third sector
+
+… your insight matters. Help us define best practice, stress-test the content, and make it actually useful.
 
 ---
 
-📬 [Drop us a message](#contact) if you’re interested — or just start contributing.
-Let me know if you want a more formal version for funders or partners, or if you’d like this broken up into separate pages (e.g. “For Developers”, “For Domain Experts” etc).
+## 🎨 Design & Branding
 
+The look and feel still need love. We’re after designers who can:
+- Develop a more cohesive visual identity
+- Refine or rebuild the style guide
+- Bring warmth, clarity, and consistency to the whole experience
 
-
-
-
-
-You said:
-can we add a designer section
-- could do with a more cohereent brand
-- style guide needs some work
-- and generally the look and feel could do with some lov
-
-
-ChatGPT said:
-Of course — here's the updated version with a new 🎨 Design & Branding section added in the same tone:
-
-md
-Copy
-Edit
-# Join the Project!
-
-This is an open-source, community-powered project — and we’d love you to be part of it.
-
-We’re building something ambitious, but it only works if people know it exists. Like Zola said, *“It’s not that the light is lacking, but eyes to see.”* So let’s start there:
+Got an eye for detail and a sense of what good feels like? Let’s go.
 
 ---
 
-## 👀 Spread the Word  
-Know someone working on sustainability strategy? Or wrangling carbon data? Or figuring out how to actually *do* something meaningful? Share Sustainamo with them.  
-Post it. Plug it. Whisper it to a mate in the pub.  
-This project grows when people who care find each other.
+## 🤝 Credit & Attribution
+
+All content is © Sustainamo and distributed under a [Creative Commons licence](https://creativecommons.org/licenses/by-nd/4.0) (see [Sharing Policy](#)).
+
+But contributors will absolutely be credited.
+
+If you write or shape something, your name goes on it — e.g.  
+**Name, Role, Organisation** (if relevant).
+
+The nature of the project means it's not appropriate for organisations to “sponsor” a section or take ownership of a topic — but if you’re contributing as part of your professional role, it’s completely fine to be credited that way. Fairs fair.
+
+We’ll figure out the finer details of content ownership and attribution together, as the project grows.
 
 ---
 
-## 💻 Tech & Digital  
-We’ve got a working site – but we need help turning it into something solid and scalable.  
-Immediate needs:  
-- Refactor and clean up the base site  
-- Add functionality for commenting and discussion  
-- Lay the groundwork for a StackOverflow-style Q&A hub for sustainability implementation challenges  
-- Start building a proper community section
+## 🔄 Other Ways to Help
 
-If you’re a dev, designer, or digital thinker – we’d love your brain on this.
+Got something else in mind?  
+Keen to support with partnerships, outreach, governance, or funding models?
+
+Brilliant. We’re figuring this out as we go — and we’d rather build it with good people than wait for it to be perfect.
 
 ---
 
-## ✍️ Content & Strategy  
-We’re looking for:  
-- **Editors and copywriters** to review and refine content, making it clear, accessible and helpful  
-- **Information architects** to help structure content and keep things coherent as we grow  
-- **Strategists and storytellers** to shape how we talk about this work and bring it to life  
-
-If you like turning chaos into clarity, this bit’s for you.
-
----
-
-## 🌍 Sustainability & Carbon Experts  
-We’re building practical, real-world guidance – and that means we need real-world experience. Whether you’ve:  
-- Led a strategy inside an organisation  
-- Delivered projects through an agency or consultancy  
-- Worked with public sector or third sector clients  
-- Built tools, standards, or carbon models  
-
-… your insight matters. Help us define best practice, sense-check the content, and make sure what’s written is actually useful.
-
----
-
-## 🎨 Design & Branding  
-The look and feel of Sustainamo is still pretty raw. We'd love help from designers who can:  
-- Develop a more cohesive visual identity  
-- Polish or rework the style guide  
-- Bring some warmth and clarity to the overall experience  
-
-If you’ve got an eye for detail and a feel for digital design — jump in.
-
----
-
-## 🤝 Credit & Attribution  
-All content will be © Sustainamo and shared under a Creative Commons licence (see [Sharing Policy](#)).  
-But contributors will absolutely be credited. If you write or shape something, your name goes on it — e.g. *Name, Role, Organisation*.  
-This is a living project, so we’ll figure out the finer details of how we show contribution and ownership together.
-
----
-
-## Other Ways to Help  
-Got something else in mind? Want to help with partnerships, outreach, governance, or funding models?  
-Brilliant. Get in touch. We’re figuring this out as we go — and we’d rather build it with good people than wait for it to be perfect.
-
----
-
-📬 [Drop us a message](#contact) if you’re interested — or just start contributing.
+📬 **[Drop us a message](#contact)** if you’re interested — or just dive in and start contributing.
