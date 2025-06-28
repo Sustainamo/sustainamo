@@ -8,16 +8,39 @@ nav_title: "About"
 nav_order: 4
 ---
 
-... page to add later re other people getting involved.
+About Sustainamo
+Welcome to Sustainamo — your open-source hub for practical sustainability.
 
-The concept of Sustainamo was born out of the frustration with finding useful information about how to create and implement meaningful sustainability and carbon management strategies.
+We’re building a shared library of tools, insights, and real-world strategies to help people and organisations turn sustainability from an idea into action. No fluff. No paywall. Just clear, useful guidance that anyone can use.
 
-Coming to sustainability with academic understanding married with varied cross-sector experience... 
+It’s designed for changemakers, project leads, policy wonks, event organisers, curious individuals, and anyone trying to do the right thing in a world that makes it hard.
 
-IRL organisations need REASONS to act
+Whether you're starting from scratch or looking to refine your existing approach, Sustainamo gives you the practical know-how to build something that works.
 
-Initiatives and process have to ALIGN with the organisational goals
+Why Get Involved?
+Sustainamo runs on collaboration. If you've ever tried to deliver a sustainability strategy and thought, "Surely someone’s done this before?" — we’re building the place where that someone shares how.
 
-All organisations have costs and they need to minimise these costs to ensure their financial sustainability.  This is the aspect that is so often forgotten - sustainability (and carbon) decisions need to be made with this understanding else they won't be feasible, or lasting.
+This isn’t just a content project. It’s a movement. The goal is to break down silos, spread practical knowledge, and build a community that supports each other in driving change.
 
+By getting involved, you’ll:
 
+Help shape better strategies and standards
+
+Share lessons from your wins and near-misses
+
+Connect with others doing the work, not just talking about it
+
+Make sustainability more accessible, more open, and more effective
+
+How You Can Help
+There are loads of ways to get stuck in:
+
+Share what you know – Tools, checklists, lessons learned, useful diagrams… if it’s helped you, it could help someone else.
+
+Review and improve content – Spot something outdated or unclear? Add your voice.
+
+Build with us – Designers, writers, coders, organisers – this is a work in progress and you’re welcome to shape it.
+
+Spread the word – Share Sustainamo with someone working on a sustainability challenge.
+
+We’re building something useful, together. Come be part of it.

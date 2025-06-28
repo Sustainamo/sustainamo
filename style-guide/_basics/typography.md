@@ -1,4 +1,4 @@
- ---
+---
 layout: styleguide
 title: Typography
 permalink: /style-guide/basics/typography/
