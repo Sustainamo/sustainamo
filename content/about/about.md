@@ -4,8 +4,6 @@ layout: content
 permalink: /about/
 ---
 
-# About Sustainamo
-
 Welcome to **Sustainamo** — your open-source hub for practical sustainability.
 
 We’re building a shared library of tools, insights, and real-world strategies to help people and organisations turn sustainability from an idea into action. No fluff. No paywall. Just clear, useful guidance that anyone can use.

@@ -4,8 +4,6 @@ layout: content
 permalink: /about/sharing-policy/
 ---
 
-# Sharing Policy
-
 Sustainamo is open-source and community-powered. We *want* people to use, share, and repurpose what’s here — that’s the point.
 
 The more the content gets used, the more people find it.  

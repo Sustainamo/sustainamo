@@ -4,8 +4,6 @@ layout: content
 permalink: /about/join-the-project/
 ---
 
-# Join the Project!
-
 This is an open-source, community-powered project — and we’d love you to be part of it.
 
 We’re building something ambitious, but it only works if people know it exists. Like Zola said, *“It’s not that the light is lacking, but eyes to see.”* So let’s start there:

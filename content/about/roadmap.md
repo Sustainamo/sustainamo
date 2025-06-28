@@ -4,8 +4,6 @@ layout: content
 permalink: /about/roadmap/
 ---
 
-# Roadmap
-
 There’s a lot to build. The strategy guide alone is already pushing 10,000 words — about the length of an MSc dissertation. And that’s just one piece of the puzzle.
 
 This isn’t a blog. It’s a proper, practical resource — and that means a lot of content, structure, and community to get it where it needs to be.
