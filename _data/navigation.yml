@@ -20,6 +20,16 @@
       url: /carbon/offsetting/introduction/
       order: 2
 
-- title: Get involved
-  url: /get-involved/
+- title: About
+  url: /about/
   order: 3
+  children:
+    - title: Join the project
+      url: /about/join-the-project/
+      order: 1
+    - title: Planned content
+      url: /about/planned-content/
+      order: 2
+    - title: Sharing policy
+      url: /about/sharing-policy/
+      order: 3

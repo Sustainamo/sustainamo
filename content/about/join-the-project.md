@@ -1,7 +1,7 @@
 ---
-title: "Get involved"
+title: "Join the project"
 layout: content
-permalink: /get-involved/
+permalink: /join-the-project/
 
 ---
 
