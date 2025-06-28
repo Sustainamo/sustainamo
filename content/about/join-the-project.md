@@ -1,6 +1,7 @@
 ---
 title: "About Sustainamo"
 layout: content
+permalink: /about/join-the-project/
 ---
 
 # Join the Project!
