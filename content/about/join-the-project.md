@@ -1,3 +1,8 @@
+---
+title: "About Sustainamo"
+layout: content
+---
+
 # Join the Project!
 
 This is an open-source, community-powered project — and we’d love you to be part of it.

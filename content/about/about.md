@@ -2,10 +2,6 @@
 title: "About Sustainamo"
 layout: content
 permalink: /about/
-# order: 5
-nav: false
-nav_title: "About"
-nav_order: 4
 ---
 
 # About Sustainamo
