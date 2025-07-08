@@ -45,10 +45,10 @@ nav_order: 91
 ---
 
 <div class="phase-diagram-wrapper">
-  <aside class="phase-sidebar">
-    <div>PHASE ONE</div>
-    <div>Foundations</div>
-  </aside>
+  <div class="phase-heading">
+    <div class="phase-title">PHASE ONE: Foundations</div>
+    <div class="phase-description">Draw out and define what matters to your organisation.</div>
+  </div>
 
   <div class="phase-flow">
     <a class="phase-step" href="/foundations/discovery/">
@@ -168,6 +168,42 @@ nav_order: 91
   font-size: 1.25rem;
   color: #66a189;
   font-weight: bold;
+}
+
+/* Phase heading row for non-rotated version */
+/* Phase heading row for non-rotated version */
+.phase-heading {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.phase-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1f3f2e;
+  padding-bottom: 0.25rem;
+}
+
+.phase-description {
+  font-size: 0.95rem;
+  color: #444;
+  max-width: 400px;
+  margin-left: auto;
+  padding-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .phase-heading {
+    flex-direction: column;
+  }
+
+  .phase-description {
+    margin-left: 0;
+  }
 }
 
 /* 5) mobile: pills horizontal, width auto, sidebar above */
