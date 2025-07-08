@@ -8,7 +8,7 @@ nav_title:
 nav_order: 91
 ---
 
-<div class="phase-diagram-wrapper">
+<div class="phase-diagram-wrapper phase-diagram-column">
   <aside class="phase-sidebar">
     <div class="rotated-label">PHASE ONE</div>
     <div class="rotated-label small">Foundations</div>
@@ -44,7 +44,7 @@ nav_order: 91
 
 ---
 
-<div class="phase-diagram-wrapper">
+<div class="phase-diagram-wrapper phase-diagram-column">
   <div class="phase-heading">
     <div class="phase-title">PHASE ONE: Foundations</div>
     <div class="phase-description">Draw out and define what matters to your organisation.</div>
@@ -176,33 +176,31 @@ nav_order: 91
   width: 100%;
   padding: 0.5rem 0.75rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .phase-title {
   font-weight: 600;
   font-size: 1.1rem;
   color: #1f3f2e;
-  padding-bottom: 0.25rem;
+  flex: 0 0 auto;
 }
 
 .phase-description {
   font-size: 0.95rem;
   color: #444;
-  max-width: 400px;
-  margin-left: auto;
-  padding-top: 0.25rem;
+  max-width: 500px;
+  flex: 1;
+  padding-top: 0.15rem;
 }
 
 @media (max-width: 768px) {
   .phase-heading {
     flex-direction: column;
-  }
-
-  .phase-description {
-    margin-left: 0;
   }
 }
 
@@ -235,4 +233,22 @@ nav_order: 91
     transform: rotate(90deg);
   }
 }
+
+.phase-diagram-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.phase-step:hover {
+  border: 2px solid #a5cdb2;
+  border-radius: 10px;
+  transition: border 0.2s ease;
+}
+
+.phase-heading:hover {
+  border: 2px solid #a5cdb2;
+  border-radius: 10px;
+  transition: border 0.2s ease;
+}
+
 </style>
