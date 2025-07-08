@@ -42,6 +42,44 @@ nav_order: 91
   </div>
 </div>
 
+---
+
+<div class="phase-diagram-wrapper">
+  <aside class="phase-sidebar">
+    <div>PHASE ONE</div>
+    <div>Foundations</div>
+  </aside>
+
+  <div class="phase-flow">
+    <a class="phase-step" href="/foundations/discovery/">
+      <div class="phase-header">Discovery</div>
+      <div class="phase-content">
+        Research internal operations, external trends, and regulatory requirements to set the context for your strategy.
+      </div>
+    </a>
+
+    <div class="arrow">→</div>
+  
+    <div class="phase-step">
+      <div class="phase-header">Stakeholder engagement</div>
+      <div class="phase-content">
+        Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.
+      </div>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="phase-step">
+      <div class="phase-header">Materiality analysis</div>
+      <div class="phase-content">
+        Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <style>
 /* 1) wrapper */
 .phase-diagram-wrapper {
