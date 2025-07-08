@@ -15,15 +15,15 @@ nav_order: 91
   </aside>
 
   <div class="phase-flow">
-    <div class="phase-step">
+    <a class="phase-step" href="/foundations/discovery/">
       <div class="phase-header">Discovery</div>
       <div class="phase-content">
         Research internal operations, external trends, and regulatory requirements to set the context for your strategy.
       </div>
-    </div>
+    </a>
 
     <div class="arrow">→</div>
-
+  
     <div class="phase-step">
       <div class="phase-header">Stakeholder engagement</div>
       <div class="phase-content">
