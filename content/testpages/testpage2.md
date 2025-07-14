@@ -7,51 +7,118 @@ nav: false
 nav_title: 
 nav_order: 91
 ---
+Text
+<br>
 
-<div class="phase-diagram-wrapper">
-  <aside class="phase-sidebar">
-    <div class="rotated-label">PHASE ONE</div>
-    <div class="rotated-label small">Foundations</div>
-  </aside>
-
-  <div class="phase-flow">
-    <div class="phase-step">
-      <div class="phase-header">Discovery</div>
-      <div class="phase-content">
-        Research internal operations, external trends, and regulatory requirements to set the context for your strategy.
-      </div>
+<div class="phase-diagram-container">
+  <div class="phase-title">PHASE ONE: Foundations</div>
+  <div class="phase-diagram-wrapper phase-diagram-column">
+    <div class="phase-heading">
+      <div class="phase-description">Draw out and define what matters to your organisation.</div>
     </div>
 
-    <div class="arrow">→</div>
+    <div class="phase-flow">
+      <a class="phase-step" href="/foundations/discovery/">
+        <div class="phase-header">Discovery</div>
+        <div class="phase-content">
+          Research internal operations, external trends, and regulatory requirements to set the context for your strategy.
+        </div>
+      </a>
 
-    <div class="phase-step">
-      <div class="phase-header">Stakeholder engagement</div>
-      <div class="phase-content">
-        Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.
+      <div class="arrow">→</div>
+    
+      <div class="phase-step">
+        <div class="phase-header">Stakeholder engagement</div>
+        <div class="phase-content">
+          Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.
+        </div>
       </div>
-    </div>
 
-    <div class="arrow">→</div>
+      <div class="arrow">→</div>
 
-    <div class="phase-step">
-      <div class="phase-header">Materiality analysis</div>
-      <div class="phase-content">
-        Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.
+      <div class="phase-step">
+        <div class="phase-header">Materiality analysis</div>
+        <div class="phase-content">
+          Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<div class="phase-diagram-container">
+  <div class="phase-title">PHASE TWO: Strategy & Planning</div>
+  <div class="phase-diagram-wrapper phase-diagram-column">
+    <div class="phase-heading">
+      <div class="phase-description">Develop your overarching sustainability strategy and define clear objectives and actions.</div>
+    </div>
+
+    <div class="phase-flow">
+      <div class="phase-step">
+        <div class="phase-header">Vision and objectives</div>
+        <div class="phase-content">
+          Define a clear sustainability vision and establish overarching goals that align with organisation priorities.
+        </div>
+      </div>
+
+      <div class="arrow">→</div>
+
+      <div class="phase-step">
+        <div class="phase-header">Targets, Policies and Actions</div>
+        <div class="phase-content">
+          Set SMART targets (KPIs), develop policies, and outline actions to drive sustainability forward.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="phase-diagram-container">
+  <div class="phase-title">PHASE THREE: Implementation & Improvement</div>
+  <div class="phase-diagram-wrapper phase-diagram-column">
+    <div class="phase-heading">
+      <div class="phase-description">Put the strategy into action, track performance, and continuously improve.</div>
+    </div>
+
+    <div class="phase-flow">
+      <div class="phase-step">
+        <div class="phase-header">Implement, monitor, and assure</div>
+        <div class="phase-content">
+          Integrate sustainability into daily operations, review performance regularly, and ensure accountability.
+        </div>
+      </div>
+
+      <div class="arrow">→</div>
+
+      <div class="phase-step">
+        <div class="phase-header">Continuous improvement</div>
+        <div class="phase-content">
+          Periodically reassess, reengage stakeholders, and adjust strategy to stay relevant and ambitious.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <style>
 /* 1) wrapper */
 .phase-diagram-wrapper {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   gap: 0.75rem;
   border: 1px solid #d4e3dc;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 20px;
   padding: 0.5rem;
-  margin: 1rem 0;
+  overflow: visible;
+}
+
+.phase-diagram-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem 0 1rem 0;
 }
 
 /* 2’) Sidebar auto-width to fit exactly the two pills */
@@ -103,6 +170,14 @@ nav_order: 91
   grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.phase-step:hover {
+  border-color: #a5cdb2;
 }
 
 .phase-header {
@@ -130,6 +205,51 @@ nav_order: 91
   font-size: 1.25rem;
   color: #66a189;
   font-weight: bold;
+}
+
+/* Phase heading row for non-rotated version */
+/* Phase heading row for non-rotated version */
+.phase-heading {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.phase-heading:hover {
+  border-color: #a5cdb2;
+}
+
+.phase-title {
+  background: #ffffff;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid #d4e3dc;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1f3f2e;
+}
+
+.phase-description {
+  font-size: 0.95rem;
+  color: #444;
+  flex: 1;
+  padding-top: 0.15rem;
+}
+
+@media (max-width: 768px) {
+  .phase-heading {
+    flex-direction: column;
+  }
 }
 
 /* 5) mobile: pills horizontal, width auto, sidebar above */
@@ -161,4 +281,10 @@ nav_order: 91
     transform: rotate(90deg);
   }
 }
+
+.phase-diagram-column {
+  display: flex;
+  flex-direction: column;
+}
+
 </style>

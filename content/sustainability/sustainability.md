@@ -12,12 +12,12 @@ nav_order: 1
 
 <div class="phase-blocks green solid">
   <a class="phase-block" href="/sustainability/framework/overview/">
-    <h2>Sustainability Strategy</h2>
-    <p>Creating a framework to define what sustainability means <strong>to your organisation</strong> and how you will therefore approach it.</p>
+    <h2>How to "do" sustainability</h2>
+    <p>A comprehensive guide on how to define what sustainability means <strong>to your organisation</strong>, and how to then build and implement a framework to deliver on that vision.</p>
   </a>
   <a class="phase-block" href="/sustainability/measures/overview/">
-    <h2>Sustainablity measures</h2>
-    <p>Examples of measures and policies that could be put in place, if appropriate for your given context and strategy</p>
+    <h2>Sustainablity toolkit</h2>
+    <p>Examples of measures and policies that could be put in place, if appropriate for your given context and strategy.</p>
   </a>
 </div>
 

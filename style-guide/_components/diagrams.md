@@ -27,6 +27,25 @@ The `.phase-blocks` component displays a set of visually grouped blocks, ideal f
   </a>
 </div>
 
+## Outlined Variant
+
+An alternate visual style using `.phase-blocks.outlined.green`. This version features a white background, a coloured border, and a coloured header bar for each block.
+
+<div class="phase-blocks outlined green">
+  <a class="phase-block" href="#">
+    <h2>Plan</h2>
+    <p>Define your approach, stakeholders, and baseline.</p>
+  </a>
+  <a class="phase-block" href="#">
+    <h2>Do</h2>
+    <p>Implement your strategy and engage delivery teams.</p>
+  </a>
+  <a class="phase-block" href="#">
+    <h2>Review</h2>
+    <p>Evaluate performance, outcomes, and lessons learned.</p>
+  </a>
+</div>
+
 <details>
   <summary><strong>Show usage code</strong></summary>
 
