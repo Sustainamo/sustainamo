@@ -140,7 +140,7 @@ nav_order: 94
   height: 100%;
   background: white;
   border-radius: 24px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .phase-step {
