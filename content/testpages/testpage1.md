@@ -2,163 +2,221 @@
 title: "Test page one"
 layout: content
 permalink: /testpage1/
-order: 91
+order: 94
 nav: false
 nav_title: 
-nav_order: 91
+nav_order: 94
 ---
 
-<div class="phase-diagram-wrapper">
-  <aside class="phase-sidebar">
-    <div class="rotated-label">PHASE ONE</div>
-    <div class="rotated-label small">Foundations</div>
-  </aside>
 
-  <div class="phase-flow">
-    <div class="phase-step">
-      <div class="phase-header">Discovery</div>
-      <div class="phase-content">
-        Research internal operations, external trends, and regulatory requirements to set the context for your strategy.
+<div class="phase-section" style="background-color: var(--tier1-colour);">
+  <div class="phase-wrapper">
+    <div class="phase-label">
+      <div>
+        <span>Phase One</span>
+        <span>Foundations</span>
       </div>
     </div>
-
-    <div class="arrow">→</div>
-
-    <div class="phase-step">
-      <div class="phase-header">Stakeholder engagement</div>
-      <div class="phase-content">
-        Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.
+    <div class="phase-card">
+      <div class="phase-step">
+      <div class="phase-step-title-bg"><h3>Discovery</h3></div>
+        <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Stakeholder Engagement</h3></div>
+        <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Materiality analysis</h3></div>
+        <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="arrow">→</div>
+<div class="phase-section" style="background-color: var(--tier2-colour);">
+  <div class="phase-wrapper">
+    <div class="phase-label">
+      <div>
+        <span>Phase Two</span>
+        <span>Strategy &amp; Planning</span>
+      </div>
+    </div>
+    <div class="phase-card">
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Vision and objectives</h3></div>
+        <p>Define a clear sustainability vision and establish overarching goals that align with organisation priorities.</p>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Targets, Policies and Actions</h3></div>
+        <p>Set SMART targets (KPIs), develop policies, and outline actions to drive sustainability forward.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <div class="phase-step">
-      <div class="phase-header">Materiality analysis</div>
-      <div class="phase-content">
-        Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.
+<div class="phase-section" style="background-color: var(--tier3-colour);">
+  <div class="phase-wrapper">
+    <div class="phase-label">
+      <div>
+        <span>Phase Three</span>
+        <span>Implementation</span>
+      </div>
+    </div>
+    <div class="phase-card">
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Implement, monitor, and assure</h3></div>
+        <p>Integrate sustainability into daily operations, review performance regularly, and ensure accountability.</p>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-title-bg"><h3>Continuous improvement</h3></div>
+        <p>Periodically reassess, reengage stakeholders, and adjust strategy to stay relevant and ambitious.</p>
       </div>
     </div>
   </div>
 </div>
 
 <style>
-/* 1) wrapper */
-.phase-diagram-wrapper {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  border: 1px solid #d4e3dc;
-  border-radius: 20px;
-  padding: 0.5rem;
-  margin: 1rem 0;
+:root {
+  --tier1-colour: #cfe8cf;
+  --tier2-colour: #dce6f3;
+  --tier3-colour: #f4e0d9;
+  --background-white: #ffffff;
 }
 
-/* 2’) Sidebar auto-width to fit exactly the two pills */
-.phase-sidebar {
-  flex: 0 0 auto;        /* drop the 15% basis */
+.phase-section {
+  margin-bottom: 2rem;
+  border: 2px solid #204312;
+  border-radius: 24px;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.phase-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.phase-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  height: auto;
+  flex: 0 0 auto;
+  min-height: 60px;
+  font-size: 0.9rem;
+}
+
+.phase-label > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.2rem;
+}
+
+.phase-label > div span:nth-child(2) {
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.phase-card {
+  flex: 1 1 100%;
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
-  align-items: flex-start; /* top-align the pills */
-  /* remove min-width so it shrinks to content */
-}
-
-/* 3’) Pills remain slim + right-aligned text */
-.rotated-label {
-  writing-mode: sideways-lr;
-  text-orientation: upright;
-  background: #e6f2ed;
-  padding: 0.25rem 0.5rem;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  color: #1f3f2e;
-  white-space: nowrap;
-  width: 2.5ch;         /* ultra-slim */
-  text-align: end;      /* flush text in */
-}
-
-.rotated-label.small {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: #2f7c4c;
-  opacity: 0.8;
-  width: 2.5ch;
-  text-align: end;
-}
-  
-/* 4) main flow grid */
-.phase-flow {
-  flex: 1;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr;
-  grid-template-rows: auto 1fr;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 1rem;
+  flex-wrap: wrap;
+  height: 100%;
+  background: white;
+  border-radius: 24px;
+  padding: 1rem;
 }
 
 .phase-step {
-  grid-row: 1 / 3;
+  flex: 1;
+  background: white;
+  padding: 0.75rem;
+  border-radius: 16px;
+  box-shadow: 0 0 0.4rem rgba(0,0,0,0.05);
+  min-width: 240px;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+.phase-step-title-bg {
+  background-color: #edf5ed;
+  border-radius: 12px;
+  padding: 0.3rem 0.75rem;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.phase-header {
-  grid-row: 1;
-  background: #d0ebd8;
-  padding: 0.5rem 0.75rem;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
-  color: #2f4f2f;
+.phase-step h3 {
+  font-size: 0.85rem;
+  margin-top: 0.45rem;
+  margin-bottom: 0.45rem;
+  text-align: left;
 }
 
-.phase-content {
-  grid-row: 2;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
-  line-height: 1.4;
-  color: #333;
+.phase-step p {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  text-align: center;
 }
 
-.arrow {
-  grid-row: 1 / 3;
-  justify-self: center;
-  align-self: center;
-  font-size: 1.25rem;
-  color: #66a189;
-  font-weight: bold;
-}
-
-/* 5) mobile: pills horizontal, width auto, sidebar above */
 @media (max-width: 768px) {
-  .phase-diagram-wrapper {
+  .phase-section {
+    flex-direction: column !important;
+  }
+  .phase-label {
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+    text-align: center;
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
     flex-direction: column;
   }
+  .phase-step {
+    padding: 0.5rem;
+  }
+}
 
-  .phase-sidebar {
+@media (min-width: 769px) {
+  .phase-wrapper {
+    flex-direction: row !important;
+    align-items: stretch;
+  }
+
+  .phase-label {
+    writing-mode: vertical-rl !important;
+    transform: rotate(180deg) !important;
+    width: auto !important;
+    min-width: 60px;
     flex-direction: row;
-    margin-bottom: 0.5rem;
-    justify-content: flex-start;
   }
-
-  .rotated-label {
-    writing-mode: horizontal-tb;
-    text-orientation: sideways; /* normal horizontal */
-    transform: none;
-    width: auto;               /* size to content */
-  }
-
-  .phase-flow {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .arrow {
-    transform: rotate(90deg);
+  .phase-step {
+    max-width: 300px;
   }
 }
 </style>
