@@ -9,34 +9,30 @@ nav_order: 94
 ---
 
 
-<div class="phase-section" style="background-color: var(--tier1-colour);">
+<div class="phase-section" style="background-color: var(--phase1-colour); border-color: var(--phase1-colour);">
   <div class="phase-wrapper">
-    <div class="phase-label">
-      <div>
-        <span>Phase One</span>
-        <span>Foundations</span>
-      </div>
-    </div>
+   <div class="phase-label phase-label-title">PHASE ONE</div>
+    <div class="phase-label phase-label-subtitle" style="background-color: var(--color-background);">Foundations</div>
     <div class="phase-card">
       <div class="phase-step">
-      <div class="phase-step-title-bg"><h3>Discovery</h3></div>
+      <div class="phase-step-title-bg" style="background-color: var(--phase1-colour);"><h3>Discovery</h3></div>
         <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
       </div>
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Stakeholder Engagement</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase1-colour);"><h3>Stakeholder Engagement</h3></div>
         <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
       </div>
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Materiality analysis</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase1-colour);"><h3>Materiality analysis</h3></div>
         <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="phase-section" style="background-color: var(--tier2-colour);">
+<div class="phase-section" style="background-color: var(--phase2-colour); border-color: var(--phase2-colour);">
   <div class="phase-wrapper">
-    <div class="phase-label">
+    <div class="phase-label phase-label-title">
       <div>
         <span>Phase Two</span>
         <span>Strategy &amp; Planning</span>
@@ -44,20 +40,20 @@ nav_order: 94
     </div>
     <div class="phase-card">
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Vision and objectives</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase2-colour);"><h3>Vision and objectives</h3></div>
         <p>Define a clear sustainability vision and establish overarching goals that align with organisation priorities.</p>
       </div>
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Targets, Policies and Actions</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase2-colour);"><h3>Targets, Policies and Actions</h3></div>
         <p>Set SMART targets (KPIs), develop policies, and outline actions to drive sustainability forward.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="phase-section" style="background-color: var(--tier3-colour);">
+<div class="phase-section" style="background-color: var(--phase3-colour); border-color: var(--phase3-colour);">
   <div class="phase-wrapper">
-    <div class="phase-label">
+    <div class="phase-label phase-label-title">
       <div>
         <span>Phase Three</span>
         <span>Implementation</span>
@@ -65,11 +61,11 @@ nav_order: 94
     </div>
     <div class="phase-card">
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Implement, monitor, and assure</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase3-colour);"><h3>Implement, monitor, and assure</h3></div>
         <p>Integrate sustainability into daily operations, review performance regularly, and ensure accountability.</p>
       </div>
       <div class="phase-step">
-        <div class="phase-step-title-bg"><h3>Continuous improvement</h3></div>
+        <div class="phase-step-title-bg" style="background-color: var(--phase3-colour);"><h3>Continuous improvement</h3></div>
         <p>Periodically reassess, reengage stakeholders, and adjust strategy to stay relevant and ambitious.</p>
       </div>
     </div>
@@ -77,12 +73,6 @@ nav_order: 94
 </div>
 
 <style>
-:root {
-  --tier1-colour: #cfe8cf;
-  --tier2-colour: #dce6f3;
-  --tier3-colour: #f4e0d9;
-  --background-white: #ffffff;
-}
 
 .phase-section {
   margin-bottom: 2rem;
@@ -100,7 +90,7 @@ nav_order: 94
 .phase-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0rem;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -109,9 +99,7 @@ nav_order: 94
 .phase-label {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-weight: bold;
-  font-family: sans-serif;
-  padding: 0 0.2rem;
+  padding: 0.75rem 0.75rem; /*[top/bottom] [left/right */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,7 +107,8 @@ nav_order: 94
   height: auto;
   flex: 0 0 auto;
   min-height: 60px;
-  font-size: 0.9rem;
+  font-family: sans-serif;
+  color: var(--color-primary);
 }
 
 .phase-label > div {
@@ -135,29 +124,45 @@ nav_order: 94
   font-weight: normal;
 }
 
+.phase-label-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+
+}
+
+.phase-label-subtitle {
+  background-color: #c8dbef;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  border-radius: 0px 24px 24px 0px; /* Top-left, top-right, b-right, b-left */
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
 .phase-card {
   flex: 1 1 100%;
   display: flex;
   flex-direction: row;
   width: 100%;
   box-sizing: border-box;
-  gap: 1rem;
+  gap: 0.25rem;
   flex-wrap: wrap;
   height: 100%;
-  background: white;
-  border-radius: 24px;
-  padding: 1rem;
+  background: var(--color-background);
+  border-radius: 0px 24px 24px 0px;
+  padding: 0.25rem; /* Top, Right, Bottom, Left */
 }
 
 .phase-step {
   flex: 1;
-  background: white;
+  background: var(--color-background);
   padding: 0.75rem;
   border-radius: 16px;
   box-shadow: 0 0 0.4rem rgba(0,0,0,0.05);
   min-width: 240px;
   margin: 0.5rem;
   box-sizing: border-box;
+  max-width: 350px;
 }
 
 .phase-step-title-bg {
@@ -197,6 +202,20 @@ nav_order: 94
     align-items: center !important;
     flex-direction: column;
   }
+  .phase-label-subtitle {
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+    text-align: center;
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 24px 24px 0px 0px; /* Top-left, top-right, b-right, b-left */
+  }
+
+  .phase-card{
+    border-radius: 0px 0px 24px 24px; /* Top-left, top-right, b-right, b-left */
+  }
+
   .phase-step {
     padding: 0.5rem;
   }
@@ -212,11 +231,12 @@ nav_order: 94
     writing-mode: vertical-rl !important;
     transform: rotate(180deg) !important;
     width: auto !important;
-    min-width: 60px;
+    /* min-width: 40px; */
     flex-direction: row;
   }
+
   .phase-step {
-    max-width: 300px;
+    /* max-width: 300px; */
   }
 }
 </style>

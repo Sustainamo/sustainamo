@@ -23,6 +23,10 @@ $color-grey-border: #ddd;
 $color-grey-light:  #eee;
 $color-grey-separator: #aaa;
 
+$phase1-colour: #e7f6f3;
+$phase2-colour: #b7e5dc;
+$phase3-colour: #6dcab8;
+
 /******************************/
 /* BREAKPOINTS                */
 /******************************/
@@ -50,6 +54,10 @@ $bp-table: 600px;
   --color-grey-border: #ddd;
   --color-grey-light:  #eee;
   --color-grey-separator: #aaa;
+
+  --phase1-colour: #e7f6f3;
+  --phase2-colour: #b7e5dc;
+  --phase3-colour: #6dcab8;
 
   /* BREAKPOINTS */
   --bp-sm: #{$bp-sm};
