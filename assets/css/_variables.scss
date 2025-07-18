@@ -3,6 +3,7 @@
 /******************************/
 $font-heading: 'Montserrat', 'Segoe UI', Roboto, sans-serif;
 $font-body: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+$font-sustainamo: "alkaline", sans-serif;
 
 /******************************/
 /* COLOUR VARIABLES           */
@@ -22,14 +23,18 @@ $color-grey-border: #ddd;
 $color-grey-light:  #eee;
 $color-grey-separator: #aaa;
 
+$phase1-colour: #e7f6f3;
+$phase2-colour: #b7e5dc;
+$phase3-colour: #6dcab8;
+
 /******************************/
 /* BREAKPOINTS                */
 /******************************/
 $bp-sm: 480px;
 $bp-md: 768px;
 $bp-lg: 1024px;
-$bp-nav: 700px;
-$bp-nav-dsk: 701px;
+$bp-nav: 699px;
+$bp-nav-dsk: 700px;
 $bp-table: 600px;
 
 /* COLOURS AND BREAKPOINTS TO BE USED */
@@ -49,6 +54,10 @@ $bp-table: 600px;
   --color-grey-border: #ddd;
   --color-grey-light:  #eee;
   --color-grey-separator: #aaa;
+
+  --phase1-colour: #e7f6f3;
+  --phase2-colour: #b7e5dc;
+  --phase3-colour: #6dcab8;
 
   /* BREAKPOINTS */
   --bp-sm: #{$bp-sm};

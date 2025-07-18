@@ -1,7 +1,7 @@
 ---
-title: "Test page one"
+title: "Test page three"
 layout: content
-permalink: /testpage1/
+permalink: /testpage3/
 order: 94
 nav: false
 nav_title: 
@@ -32,12 +32,8 @@ nav_order: 94
 
 <div class="phase-section" style="background-color: var(--phase2-colour); border-color: var(--phase2-colour);">
   <div class="phase-wrapper">
-    <div class="phase-label phase-label-title">
-      <div>
-        <span>Phase Two</span>
-        <span>Strategy &amp; Planning</span>
-      </div>
-    </div>
+    <div class="phase-label phase-label-title">PHASE TWO</div>
+    <div class="phase-label phase-label-subtitle" style="background-color: var(--color-background);">Strategy &amp; Planning</div>
     <div class="phase-card">
       <div class="phase-step">
         <div class="phase-step-title-bg" style="background-color: var(--phase2-colour);"><h3>Vision and objectives</h3></div>
@@ -53,12 +49,8 @@ nav_order: 94
 
 <div class="phase-section" style="background-color: var(--phase3-colour); border-color: var(--phase3-colour);">
   <div class="phase-wrapper">
-    <div class="phase-label phase-label-title">
-      <div>
-        <span>Phase Three</span>
-        <span>Implementation</span>
-      </div>
-    </div>
+    <div class="phase-label phase-label-title">PHASE THREE</div>
+    <div class="phase-label phase-label-subtitle" style="background-color: var(--color-background);">Implementation</div>
     <div class="phase-card">
       <div class="phase-step">
         <div class="phase-step-title-bg" style="background-color: var(--phase3-colour);"><h3>Implement, monitor, and assure</h3></div>

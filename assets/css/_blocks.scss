@@ -1,3 +1,6 @@
+
+@use "variables";
+
 /* COMPONENTS: blocks */
 .blocks {
 display: flex;
@@ -96,4 +99,19 @@ border-radius: 6px 6px 0 0;
 .blocks a.block {
 flex: 1 1 100%;
 }
+}
+
+/* SINGLE CTA BLOCK */
+.cta-block {
+  border: 2px solid #f4a261;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.cta-block h2 {
+  color: variables.$color-primary;
+  font-family: variables.$font-sustainamo;
+  font-size: 1.4rem;
+  margin-top: 0;
 }
