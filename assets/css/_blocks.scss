@@ -1,5 +1,5 @@
-/* COMPONENTS: PHASE BLOCKS */
-.phase-blocks {
+/* COMPONENTS: blocks */
+.blocks {
 display: flex;
 flex-wrap: wrap;
 gap: 1rem;
@@ -9,7 +9,7 @@ justify-content: space-between;
 }
 
 /* Block Base */
-.phase-blocks a.phase-block {
+.blocks a.block {
 text-decoration: none;
 color: inherit;
 display: flex;
@@ -21,70 +21,70 @@ transition: transform 0.2s ease;
 }
 
 /* Solid default style */
-.phase-blocks.solid a.phase-block {
+.blocks.solid a.block {
 background: #e6f2ed;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);ß
 }
 
 /* Hover effect */
-.phase-blocks a.phase-block:hover {
+.blocks a.block:hover {
 transform: translateY(-5px);
 }
 
 /* Typography inside block */
-.phase-blocks a.phase-block h2 {
+.blocks a.block h2 {
   color: #333;
   margin: 0.5rem 0 0.5rem 0; // T R B L
 }
 
-.phase-blocks a.phase-block p {
+.blocks a.block p {
   color: #333;
 }
 
 /* Colour variants – SOLID */
-.phase-blocks.green.solid a.phase-block:nth-child(1) {
+.blocks.green.solid a.block:nth-child(1) {
 background-color: #e6f2ed;
 }
-.phase-blocks.green.solid a.phase-block:nth-child(2) {
+.blocks.green.solid a.block:nth-child(2) {
 background-color: #d0ebdf;
 }
-.phase-blocks.green.solid a.phase-block:nth-child(3) {
+.blocks.green.solid a.block:nth-child(3) {
 background-color: #bae1d1;
 }
 
-.phase-blocks.blue.solid a.phase-block:nth-child(1) {
+.blocks.blue.solid a.block:nth-child(1) {
 background-color: #e2effa;
 }
-.phase-blocks.blue.solid a.phase-block:nth-child(2) {
+.blocks.blue.solid a.block:nth-child(2) {
 background-color: #cce4f5;
 }
-.phase-blocks.blue.solid a.phase-block:nth-child(3) {
+.blocks.blue.solid a.block:nth-child(3) {
 background-color: #b3d8f0;
 }
 
 /* OUTLINED STYLE */
-.phase-blocks.outlined a.phase-block {
+.blocks.outlined a.block {
 background-color: #fff;
 border: 2px solid;
 box-shadow: none;
 }
 
 /* Colour outlines */
-.phase-blocks.outlined.green a.phase-block {
+.blocks.outlined.green a.block {
 border-color: #b0e0cc;
 }
-.phase-blocks.outlined.blue a.phase-block {
+.blocks.outlined.blue a.block {
 border-color: #97c7e6;
 }
 
 /* Header box for outlined blocks */
-.phase-blocks.outlined.green a.phase-block h2 {
+.blocks.outlined.green a.block h2 {
 background-color: #b0e0cc;
 padding: 0.5rem;
 margin: -1.5rem -1.5rem 1rem -1.5rem;
 border-radius: 6px 6px 0 0;
 }
-.phase-blocks.outlined.blue a.phase-block h2 {
+.blocks.outlined.blue a.block h2 {
 background-color: #97c7e6;
 padding: 0.5rem;
 margin: -1.5rem -1.5rem 1rem -1.5rem;
@@ -93,7 +93,7 @@ border-radius: 6px 6px 0 0;
 
 /* Responsive - stack */
 @media screen and (max-width: 768px) {
-.phase-blocks a.phase-block {
+.blocks a.block {
 flex: 1 1 100%;
 }
 }

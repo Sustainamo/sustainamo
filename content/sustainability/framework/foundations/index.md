@@ -21,16 +21,16 @@ In this section we will look at how to do this in three phases:
 
 This entire three-phase process is often referred to as a ‘materiality assessment’. 
 
-<section class="phase-blocks outlined green">
-  <a href="/sustainability/foundations/discovery/" class="phase-block">
+<section class="blocks outlined green">
+  <a href="/sustainability/foundations/discovery/" class="block">
     <h2>Discovery</h2>
     <p>Research internal operations, external trends, and regulatory requirements to set the context for your strategy.</p>
   </a>
-  <a href="/sustainability/foundations/stakeholderEngagement/" class="phase-block">
+  <a href="/sustainability/foundations/stakeholderEngagement/" class="block">
     <h2>Stakeholder engagement</h2>
     <p>Consult internal and external stakeholders to identify sustainability priorities, risks, and opportunities.</p>
   </a>
-  <a href="/sustainability/foundations/materialityAssessment/" class="phase-block">
+  <a href="/sustainability/foundations/materialityAssessment/" class="block">
     <h2>Materiality assessment</h2>
     <p>Analyse stakeholder input, assess organisation impact, and rank key sustainability issues.</p>
   </a>
